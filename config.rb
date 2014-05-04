@@ -103,9 +103,9 @@ activate :livereload
 # Site Settings
 ###
 # Set site setting, used in helpers / sitemap.xml / feed.xml.
-set :site_url, 'http://blog.url.com'
-set :site_author, 'Blog author'
-set :site_title, 'Blog title'
+set :site_url, 'http://shirayuca.github.io/'
+set :site_author, 'yuka shiratsuchi'
+set :site_title, 'shirayuca.github.io'
 set :site_description, 'Blog description'
 # Select the theme from bootswatch.com.
 # If false, you can get plain bootstrap style.
