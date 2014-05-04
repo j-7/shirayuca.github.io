@@ -11,5 +11,5 @@ nav.navbar.navbar-inverse.navbar-fixed-top role="navigation"
     .collapse.navbar-collapse.navbar-ex1-collapse
       ul.list-unstyled.list-inline.nav.navbar-nav.navbar-right
         li
-          a href="https://github.com/shirayuca"
+          a href="#github"
             i.fa.fa-github-square.fa-lg.fa-inverse
