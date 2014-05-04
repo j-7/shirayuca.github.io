@@ -168,11 +168,7 @@ end
 # Deploy settings
 ###
 
-# ftp deployment configuration. 
-# activate :deploy do |deploy|
-#   deploy.method = :ftp
-#   deploy.host = "ftp-host"
-#   deploy.user = "ftp-user"
-#   deploy.password = "ftp-password"
-#   deploy.path = "ftp-path"
-# end
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.branch = "master"
+end
