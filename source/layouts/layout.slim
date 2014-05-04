@@ -13,5 +13,7 @@ html
     = partial "partials/analytics"
   body
     = partial "partials/header"
-    = yield
+    .container
+      .row
+        = yield
     = javascript_include_tag  "all"
