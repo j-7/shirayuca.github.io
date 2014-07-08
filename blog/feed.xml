@@ -31,10 +31,62 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2014-05-04T14:15:00Z</updated>
+          <updated>2014-07-08T11:18:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>ブログエントリ作成方法</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/07/08/how-to-post.html"/>
+            <id>http://shirayuca.github.io/blog/2014/07/08/how-to-post.html</id>
+            <published>2014-07-08T11:18:00Z</published>
+            <updated>2014-07-08T21:09:25+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;ブログのエントリ作成方法のメモです。このブログは、shirayuca.github.io 上に Middleman で作っています。ローカルでは、エントリは、
+        &lt;code&gt;/Users/yuca/dev/shirayuca.github.io/source/blog/posts&lt;/code&gt;
+        に置いています。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;TITLE に任意のタイトルを入れて、エントリの .md ファイルを作成します。&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;pre&gt;&lt;code&gt;bundle exec middleman article TITLE
+        &lt;/code&gt;&lt;/pre&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;すると、 下記のようにタイトルなどの情報が入った .md ファイルが作成されます。tags には、タグを入れます。&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;pre&gt;&lt;code&gt;---
+        title: TITLE
+        date: 2014-07-08
+        tags: 
+        ---
+        &lt;/code&gt;&lt;/pre&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;p&gt;記事を編集します。&lt;/p&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;p&gt;記事の確認をします。&lt;/p&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;pre&gt;&lt;code&gt;bundle exec middleman server
+        &lt;/code&gt;&lt;/pre&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;記事を投稿します。&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;pre&gt;&lt;code&gt;git add .
+        git status
+        git commit -m &amp;quot;message&amp;quot;
+        git push origin middleman
+        bundle exec middleman build
+        bundle exec middleman deploy
+        &lt;/code&gt;&lt;/pre&gt;
+        </content>
+          </entry>
           <entry>
             <title>first-post</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/05/04/first-post.html"/>
