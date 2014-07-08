@@ -4,9 +4,6 @@
     - unless current_article.nil?
       h1
         = current_article.title
-      - current_article.tags.each do |tag|
-        small.label.label-default
-          = tag
       hr
       p
         span.glyphicon.glyphicon-time
