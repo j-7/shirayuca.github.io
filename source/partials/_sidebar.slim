@@ -8,15 +8,3 @@
           |  (
           = articles.size
           | )
-  .well
-    h4 By year
-    ol
-      - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
-        li
-          = link_to year, blog_year_path(year)
-          |  (
-          = articles.size
-          | )
-  .well
-    h4 Side Widget Well
-    p Bootstrap's default well for sidebar
