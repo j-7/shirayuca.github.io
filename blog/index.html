@@ -37,31 +37,10 @@
       </li>
     </ul>
   </div>
-  <div class="well">
-    <h4>
-      By year
-    </h4>
-    <ol>
-      <li>
-        <a href="/blog/2014.html">2014</a> (2)
-      </li>
-    </ol>
-  </div>
-  <div class="well">
-    <h4>
-      Side Widget Well
-    </h4>
-    <p>
-      Bootstrap's default well for sidebar
-    </p>
-  </div>
 </div>
 <div class="col-lg-9 col-md-9"><h1>
   <a href="/blog/2014/07/08/how-to-post.html">ブログエントリ作成方法</a>
 </h1>
-<p>
-  <small class="label label-default">post</small>
-</p>
 <hr />
 <p>
   <span class="glyphicon glyphicon-time"></span> Posted on Jul  8
@@ -72,37 +51,53 @@
 
 <ul>
 <li>TITLE に任意のタイトルを入れて、エントリの .md ファイルを作成します。</li>
-</ul><pre><code>bundle exec middleman article TITLE
+</ul>
+
+<pre><code>bundle exec middleman article TITLE
 </code></pre>
 
-<ul><li>すると、 下記のようにタイトルなどの情報が入った...</li></ul><a class="btn btn-primary" href="/blog/2014/07/08/how-to-post.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
+<ul>
+<li>すると、 下記のようにタイトルなどの情報が入った .md ファイルが作成されます。tags には、タグを入れます。</li>
+</ul>
+
+<pre><code>---
+title: TITLE
+date: 2014-07-08
+tags: 
+---
+</code></pre>
+
+<ul>
+<li><p>記事を編集します。</p></li>
+<li><p>記事の確認をします。</p></li>
+</ul>
+
+<pre><code>bundle exec middleman server
+</code></pre>
+
+<ul>
+<li>記事を投稿します。</li>
+</ul>
+
+<pre><code>git add .
+git status
+git commit -m &quot;message&quot;
+git push origin middleman
+bundle exec middleman build
+bundle exec middleman deploy
+</code></pre>
+
 <hr /><h1>
   <a href="/blog/2014/05/04/first-post.html">first-post</a>
 </h1>
-<p>
-  <small class="label label-default">test</small>
-</p>
 <hr />
 <p>
   <span class="glyphicon glyphicon-time"></span> Posted on May  4
 </p>
 <hr />
 <p>ブログを始めます。</p>
-<a class="btn btn-primary" href="/blog/2014/05/04/first-post.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
+
 <hr />
-  <aside>
-    <h3>
-      Recent Articles
-    </h3>
-    <ol>
-      <li>
-        <a href="/blog/2014/07/08/how-to-post.html">ブログエントリ作成方法</a> <span>Jul  8</span> 
-      </li>
-      <li>
-        <a href="/blog/2014/05/04/first-post.html">first-post</a> <span>May  4</span> 
-      </li>
-    </ol>
-  </aside>
   <hr>
     <p class="text-center">
       2014 <a href="/">shirayuca.github.io</a>
