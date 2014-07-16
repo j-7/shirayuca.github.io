@@ -31,16 +31,54 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2014-07-08T11:18:00Z</updated>
+          <updated>2014-07-16T13:40:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>2014年度春学期のテーマ一覧</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/07/16/14theme.html"/>
+            <id>http://shirayuca.github.io/blog/2014/07/16/14theme.html</id>
+            <published>2014-07-16T13:40:00Z</published>
+            <updated>2014-07-16T22:42:49+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;2014年度春学期に手を付けた／これから手を付けたいテーマの一覧です。&lt;/p&gt;
+        
+        &lt;h2 id="ソーシャルデータ"&gt;ソーシャルデータ&lt;/h2&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://www.mwed.jp/"&gt;みんなのウェディング&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;h2 id="アンケート調査"&gt;アンケート調査&lt;/h2&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;ペットボトル飲料&lt;/li&gt;
+        &lt;li&gt;B級グルメ&lt;/li&gt;
+        &lt;li&gt;マクドナルドのメニュー&lt;/li&gt;
+        &lt;li&gt;ガム・のど飴&lt;/li&gt;
+        &lt;li&gt;東京のお出かけスポット&lt;/li&gt;
+        &lt;li&gt;深夜バラエティ番組&lt;/li&gt;
+        &lt;li&gt;ドラえもんのひみつ道具&lt;/li&gt;
+        &lt;li&gt;昔話&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;ジャニーズの歌詞&lt;/li&gt;
+        &lt;li&gt;アイドルの歌詞&lt;/li&gt;
+        &lt;/ul&gt;
+        </content>
+          </entry>
           <entry>
             <title>ブログエントリ作成方法</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/07/08/how-to-post.html"/>
             <id>http://shirayuca.github.io/blog/2014/07/08/how-to-post.html</id>
             <published>2014-07-08T11:18:00Z</published>
-            <updated>2014-07-08T21:09:25+09:00</updated>
+            <updated>2014-07-16T22:44:21+09:00</updated>
             <author>
               <name>Article Author</name>
             </author>
@@ -92,7 +130,7 @@
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/05/04/first-post.html"/>
             <id>http://shirayuca.github.io/blog/2014/05/04/first-post.html</id>
             <published>2014-05-04T14:15:00Z</published>
-            <updated>2014-05-04T23:22:00+09:00</updated>
+            <updated>2014-07-16T22:44:06+09:00</updated>
             <author>
               <name>Article Author</name>
             </author>

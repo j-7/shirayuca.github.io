@@ -8,13 +8,19 @@
   </url>
   <url>
     <loc>http://shirayuca.github.io//blog/2014/05/04/first-post.html</loc>
-    <lastmod>2014-05-04</lastmod>
+    <lastmod>2014-07-16</lastmod>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://shirayuca.github.io//blog/2014/07/08/how-to-post.html</loc>
-    <lastmod>2014-07-08</lastmod>
+    <lastmod>2014-07-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://shirayuca.github.io//blog/2014/07/16/14theme.html</loc>
+    <lastmod>2014-07-16</lastmod>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
@@ -25,13 +31,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>http://shirayuca.github.io//blog/tags/test.html</loc>
+    <loc>http://shirayuca.github.io//blog/tags/ブログ.html</loc>
     <lastmod>2014-07-08</lastmod>
     <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>http://shirayuca.github.io//blog/tags/post.html</loc>
+    <loc>http://shirayuca.github.io//blog/tags/データ.html</loc>
     <lastmod>2014-07-08</lastmod>
     <priority>0.8</priority>
     <changefreq>daily</changefreq>
@@ -46,6 +52,12 @@
     <loc>http://shirayuca.github.io//blog/2014/07.html</loc>
     <lastmod>2014-05-04</lastmod>
     <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://shirayuca.github.io//blog/2014/07/16.html</loc>
+    <lastmod>2014-05-04</lastmod>
+    <priority>0.7</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
