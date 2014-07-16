@@ -1,7 +1,7 @@
 ---
 title: ブログエントリ作成方法
 date: 2014-07-08 20:18 JST
-tags: post
+tags: ブログ
 ---
 
 
