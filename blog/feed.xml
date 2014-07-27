@@ -40,13 +40,13 @@
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/07/27/recipe.html"/>
             <id>http://shirayuca.github.io/blog/2014/07/27/recipe.html</id>
             <published>2014-07-27T04:26:00Z</published>
-            <updated>2014-07-27T14:48:52+09:00</updated>
+            <updated>2014-07-27T14:57:28+09:00</updated>
             <author>
               <name>Article Author</name>
             </author>
             <content type="html">&lt;p&gt;最近、Googleスプレッドシートの importXML関数にハマっています。いろいろと遊んでいる中で、さらに image関数では画像表示もできることを知りました。それならば、ぜひ画像を表示したい…とあれこれ考えてみて、そうだ、クックパッドのレシピ画像を表示できたらいいな、ということになりました。  &lt;/p&gt;
         
-        &lt;p&gt;&lt;img alt="メニューシート" src="2014/07/27/recipe/menusheet.png" /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img alt="メニューシート" src="http://shirayuca.github.io/blog/2014/07/27/recipe/menusheet.png" /&gt;&lt;/p&gt;
         
         &lt;p&gt;ということで、Googleスプレッドシートにクックパッドのレシピを表示できるようなファイルを作成しました。使い方はとても簡単で、&lt;/p&gt;
         
