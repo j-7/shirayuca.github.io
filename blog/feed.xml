@@ -31,10 +31,51 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2014-07-27T04:26:00Z</updated>
+          <updated>2014-07-27T13:11:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>各県のラーメン画像</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/07/27/googleimage.html"/>
+            <id>http://shirayuca.github.io/blog/2014/07/27/googleimage.html</id>
+            <published>2014-07-27T13:11:00Z</published>
+            <updated>2014-07-27T22:26:14+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;ふと、「各都道府県 AND ラーメン」で検索した画像一覧があったらおもしろいんじゃないか、と思いました。そこで、「都道府県名 AND ラーメン」のGoogleの画像検索のトップを抽出する Google Apps Script を作成しました。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="各都道府県のラーメン画像"&gt;&lt;a href="https://docs.google.com/spreadsheets/d/1-Bz_JMxg9mqIfAmFxFgEvJArgeF8Z171999wSKQfA7Y/edit?usp=sharing"&gt;各都道府県のラーメン画像&lt;/a&gt;&lt;/h4&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;img alt="ラーメンシート" src="http://shirayuca.github.io/blog/2014/07/27/googleimage/ramen.png" /&gt;
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="googleスプレッドシート上での関数等"&gt;Googleスプレッドシート上での関数等&lt;/h4&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;下記のように関数を作成し、「各都道府県名 AND ラーメン」というキーワードを引数としてURLを取得し、その後該当URLの画像を表示しています。
+        &lt;script src="https://gist.github.com/shirayuca/204a9d3a269dc8dde883.js"&gt;&lt;/script&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;こちらのスクリプトは、下記の2ページを参考に作成しています。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://t-kashima.hateblo.jp/entry/2012/03/11/235755"&gt;http://t-kashima.hateblo.jp/entry/2012/03/11/235755&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://www.garunimo.com/program/linux/linux43.xhtml"&gt;http://www.garunimo.com/program/linux/linux43.xhtml&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        </content>
+          </entry>
           <entry>
             <title>かんたん献立シート</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/07/27/recipe.html"/>
