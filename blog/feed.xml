@@ -31,10 +31,90 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2014-07-16T13:40:00Z</updated>
+          <updated>2014-07-27T04:26:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>かんたん献立シート</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/07/27/recipe.html"/>
+            <id>http://shirayuca.github.io/blog/2014/07/27/recipe.html</id>
+            <published>2014-07-27T04:26:00Z</published>
+            <updated>2014-07-27T14:21:54+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;最近、Googleスプレッドシートの importXML関数にハマっています。いろいろと遊んでいる中で、さらに image関数では画像表示もできることを知りました。それならば、ぜひ画像を表示したい…とあれこれ考えてみて、そうだ、クックパッドのレシピ画像を表示できたらいいな、ということになりました。  &lt;/p&gt;
+        
+        &lt;p&gt;&lt;img alt="メニューシート" src="../images/menusheet.png" /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;ということで、Googleスプレッドシートにクックパッドのレシピを表示できるようなファイルを作成しました。使い方はとても簡単で、&lt;/p&gt;
+        
+        &lt;ol&gt;
+        &lt;li&gt;クックパッドで毎日のレシピを検索する&lt;/li&gt;
+        &lt;li&gt;検索したレシピのURLをスプレッドシート上のグレーのセルに貼り付ける&lt;/li&gt;
+        &lt;/ol&gt;
+        
+        &lt;p&gt;これだけです。&lt;/p&gt;
+        
+        &lt;p&gt;Googleスプレッドシートは共有も簡単なので、例えば家族とファイルを共有して1週間の献立を一緒に考えたり、あるいは、食材のまとめ買いにも使えそうです。また、シートをコピーして使用していけば、毎週の献立を保存しておくこともできるので、あの日のメニューもすぐに思い出せます。よかったら、ぜひ使ってみてください。  &lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="かんたん献立シート"&gt;&lt;a href="https://docs.google.com/spreadsheets/d/1YpToeif_6z-Nb3HXlo5VtG2eMUztlUEdHdzvmk4ebBs/edit?usp=sharing"&gt;かんたん献立シート&lt;/a&gt;&lt;/h4&gt;
+        
+        &lt;p&gt;最初に使用する際は、[ファイル]→[コピーを作成]で、自分のGoogle Drive にコピーしてください。&lt;br&gt;
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="googleスプレッドシート上で使用した関数"&gt;Googleスプレッドシート上で使用した関数&lt;/h4&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;Googleスプレッドシート上のB列を例に、以下に説明します。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;p&gt;B2セル&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;クックパッドのレシピURLを入力&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;p&gt;B3セル&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;レシピの画像URLを取得（シート上では非表示）
+        &lt;code&gt;=importxml(B2,&amp;quot;//img[@class=&amp;#39;analytics_tracking photo large_photo_clickable&amp;#39;]/@src&amp;quot;)
+        &lt;/code&gt;&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;p&gt;B4セル&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;レシピのタイトルを取得
+        &lt;code&gt;=importxml(B2,&amp;quot;//h1&amp;quot;)
+        &lt;/code&gt;&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;p&gt;B5セル&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;B3セルで取得した画像URLを表示
+        &lt;code&gt;=image(B3,4,150,150)
+        &lt;/code&gt;&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;p&gt;B6セル&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;レシピの材料を取得、行列入れ替えで表示
+        &lt;code&gt;=TRANSPOSE(importxml(B2,&amp;quot;//*[@id=&amp;#39;ingredients_list&amp;#39;]&amp;quot;))
+        &lt;/code&gt;
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        </content>
+          </entry>
           <entry>
             <title>2014年度春学期のテーマ一覧</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/07/16/14theme.html"/>
