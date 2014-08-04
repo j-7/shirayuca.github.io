@@ -43,6 +43,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>http://shirayuca.github.io//blog/2014/08/04/yahoo.html</loc>
+    <lastmod>2014-08-04</lastmod>
+    <priority>0.6</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>http://shirayuca.github.io//</loc>
     <lastmod>2014-07-08</lastmod>
     <priority>1.0</priority>
@@ -62,6 +68,12 @@
   </url>
   <url>
     <loc>http://shirayuca.github.io//blog/tags/ウェブ.html</loc>
+    <lastmod>2014-07-08</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://shirayuca.github.io//blog/tags/分析.html</loc>
     <lastmod>2014-07-08</lastmod>
     <priority>0.8</priority>
     <changefreq>daily</changefreq>

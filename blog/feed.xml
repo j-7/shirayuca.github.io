@@ -31,10 +31,66 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2014-08-04T12:52:00Z</updated>
+          <updated>2014-08-04T13:23:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>Googleスプレッドシート上で形態素解析</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/08/04/yahoo.html"/>
+            <id>http://shirayuca.github.io/blog/2014/08/04/yahoo.html</id>
+            <published>2014-08-04T13:23:00Z</published>
+            <updated>2014-08-04T23:03:43+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;形態素解析は、一昔前に比べると随分と導入が楽になったと感じます。一方で、「今後ばりばりテキストマイニングをしていくかどうかはわからないけれど、とりあえず試しに形態素解析をやってみたい」という人にとっては、環境構築など、面倒なことも少なくないかな、とも思います。そこで、Googleスプレッドシート上で形態素解析ができたら第一歩が気軽に踏み出せるのではないか、と考えました。&lt;/p&gt;
+        
+        &lt;p&gt;使用するのは、&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;Googleスプレッドシート&lt;/li&gt;
+        &lt;li&gt;Yahoo! の日本語形態素解析API&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;です。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="日本語形態素解析apiの利用"&gt;日本語形態素解析APIの利用&lt;/h4&gt;
+        
+        &lt;p&gt;まず、Yahoo!デベロッパーネットワークにて、アプリケーションIDを取得します。やり方は、下記のブログが参考になります。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://ysklog.net/php/1581.html"&gt;http://ysklog.net/php/1581.html&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="スプレッドシートの作成"&gt;スプレッドシートの作成&lt;/h4&gt;
+        
+        &lt;p&gt;続いて、Googleスプレッドシートを作成し、メニューから&lt;code&gt;ツール &amp;gt; スクリプトエディタ&lt;/code&gt;を選択します。その後、下記のコードを入力してください。アプリケーションIDは、上記で取得したものを用いてください。&lt;/p&gt;
+        
+        &lt;script src="https://gist.github.com/shirayuca/14e8b2cb031baafed526.js"&gt;&lt;/script&gt;
+        
+        &lt;p&gt;スクリプトを編集した後、スプレッドシートにもどり、形態素解析を行ってみましょう。例として、A2セルに任意のテキストを入力し、&lt;code&gt;=yahooTextSegmentation(A2)&lt;/code&gt;とすると、下記のようにテキストが形態素解析されます。よかったら、ぜひ試してみてください。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;  
+        
+        &lt;p&gt;&lt;img alt="簡単献立シート" src="http://shirayuca.github.io/blog/2014/08/04/yahoo/yahoo.png"&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="参考url"&gt;参考URL&lt;/h4&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html"&gt;http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://ysklog.net/php/1581.html"&gt;http://ysklog.net/php/1581.html&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        </content>
+          </entry>
           <entry>
             <title>Markdown で画像へのハイパーリンク付与</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/08/04/imagelink.html"/>
@@ -260,18 +316,6 @@
         bundle exec middleman build
         bundle exec middleman deploy
         &lt;/code&gt;&lt;/pre&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>first-post</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/05/04/first-post.html"/>
-            <id>http://shirayuca.github.io/blog/2014/05/04/first-post.html</id>
-            <published>2014-05-04T14:15:00Z</published>
-            <updated>2014-07-16T22:44:06+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;ブログを始めます。&lt;/p&gt;
         </content>
           </entry>
         </feed>

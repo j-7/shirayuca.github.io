@@ -1,0 +1,111 @@
+<!doctype html> 
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge;chrome=1" http-equiv="X-UA-Compatible" />
+    <title>shirayuca.github.io | Googleスプレッドシート上で形態素解析</title>
+    <meta content="<p>形態素解析は、一昔前に比べると随分と導入が楽になったと感じます。一方で、「今後ばりばりテキストマイニングをしていくかどうかはわからないけれど、とりあえず試しに形態素解析をやってみたい」という人に...</p>" name="description" />
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" /><!--[if lt IE 9]><script src="../../../../js/ie8.js" type="text/javascript"></script><![endif]--><link href="../../../../css/all.css" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="/">shirayuca.github.io</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="list-unstyled list-inline nav navbar-nav navbar-right">
+            <li>
+              <a href="https://github.com/shirayuca"><i class="fa fa-github-square fa-lg fa-inverse"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row"><div class="col-lg-3 col-md-3">
+  <div class="well">
+    <h4>
+      Tags
+    </h4>
+    <ul class="list-unstyled">
+      <li>
+        <a href="/blog/tags/ブログ.html">ブログ</a> (2)
+      </li>
+      <li>
+        <a href="/blog/tags/データ.html">データ</a> (1)
+      </li>
+      <li>
+        <a href="/blog/tags/ウェブ.html">ウェブ</a> (2)
+      </li>
+      <li>
+        <a href="/blog/tags/分析.html">分析</a> (1)
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="col-lg-9 col-md-9">
+  <h1>
+    Googleスプレッドシート上で形態素解析
+  </h1>
+  <hr />
+  <p>
+    <span class="glyphicon glyphicon-time"></span> Posted on Aug  4
+  </p>
+  <hr /><p>形態素解析は、一昔前に比べると随分と導入が楽になったと感じます。一方で、「今後ばりばりテキストマイニングをしていくかどうかはわからないけれど、とりあえず試しに形態素解析をやってみたい」という人にとっては、環境構築など、面倒なことも少なくないかな、とも思います。そこで、Googleスプレッドシート上で形態素解析ができたら第一歩が気軽に踏み出せるのではないか、と考えました。</p>
+
+<p>使用するのは、</p>
+
+<ul>
+<li>Googleスプレッドシート</li>
+<li>Yahoo! の日本語形態素解析API</li>
+</ul>
+
+<p>です。</p>
+
+<p><br /></p>
+
+<h4 id="日本語形態素解析apiの利用">日本語形態素解析APIの利用</h4>
+
+<p>まず、Yahoo!デベロッパーネットワークにて、アプリケーションIDを取得します。やり方は、下記のブログが参考になります。</p>
+
+<ul>
+<li><a href="http://ysklog.net/php/1581.html">http://ysklog.net/php/1581.html</a></li>
+</ul>
+
+<p><br /></p>
+
+<h4 id="スプレッドシートの作成">スプレッドシートの作成</h4>
+
+<p>続いて、Googleスプレッドシートを作成し、メニューから<code>ツール &gt; スクリプトエディタ</code>を選択します。その後、下記のコードを入力してください。アプリケーションIDは、上記で取得したものを用いてください。</p>
+
+<script src="https://gist.github.com/shirayuca/14e8b2cb031baafed526.js"></script>
+
+<p>スクリプトを編集した後、スプレッドシートにもどり、形態素解析を行ってみましょう。例として、A2セルに任意のテキストを入力し、<code>=yahooTextSegmentation(A2)</code>とすると、下記のようにテキストが形態素解析されます。よかったら、ぜひ試してみてください。</p>
+
+<p><br /></p>  
+
+<p><img alt="簡単献立シート" src="http://shirayuca.github.io/blog/2014/08/04/yahoo/yahoo.png"></p>
+
+<p><br /></p>
+
+<p><br /></p>
+
+<h4 id="参考url">参考URL</h4>
+
+<ul>
+<li><a href="http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html">http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html</a></li>
+<li><a href="http://ysklog.net/php/1581.html">http://ysklog.net/php/1581.html</a></li>
+</ul>
+
+  <hr>
+    <p class="text-center">
+      2014 <a href="/">shirayuca.github.io</a>
+    </p>
+  </hr>
+</div>
+      </div>
+    </div>
+    <script src="../../../../js/all.js" type="text/javascript"></script>
+  </body>
+</html>
