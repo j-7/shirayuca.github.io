@@ -10,9 +10,7 @@ tags: ウェブ
 #### [各都道府県のラーメン画像](https://docs.google.com/spreadsheets/d/1-Bz_JMxg9mqIfAmFxFgEvJArgeF8Z171999wSKQfA7Y/edit?usp=sharing)
 <p><br /></p>
 
-<p><br /></p>
-![ラーメンシート](http://shirayuca.github.io/blog/2014/07/27/googleimage/ramen.png)
-<p><br /></p>
+<p><a href="https://docs.google.com/spreadsheets/d/1-Bz_JMxg9mqIfAmFxFgEvJArgeF8Z171999wSKQfA7Y/edit?usp=sharing"><img alt="ラーメンシート" src="http://shirayuca.github.io/blog/2014/07/27/googleimage/ramen.png"></a></p>
 
 <p><br /></p>
 #### Googleスプレッドシート上での関数等
