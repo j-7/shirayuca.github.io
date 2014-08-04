@@ -31,10 +31,25 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2014-07-27T13:11:00Z</updated>
+          <updated>2014-08-04T12:52:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>Markdown で画像へのハイパーリンク付与</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/08/04/imagelink.html"/>
+            <id>http://shirayuca.github.io/blog/2014/08/04/imagelink.html</id>
+            <published>2014-08-04T12:52:00Z</published>
+            <updated>2014-08-04T21:57:29+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;Markdown でブログを書くのはとても簡単ですが、画像にハイパーリンクを張れないのが不便だな、と感じていました。そんなときは、直接 HTML のタグを書きます。&lt;/p&gt;
+        
+        &lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;…&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;…&amp;quot; src=&amp;quot;…&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+        &lt;/code&gt;&lt;/pre&gt;
+        </content>
+          </entry>
           <entry>
             <title>各県のラーメン画像</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/07/27/googleimage.html"/>
