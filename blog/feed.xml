@@ -31,16 +31,46 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2014-08-04T13:23:00Z</updated>
+          <updated>2014-08-13T05:11:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>2014 PCカンファレンスに参加</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/08/13/14pcc.html"/>
+            <id>http://shirayuca.github.io/blog/2014/08/13/14pcc.html</id>
+            <published>2014-08-13T05:11:00Z</published>
+            <updated>2014-08-13T15:19:47+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;札幌学院大学にて開催された、&lt;a href="http://gakkai.univcoop.or.jp/pcc/2014/"&gt;2014 PCカンファレンス&lt;/a&gt;に参加してきました。PCカンファレンスは、教育と学びにおけるコンピュータおよびネットワークの利用に関する学会で、今回私は、情報リテラシー系の科目に関するポスター発表をしてきました。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://gakkai.univcoop.or.jp/pcc/2014/papers/pdf/pcc115.pdf"&gt;Excel 演習授業における反転授業のための補助教材の作成&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;Excel演習授業では、本来の目的である「リテラシーを体得し、各々の目的に応じて活用する」に到達する以前に、演習をこなすことで精一杯になってしまうことがあります。そのため、事前学習用の教材を作成した、というのが今回の報告です。提案自体は技術的にも大変シンプルなのですが、特に初学者を苦しめるアプリケーション間の移動を最小限とするために、Excel上で演習や教材閲覧を全て終えられるような仕組みを目指しました。&lt;/p&gt;
+        
+        &lt;p&gt;今後は、受講者および担当教員のフィードバックに基づいて改善サイクルをまわすとともに、採点データの分析も視野に入れています。来年度のPCカンファレンスにて、報告をできるようにと考えています。&lt;/p&gt;
+        
+        &lt;p&gt;今回のPCカンファレンスでは、意見交換も活発にできて、大変勉強になりました。基調講演もとても良かったです。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://pc.nikkeibp.co.jp/article/news/20140808/1139503/"&gt;教育とICTの学会「PCカンファレンス」が開幕、妹尾CIEC会長理事と熊坂慶應大学教授が基調講演&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://pc.nikkeibp.co.jp/article/news/20140810/1139563/"&gt;【2014 PCカンファレンス】約30チームがポスター発表、高校生データサイエンティストやエプロン型コンピュータ&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br /&gt;
+        &lt;br /&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>Googleスプレッドシート上で形態素解析</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/08/04/yahoo.html"/>
             <id>http://shirayuca.github.io/blog/2014/08/04/yahoo.html</id>
             <published>2014-08-04T13:23:00Z</published>
-            <updated>2014-08-04T23:03:43+09:00</updated>
+            <updated>2014-08-13T15:21:30+09:00</updated>
             <author>
               <name>Article Author</name>
             </author>
@@ -89,6 +119,9 @@
         &lt;li&gt;&lt;a href="http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html"&gt;http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="http://ysklog.net/php/1581.html"&gt;http://ysklog.net/php/1581.html&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br /&gt;
+        &lt;br /&gt;&lt;/p&gt;
         </content>
           </entry>
           <entry>
@@ -96,7 +129,7 @@
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/08/04/imagelink.html"/>
             <id>http://shirayuca.github.io/blog/2014/08/04/imagelink.html</id>
             <published>2014-08-04T12:52:00Z</published>
-            <updated>2014-08-04T21:57:29+09:00</updated>
+            <updated>2014-08-13T15:21:12+09:00</updated>
             <author>
               <name>Article Author</name>
             </author>
@@ -104,6 +137,9 @@
         
         &lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;…&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;…&amp;quot; src=&amp;quot;…&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
         &lt;/code&gt;&lt;/pre&gt;
+        
+        &lt;p&gt;&lt;br /&gt;
+        &lt;br /&gt;&lt;/p&gt;
         </content>
           </entry>
           <entry>
@@ -111,7 +147,7 @@
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/07/27/googleimage.html"/>
             <id>http://shirayuca.github.io/blog/2014/07/27/googleimage.html</id>
             <published>2014-07-27T13:11:00Z</published>
-            <updated>2014-08-04T21:38:00+09:00</updated>
+            <updated>2014-08-13T15:20:54+09:00</updated>
             <author>
               <name>Article Author</name>
             </author>
@@ -142,6 +178,9 @@
         &lt;li&gt;&lt;a href="http://t-kashima.hateblo.jp/entry/2012/03/11/235755"&gt;http://t-kashima.hateblo.jp/entry/2012/03/11/235755&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="http://www.garunimo.com/program/linux/linux43.xhtml"&gt;http://www.garunimo.com/program/linux/linux43.xhtml&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br /&gt;
+        &lt;br /&gt;&lt;/p&gt;
         </content>
           </entry>
           <entry>
@@ -149,7 +188,7 @@
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/07/27/recipe.html"/>
             <id>http://shirayuca.github.io/blog/2014/07/27/recipe.html</id>
             <published>2014-07-27T04:26:00Z</published>
-            <updated>2014-08-04T21:39:59+09:00</updated>
+            <updated>2014-08-13T15:21:19+09:00</updated>
             <author>
               <name>Article Author</name>
             </author>
@@ -226,6 +265,9 @@
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;/li&gt;
         &lt;/ul&gt;&lt;/li&gt;
         &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br /&gt;
+        &lt;br /&gt;&lt;/p&gt;
         </content>
           </entry>
           <entry>
@@ -233,7 +275,7 @@
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/07/16/14theme.html"/>
             <id>http://shirayuca.github.io/blog/2014/07/16/14theme.html</id>
             <published>2014-07-16T13:40:00Z</published>
-            <updated>2014-07-16T22:42:49+09:00</updated>
+            <updated>2014-08-13T15:20:46+09:00</updated>
             <author>
               <name>Article Author</name>
             </author>
@@ -264,58 +306,9 @@
         &lt;li&gt;ジャニーズの歌詞&lt;/li&gt;
         &lt;li&gt;アイドルの歌詞&lt;/li&gt;
         &lt;/ul&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>ブログエントリ作成方法</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/07/08/how-to-post.html"/>
-            <id>http://shirayuca.github.io/blog/2014/07/08/how-to-post.html</id>
-            <published>2014-07-08T11:18:00Z</published>
-            <updated>2014-07-16T22:44:21+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;ブログのエントリ作成方法のメモです。このブログは、shirayuca.github.io 上に Middleman で作っています。ローカルでは、エントリは、
-        &lt;code&gt;/Users/yuca/dev/shirayuca.github.io/source/blog/posts&lt;/code&gt;
-        に置いています。&lt;/p&gt;
         
-        &lt;ul&gt;
-        &lt;li&gt;TITLE に任意のタイトルを入れて、エントリの .md ファイルを作成します。&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;pre&gt;&lt;code&gt;bundle exec middleman article TITLE
-        &lt;/code&gt;&lt;/pre&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;すると、 下記のようにタイトルなどの情報が入った .md ファイルが作成されます。tags には、タグを入れます。&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;pre&gt;&lt;code&gt;---
-        title: TITLE
-        date: 2014-07-08
-        tags: 
-        ---
-        &lt;/code&gt;&lt;/pre&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;p&gt;記事を編集します。&lt;/p&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;p&gt;記事の確認をします。&lt;/p&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;pre&gt;&lt;code&gt;bundle exec middleman server
-        &lt;/code&gt;&lt;/pre&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;記事を投稿します。&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;pre&gt;&lt;code&gt;git add .
-        git status
-        git commit -m &amp;quot;message&amp;quot;
-        git push origin middleman
-        bundle exec middleman build
-        bundle exec middleman deploy
-        &lt;/code&gt;&lt;/pre&gt;
+        &lt;p&gt;&lt;br /&gt;
+        &lt;br /&gt;&lt;/p&gt;
         </content>
           </entry>
         </feed>
