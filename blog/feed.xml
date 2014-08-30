@@ -31,10 +31,38 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2014-08-13T05:11:00Z</updated>
+          <updated>2014-08-30T17:00:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>木・格子・ランダムグラフの描画と平均経路長算出</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/08/31/3graphs.html"/>
+            <id>http://shirayuca.github.io/blog/2014/08/31/3graphs.html</id>
+            <published>2014-08-30T17:00:00Z</published>
+            <updated>2014-08-31T02:04:22+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;R で木グラフ、格子グラフ、ランダムグラフの描画と平均経路長を算出するためのコードです。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;script src="https://gist.github.com/shirayuca/a0ee3d51657f9e5124b5.js"&gt;&lt;/script&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;script src="https://gist.github.com/shirayuca/7b1e86c8b26ed0f5d63e.js"&gt;&lt;/script&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;script src="https://gist.github.com/shirayuca/bbf0b769a1621fa13825.js"&gt;&lt;/script&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>2014 PCカンファレンスに参加</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/08/13/14pcc.html"/>
@@ -265,58 +293,6 @@
         &lt;/code&gt;
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;/li&gt;
         &lt;/ul&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;
-        &lt;br /&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>2014年度春学期のテーマ一覧</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/07/16/14theme.html"/>
-            <id>http://shirayuca.github.io/blog/2014/07/16/14theme.html</id>
-            <published>2014-07-16T13:40:00Z</published>
-            <updated>2014-08-13T18:05:57+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;p&gt;データ分析に関して、2014年度春学期に手を付けた／これから手を付けたいテーマの一覧です。GoogleAppsScriptでデータを取得し、Googleスプレッドシート上で分析するサイクルをまわしていけたらいいな、と思っています。このページは個人的な備忘録として使用しているため、適宜更新しています。
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;/p&gt;
-        
-        &lt;h5 id="ソーシャルデータ"&gt;ソーシャルデータ&lt;/h5&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;みんなのウェディング&lt;/li&gt;
-        &lt;li&gt;NAVERまとめ&lt;/li&gt;
-        &lt;li&gt;食べログ&lt;/li&gt;
-        &lt;li&gt;GitHub&lt;/li&gt;
-        &lt;li&gt;twitter &lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h5 id="アンケート調査"&gt;アンケート調査&lt;/h5&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;ペットボトル飲料&lt;/li&gt;
-        &lt;li&gt;B級グルメ&lt;/li&gt;
-        &lt;li&gt;マクドナルドのメニュー&lt;/li&gt;
-        &lt;li&gt;ガム・のど飴&lt;/li&gt;
-        &lt;li&gt;東京のお出かけスポット&lt;/li&gt;
-        &lt;li&gt;深夜バラエティ番組&lt;/li&gt;
-        &lt;li&gt;ドラえもんのひみつ道具&lt;/li&gt;
-        &lt;li&gt;昔話&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h5 id="その他"&gt;その他&lt;/h5&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;ジャニーズの歌詞&lt;/li&gt;
-        &lt;li&gt;アイドルの歌詞（ハロプロ、AKB、おニャン子）&lt;/li&gt;
         &lt;/ul&gt;
         
         &lt;p&gt;&lt;br /&gt;
