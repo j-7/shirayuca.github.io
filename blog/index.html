@@ -44,10 +44,69 @@
       <li>
         <a href="/blog/tags/ネットワーク分析.html">ネットワーク分析</a> (1)
       </li>
+      <li>
+        <a href="/blog/tags/mac.html">mac</a> (1)
+      </li>
     </ul>
   </div>
 </div>
 <div class="col-lg-9 col-md-9"><h1>
+  <a href="/blog/2014/09/02/alias.html">ターミナルでコマンドの省略</a>
+</h1>
+<hr />
+<p>
+  <span class="glyphicon glyphicon-time"></span> Posted on Sep  2
+</p>
+<hr /><p><br /></p>
+
+<p>ブログのエントリを作成する際、いつもターミナルを立ち上げ、 </p>
+
+<pre><code>cd /Users/yuca/dev/...
+</code></pre>
+
+<p>と打ち込んでいたのですが、大変面倒なので、省略するコマンドを作りました。</p>
+
+<p><br></p>
+
+<h4 id="コマンド作成の流れ">コマンド作成の流れ</h4>
+
+<p>.bashrc ファイルを開く。</p>
+
+<pre><code>$ emacs ~/.bashrc
+</code></pre>
+
+<p>.bashrc ファイル内に、<code>alias エイリアス名=’コマンド’</code> を記述。</p>
+
+<pre><code>alias blog=’cd /Users/yuca/dev/shirayuca.github.io/source/blog/posts’
+</code></pre>
+
+<p>.bash_profile ファイルを開く。</p>
+
+<pre><code>$ emacs ~/.bash_profile
+</code></pre>
+
+<p>.bash_profile ファイル内に、<code>source .bashrc</code> の1行を追加。</p>
+
+<p>下記のコマンドで変更を反映する。</p>
+
+<pre><code>$ source ~/.bash_profile
+</code></pre>
+
+<p>これで、ターミナル上で <code>blog</code> と打てば、すぐにブログの .md ファイルがあるディレクトリに移動できます。</p>
+
+<p><br></p>
+
+<h4 id="参考url">参考URL</h4>
+
+<ul>
+<li><a href="http://laugh-raku.com/archives/2905">http://laugh-raku.com/archives/2905</a></li>
+<li><a href="http://www.atmarkit.co.jp/ait/articles/0203/12/news001_2.html">http://www.atmarkit.co.jp/ait/articles/0203/12/news001_2.html</a></li>
+</ul>
+
+<p><br />
+<br /></p>
+
+<hr /><h1>
   <a href="/blog/2014/08/31/3graphs.html">木・格子・ランダムグラフの描画と平均経路長算出</a>
 </h1>
 <hr />
@@ -55,6 +114,8 @@
   <span class="glyphicon glyphicon-time"></span> Posted on Aug 31
 </p>
 <hr />
+<p><br /></p>
+
 <p>R で木グラフ、格子グラフ、ランダムグラフの描画と平均経路長を算出するためのコードです。</p>
 
 <p><br /></p>
@@ -81,6 +142,8 @@
   <span class="glyphicon glyphicon-time"></span> Posted on Aug 13
 </p>
 <hr />
+<p><br /></p>
+
 <p>札幌学院大学にて開催された、 PCカンファレンスに参加してきました。PCカンファレンスは、教育と学びにおけるコンピュータおよびネットワークの利用に関する学会で、今回私は、情報リテラシー系の科目に関するポスター発表をしてきました。</p>
 
 <ul>
@@ -109,7 +172,9 @@
 <p>
   <span class="glyphicon glyphicon-time"></span> Posted on Aug  4
 </p>
-<hr /><p>形態素解析は、一昔前に比べると随分と導入が楽になったと感じます。一方で、「今後ばりばりテキストマイニングをしていくかどうかはわからないけれど、とりあえず試しに形態素解析をやってみたい」という人にとっては、環境構築など、面倒なことも少なくないかな、とも思います。そこで、Googleスプレッドシート上で形態素解析ができたら第一歩が気軽に踏み出せるのではないか、と考えました。</p>
+<hr /><p><br /></p>
+
+<p>形態素解析は、一昔前に比べると随分と導入が楽になったと感じます。一方で、「今後ばりばりテキストマイニングをしていくかどうかはわからないけれど、とりあえず試しに形態素解析をやってみたい」という人にとっては、環境構築など、面倒なことも少なくないかな、とも思います。そこで、Googleスプレッドシート上で形態素解析ができたら第一歩が気軽に踏み出せるのではないか、と考えました。</p>
 
 <p>使用するのは、</p>
 
@@ -122,7 +187,7 @@
 
 <p><br /></p>
 
-<h5 id="日本語形態素解析apiの利用">日本語形態素解析APIの利用</h5>
+<h4 id="日本語形態素解析apiの利用">日本語形態素解析APIの利用</h4>
 
 <p>まず、Yahoo!デベロッパーネットワークにて、アプリケーションIDを取得します。やり方は、下記のブログが参考になります。</p>
 
@@ -132,7 +197,7 @@
 
 <p><br /></p>
 
-<h5 id="スプレッドシートの作成">スプレッドシートの作成</h5>
+<h4 id="スプレッドシートの作成">スプレッドシートの作成</h4>
 
 <p>続いて、Googleスプレッドシートを作成し、メニューから<code>ツール &gt; スクリプトエディタ</code>を選択します。その後、下記のコードを入力してください。アプリケーションIDは、上記で取得したものを用いてください。</p>
 
@@ -148,7 +213,7 @@
 
 <p><br /></p>
 
-<h5 id="参考url">参考URL</h5>
+<h4 id="参考url">参考URL</h4>
 
 <ul>
 <li><a href="http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html">http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html</a></li>
@@ -183,6 +248,8 @@
   <span class="glyphicon glyphicon-time"></span> Posted on Jul 27
 </p>
 <hr />
+<p><br /></p>
+
 <p>ふと、「各都道府県 AND ラーメン」で検索した画像一覧があったらおもしろいんじゃないか、と思いました。そこで、「都道府県名 AND ラーメン」のGoogleの画像検索のトップを抽出する Google Apps Script を作成しました。</p>
 
 <ul>
@@ -195,7 +262,7 @@
 
 <p><br /></p>
 
-<h5 id="googleスプレッドシート上での関数等">Googleスプレッドシート上での関数等</h5>
+<h4 id="googleスプレッドシート上での関数等">Googleスプレッドシート上での関数等</h4>
 
 <p>下記のように関数を作成し、「各都道府県名 AND ラーメン」というキーワードを引数としてURLを取得し、その後該当URLの画像を表示しています。
 <script src="https://gist.github.com/shirayuca/204a9d3a269dc8dde883.js"></script></p>
@@ -219,7 +286,9 @@
 <p>
   <span class="glyphicon glyphicon-time"></span> Posted on Jul 27
 </p>
-<hr /><p>最近、Googleスプレッドシートの importXML関数にハマっています。いろいろと遊んでいる中で、さらに image関数では画像表示もできることを知りました。それならば、ぜひ画像を表示したい…とあれこれ考えてみて、そうだ、クックパッドのレシピ画像を表示できたらいいな、ということになりました。  </p>
+<hr /><p><br /></p>
+
+<p>最近、Googleスプレッドシートの importXML関数にハマっています。いろいろと遊んでいる中で、さらに image関数では画像表示もできることを知りました。それならば、ぜひ画像を表示したい…とあれこれ考えてみて、そうだ、クックパッドのレシピ画像を表示できたらいいな、ということになりました。  </p>
 
 <p><br /></p>  
 
@@ -249,7 +318,7 @@
 
 <p><br /></p>
 
-<h5 id="googleスプレッドシート上で使用した関数">Googleスプレッドシート上で使用した関数</h5>
+<h4 id="googleスプレッドシート上で使用した関数">Googleスプレッドシート上で使用した関数</h4>
 
 <p>Googleスプレッドシート上のB列を例に、以下に説明します。</p>
 
@@ -309,7 +378,7 @@
 <p>データ分析に関して、2014年度春学期に手を付けた／これから手を付けたいテーマの一覧です。GoogleAppsScriptでデータを取得し、Googleスプレッドシート上で分析するサイクルをまわしていけたらいいな、と思っています。このページは個人的な備忘録として使用しているため、適宜更新しています。
 <p><br /></p></p>
 
-<h5 id="ソーシャルデータ">ソーシャルデータ</h5>
+<h4 id="ソーシャルデータ">ソーシャルデータ</h4>
 
 <ul>
 <li>みんなのウェディング</li>
@@ -321,7 +390,7 @@
 
 <p><br /></p>
 
-<h5 id="アンケート調査">アンケート調査</h5>
+<h4 id="アンケート調査">アンケート調査</h4>
 
 <ul>
 <li>ペットボトル飲料</li>
@@ -336,7 +405,7 @@
 
 <p><br /></p>
 
-<h5 id="その他">その他</h5>
+<h4 id="その他">その他</h4>
 
 <ul>
 <li>ジャニーズの歌詞</li>
@@ -353,7 +422,9 @@
 <p>
   <span class="glyphicon glyphicon-time"></span> Posted on Jul  8
 </p>
-<hr /><p>ブログのエントリ作成方法のメモです。このブログは、shirayuca.github.io 上に Middleman で作っています。ローカルでは、エントリは、
+<hr /><p><br /></p>
+
+<p>ブログのエントリ作成方法のメモです。このブログは、shirayuca.github.io 上に Middleman で作っています。ローカルでは、エントリは、
 <code>/Users/yuca/dev/shirayuca.github.io/source/blog/posts</code>
 に置いています。</p>
 
@@ -406,6 +477,8 @@ bundle exec middleman deploy
   <span class="glyphicon glyphicon-time"></span> Posted on May  4
 </p>
 <hr />
+<p><br /></p>
+
 <p>ブログを始めます。</p>
 
 <p><br />

@@ -31,20 +31,81 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2014-08-30T17:00:00Z</updated>
+          <updated>2014-09-02T01:47:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>ターミナルでコマンドの省略</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/09/02/alias.html"/>
+            <id>http://shirayuca.github.io/blog/2014/09/02/alias.html</id>
+            <published>2014-09-02T01:47:00Z</published>
+            <updated>2014-09-02T11:03:18+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;ブログのエントリを作成する際、いつもターミナルを立ち上げ、 &lt;/p&gt;
+        
+        &lt;pre&gt;&lt;code&gt;cd /Users/yuca/dev/...
+        &lt;/code&gt;&lt;/pre&gt;
+        
+        &lt;p&gt;と打ち込んでいたのですが、大変面倒なので、省略するコマンドを作りました。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        
+        &lt;h4 id="コマンド作成の流れ"&gt;コマンド作成の流れ&lt;/h4&gt;
+        
+        &lt;p&gt;.bashrc ファイルを開く。&lt;/p&gt;
+        
+        &lt;pre&gt;&lt;code&gt;$ emacs ~/.bashrc
+        &lt;/code&gt;&lt;/pre&gt;
+        
+        &lt;p&gt;.bashrc ファイル内に、&lt;code&gt;alias エイリアス名=’コマンド’&lt;/code&gt; を記述。&lt;/p&gt;
+        
+        &lt;pre&gt;&lt;code&gt;alias blog=’cd /Users/yuca/dev/shirayuca.github.io/source/blog/posts’
+        &lt;/code&gt;&lt;/pre&gt;
+        
+        &lt;p&gt;.bash_profile ファイルを開く。&lt;/p&gt;
+        
+        &lt;pre&gt;&lt;code&gt;$ emacs ~/.bash_profile
+        &lt;/code&gt;&lt;/pre&gt;
+        
+        &lt;p&gt;.bash_profile ファイル内に、&lt;code&gt;source .bashrc&lt;/code&gt; の1行を追加。&lt;/p&gt;
+        
+        &lt;p&gt;下記のコマンドで変更を反映する。&lt;/p&gt;
+        
+        &lt;pre&gt;&lt;code&gt;$ source ~/.bash_profile
+        &lt;/code&gt;&lt;/pre&gt;
+        
+        &lt;p&gt;これで、ターミナル上で &lt;code&gt;blog&lt;/code&gt; と打てば、すぐにブログの .md ファイルがあるディレクトリに移動できます。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        
+        &lt;h4 id="参考url"&gt;参考URL&lt;/h4&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://laugh-raku.com/archives/2905"&gt;http://laugh-raku.com/archives/2905&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://www.atmarkit.co.jp/ait/articles/0203/12/news001_2.html"&gt;http://www.atmarkit.co.jp/ait/articles/0203/12/news001_2.html&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br /&gt;
+        &lt;br /&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>木・格子・ランダムグラフの描画と平均経路長算出</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/08/31/3graphs.html"/>
             <id>http://shirayuca.github.io/blog/2014/08/31/3graphs.html</id>
             <published>2014-08-30T17:00:00Z</published>
-            <updated>2014-08-31T02:04:22+09:00</updated>
+            <updated>2014-09-02T11:03:34+09:00</updated>
             <author>
               <name>Article Author</name>
             </author>
-            <content type="html">&lt;p&gt;R で木グラフ、格子グラフ、ランダムグラフの描画と平均経路長を算出するためのコードです。&lt;/p&gt;
+            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;R で木グラフ、格子グラフ、ランダムグラフの描画と平均経路長を算出するためのコードです。&lt;/p&gt;
         
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
         
@@ -68,11 +129,13 @@
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/08/13/14pcc.html"/>
             <id>http://shirayuca.github.io/blog/2014/08/13/14pcc.html</id>
             <published>2014-08-13T05:11:00Z</published>
-            <updated>2014-08-13T17:42:21+09:00</updated>
+            <updated>2014-09-02T11:03:43+09:00</updated>
             <author>
               <name>Article Author</name>
             </author>
-            <content type="html">&lt;p&gt;札幌学院大学にて開催された、 PCカンファレンスに参加してきました。PCカンファレンスは、教育と学びにおけるコンピュータおよびネットワークの利用に関する学会で、今回私は、情報リテラシー系の科目に関するポスター発表をしてきました。&lt;/p&gt;
+            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;札幌学院大学にて開催された、 PCカンファレンスに参加してきました。PCカンファレンスは、教育と学びにおけるコンピュータおよびネットワークの利用に関する学会で、今回私は、情報リテラシー系の科目に関するポスター発表をしてきました。&lt;/p&gt;
         
         &lt;ul&gt;
         &lt;li&gt;&lt;a href="http://gakkai.univcoop.or.jp/pcc/2014/papers/pdf/pcc115.pdf"&gt;Excel 演習授業における反転授業のための補助教材の作成&lt;/a&gt;&lt;/li&gt;
@@ -99,11 +162,13 @@
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/08/04/yahoo.html"/>
             <id>http://shirayuca.github.io/blog/2014/08/04/yahoo.html</id>
             <published>2014-08-04T13:23:00Z</published>
-            <updated>2014-08-13T17:50:01+09:00</updated>
+            <updated>2014-09-02T11:04:04+09:00</updated>
             <author>
               <name>Article Author</name>
             </author>
-            <content type="html">&lt;p&gt;形態素解析は、一昔前に比べると随分と導入が楽になったと感じます。一方で、「今後ばりばりテキストマイニングをしていくかどうかはわからないけれど、とりあえず試しに形態素解析をやってみたい」という人にとっては、環境構築など、面倒なことも少なくないかな、とも思います。そこで、Googleスプレッドシート上で形態素解析ができたら第一歩が気軽に踏み出せるのではないか、と考えました。&lt;/p&gt;
+            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;形態素解析は、一昔前に比べると随分と導入が楽になったと感じます。一方で、「今後ばりばりテキストマイニングをしていくかどうかはわからないけれど、とりあえず試しに形態素解析をやってみたい」という人にとっては、環境構築など、面倒なことも少なくないかな、とも思います。そこで、Googleスプレッドシート上で形態素解析ができたら第一歩が気軽に踏み出せるのではないか、と考えました。&lt;/p&gt;
         
         &lt;p&gt;使用するのは、&lt;/p&gt;
         
@@ -116,7 +181,7 @@
         
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
         
-        &lt;h5 id="日本語形態素解析apiの利用"&gt;日本語形態素解析APIの利用&lt;/h5&gt;
+        &lt;h4 id="日本語形態素解析apiの利用"&gt;日本語形態素解析APIの利用&lt;/h4&gt;
         
         &lt;p&gt;まず、Yahoo!デベロッパーネットワークにて、アプリケーションIDを取得します。やり方は、下記のブログが参考になります。&lt;/p&gt;
         
@@ -126,7 +191,7 @@
         
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
         
-        &lt;h5 id="スプレッドシートの作成"&gt;スプレッドシートの作成&lt;/h5&gt;
+        &lt;h4 id="スプレッドシートの作成"&gt;スプレッドシートの作成&lt;/h4&gt;
         
         &lt;p&gt;続いて、Googleスプレッドシートを作成し、メニューから&lt;code&gt;ツール &amp;gt; スクリプトエディタ&lt;/code&gt;を選択します。その後、下記のコードを入力してください。アプリケーションIDは、上記で取得したものを用いてください。&lt;/p&gt;
         
@@ -142,7 +207,7 @@
         
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
         
-        &lt;h5 id="参考url"&gt;参考URL&lt;/h5&gt;
+        &lt;h4 id="参考url"&gt;参考URL&lt;/h4&gt;
         
         &lt;ul&gt;
         &lt;li&gt;&lt;a href="http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html"&gt;http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html&lt;/a&gt;&lt;/li&gt;
@@ -158,7 +223,7 @@
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/08/04/imagelink.html"/>
             <id>http://shirayuca.github.io/blog/2014/08/04/imagelink.html</id>
             <published>2014-08-04T12:52:00Z</published>
-            <updated>2014-08-13T17:55:49+09:00</updated>
+            <updated>2014-09-02T11:03:49+09:00</updated>
             <author>
               <name>Article Author</name>
             </author>
@@ -178,11 +243,13 @@
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/07/27/googleimage.html"/>
             <id>http://shirayuca.github.io/blog/2014/07/27/googleimage.html</id>
             <published>2014-07-27T13:11:00Z</published>
-            <updated>2014-08-13T17:52:36+09:00</updated>
+            <updated>2014-09-02T11:04:44+09:00</updated>
             <author>
               <name>Article Author</name>
             </author>
-            <content type="html">&lt;p&gt;ふと、「各都道府県 AND ラーメン」で検索した画像一覧があったらおもしろいんじゃないか、と思いました。そこで、「都道府県名 AND ラーメン」のGoogleの画像検索のトップを抽出する Google Apps Script を作成しました。&lt;/p&gt;
+            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;ふと、「各都道府県 AND ラーメン」で検索した画像一覧があったらおもしろいんじゃないか、と思いました。そこで、「都道府県名 AND ラーメン」のGoogleの画像検索のトップを抽出する Google Apps Script を作成しました。&lt;/p&gt;
         
         &lt;ul&gt;
         &lt;li&gt;&lt;a href="https://docs.google.com/spreadsheets/d/1-Bz_JMxg9mqIfAmFxFgEvJArgeF8Z171999wSKQfA7Y/edit?usp=sharing"&gt;各都道府県のラーメン画像&lt;/a&gt;&lt;/li&gt;
@@ -194,7 +261,7 @@
         
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
         
-        &lt;h5 id="googleスプレッドシート上での関数等"&gt;Googleスプレッドシート上での関数等&lt;/h5&gt;
+        &lt;h4 id="googleスプレッドシート上での関数等"&gt;Googleスプレッドシート上での関数等&lt;/h4&gt;
         
         &lt;p&gt;下記のように関数を作成し、「各都道府県名 AND ラーメン」というキーワードを引数としてURLを取得し、その後該当URLの画像を表示しています。
         &lt;script src="https://gist.github.com/shirayuca/204a9d3a269dc8dde883.js"&gt;&lt;/script&gt;&lt;/p&gt;
@@ -206,93 +273,6 @@
         &lt;ul&gt;
         &lt;li&gt;&lt;a href="http://t-kashima.hateblo.jp/entry/2012/03/11/235755"&gt;http://t-kashima.hateblo.jp/entry/2012/03/11/235755&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="http://www.garunimo.com/program/linux/linux43.xhtml"&gt;http://www.garunimo.com/program/linux/linux43.xhtml&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;
-        &lt;br /&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>かんたん献立シート</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/07/27/recipe.html"/>
-            <id>http://shirayuca.github.io/blog/2014/07/27/recipe.html</id>
-            <published>2014-07-27T04:26:00Z</published>
-            <updated>2014-08-13T17:51:24+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;最近、Googleスプレッドシートの importXML関数にハマっています。いろいろと遊んでいる中で、さらに image関数では画像表示もできることを知りました。それならば、ぜひ画像を表示したい…とあれこれ考えてみて、そうだ、クックパッドのレシピ画像を表示できたらいいな、ということになりました。  &lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;  
-        
-        &lt;p&gt;&lt;a href="https://docs.google.com/spreadsheets/d/1YpToeif_6z-Nb3HXlo5VtG2eMUztlUEdHdzvmk4ebBs/edit?usp=sharing"&gt;&lt;img alt="簡単献立シート" src="http://shirayuca.github.io/blog/2014/07/27/recipe/menusheet.png"&gt;&lt;/a&gt;&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;p&gt;ということで、Googleスプレッドシートにクックパッドのレシピを表示できるようなファイルを作成しました。使い方はとても簡単で、&lt;/p&gt;
-        
-        &lt;ol&gt;
-        &lt;li&gt;クックパッドで毎日のレシピを検索する&lt;/li&gt;
-        &lt;li&gt;検索したレシピのURLをスプレッドシート上のグレーのセルに貼り付ける&lt;/li&gt;
-        &lt;/ol&gt;
-        
-        &lt;p&gt;これだけです。&lt;/p&gt;
-        
-        &lt;p&gt;Googleスプレッドシートは共有も簡単なので、例えば家族とファイルを共有して1週間の献立を一緒に考えたり、あるいは、食材のまとめ買いにも使えそうです。また、シートをコピーして使用していけば、毎週の献立を保存しておくこともできるので、あの日のメニューもすぐに思い出せます。よかったら、ぜひ使ってみてください。  &lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;p&gt;最初に使用する際は、[ファイル]→[コピーを作成]で、自分のGoogle Drive にコピーしてください。  &lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="https://docs.google.com/spreadsheets/d/1YpToeif_6z-Nb3HXlo5VtG2eMUztlUEdHdzvmk4ebBs/edit?usp=sharing"&gt;かんたん献立シート&lt;/a&gt;
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h5 id="googleスプレッドシート上で使用した関数"&gt;Googleスプレッドシート上で使用した関数&lt;/h5&gt;
-        
-        &lt;p&gt;Googleスプレッドシート上のB列を例に、以下に説明します。&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;p&gt;B2セル&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;クックパッドのレシピURLを入力&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;p&gt;B3セル&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;レシピの画像URLを取得（シート上では非表示）
-        &lt;code&gt;=importxml(B2,&amp;quot;//img[@class=&amp;#39;analytics_tracking photo large_photo_clickable&amp;#39;]/@src&amp;quot;)
-        &lt;/code&gt;&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;p&gt;B4セル&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;レシピのタイトルを取得
-        &lt;code&gt;=importxml(B2,&amp;quot;//h1&amp;quot;)
-        &lt;/code&gt;&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;p&gt;B5セル&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;B3セルで取得した画像URLを表示
-        &lt;code&gt;=image(B3,4,150,150)
-        &lt;/code&gt;&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;p&gt;B6セル&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;レシピの材料を取得、行列入れ替えで表示
-        &lt;code&gt;=TRANSPOSE(importxml(B2,&amp;quot;//*[@id=&amp;#39;ingredients_list&amp;#39;]&amp;quot;))
-        &lt;/code&gt;
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
         &lt;/ul&gt;
         
         &lt;p&gt;&lt;br /&gt;

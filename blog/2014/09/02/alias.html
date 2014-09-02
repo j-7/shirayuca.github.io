@@ -3,12 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta content="IE=edge;chrome=1" http-equiv="X-UA-Compatible" />
-    <title>shirayuca.github.io | Markdown で画像へのハイパーリンク付与</title>
+    <title>shirayuca.github.io | ターミナルでコマンドの省略</title>
     <meta content="<p><br></p>
 
-<p>Markdown でブログを書くのはとても簡単ですが、画像にハイパーリンクを張れないのが不便だな、と感じていました。そんなときは、直接 HTML のタグを書きます。</p>
+<p>ブログのエントリを作成する際、いつもターミナルを立ち上げ、 </p>
 
-<pre><code>&lt;p&gt;&lt;a href=...</code></pre>" name="description" />
+<pre><code>cd /Users/yuca/dev/...
+</code></pre>
+
+<p>と打ち込んでいたのですが、大変面倒なので、省略するコマンドを作りました。</p>
+
+" name="description" />
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" /><!--[if lt IE 9]><script src="../../../../js/ie8.js" type="text/javascript"></script><![endif]--><link href="../../../../css/all.css" media="screen" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -56,18 +61,57 @@
 </div>
 <div class="col-lg-9 col-md-9">
   <h1>
-    Markdown で画像へのハイパーリンク付与
+    ターミナルでコマンドの省略
   </h1>
   <hr />
   <p>
-    <span class="glyphicon glyphicon-time"></span> Posted on Aug  4
+    <span class="glyphicon glyphicon-time"></span> Posted on Sep  2
   </p>
   <hr /><p><br /></p>
 
-<p>Markdown でブログを書くのはとても簡単ですが、画像にハイパーリンクを張れないのが不便だな、と感じていました。そんなときは、直接 HTML のタグを書きます。</p>
+<p>ブログのエントリを作成する際、いつもターミナルを立ち上げ、 </p>
 
-<pre><code>&lt;p&gt;&lt;a href=&quot;…&quot;&gt;&lt;img alt=&quot;…&quot; src=&quot;…&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+<pre><code>cd /Users/yuca/dev/...
 </code></pre>
+
+<p>と打ち込んでいたのですが、大変面倒なので、省略するコマンドを作りました。</p>
+
+<p><br></p>
+
+<h4 id="コマンド作成の流れ">コマンド作成の流れ</h4>
+
+<p>.bashrc ファイルを開く。</p>
+
+<pre><code>$ emacs ~/.bashrc
+</code></pre>
+
+<p>.bashrc ファイル内に、<code>alias エイリアス名=’コマンド’</code> を記述。</p>
+
+<pre><code>alias blog=’cd /Users/yuca/dev/shirayuca.github.io/source/blog/posts’
+</code></pre>
+
+<p>.bash_profile ファイルを開く。</p>
+
+<pre><code>$ emacs ~/.bash_profile
+</code></pre>
+
+<p>.bash_profile ファイル内に、<code>source .bashrc</code> の1行を追加。</p>
+
+<p>下記のコマンドで変更を反映する。</p>
+
+<pre><code>$ source ~/.bash_profile
+</code></pre>
+
+<p>これで、ターミナル上で <code>blog</code> と打てば、すぐにブログの .md ファイルがあるディレクトリに移動できます。</p>
+
+<p><br></p>
+
+<h4 id="参考url">参考URL</h4>
+
+<ul>
+<li><a href="http://laugh-raku.com/archives/2905">http://laugh-raku.com/archives/2905</a></li>
+<li><a href="http://www.atmarkit.co.jp/ait/articles/0203/12/news001_2.html">http://www.atmarkit.co.jp/ait/articles/0203/12/news001_2.html</a></li>
+</ul>
 
 <p><br />
 <br /></p>

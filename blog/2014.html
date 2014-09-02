@@ -28,6 +28,38 @@
 </h1>
 <ul>
   <h2>
+    <a href="/blog/2014/09/02/alias.html">ターミナルでコマンドの省略</a>
+  </h2>
+  <p>
+    <small class="label label-default">mac</small>
+  </p>
+  <hr />
+  <p>
+    <span class="glyphicon glyphicon-time"></span> Posted on Sep  2
+  </p>
+  <hr /><p><br></p>
+
+<p>ブログのエントリを作成する際、いつもターミナルを立ち上げ、 </p>
+
+<pre><code>cd /Users/yuca/dev/...
+</code></pre>
+
+<p>と打ち込んでいたのですが、大変面倒なので、省略するコマンドを作りました。</p>
+
+<p><br></p>
+
+<h4 id="コマンド作成の流れ">コマンド作成の流れ</h4>
+
+<p>.bashrc ファイルを開く。</p>
+
+<pre><code>$ emacs ~/.bashrc
+</code></pre>
+
+<p>.bashrc ファイル内に、<code>alias エイリアス名=’コマンド’</code> を記述。</p>
+
+<pre><code>alias blog=’cd /Users/yuca/dev/shirayuca.github.io/source/blog...</code></pre><a class="btn btn-primary" href="/blog/2014/09/02/alias.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
+  <hr />
+  <h2>
     <a href="/blog/2014/08/31/3graphs.html">木・格子・ランダムグラフの描画と平均経路長算出</a>
   </h2>
   <p>
@@ -38,6 +70,8 @@
     <span class="glyphicon glyphicon-time"></span> Posted on Aug 31
   </p>
   <hr />
+  <p><br /></p>
+  
   <p>R で木グラフ、格子グラフ、ランダムグラフの描画と平均経路長を算出するためのコードです。</p>
   
   <p><br /></p>
@@ -68,11 +102,13 @@
     <span class="glyphicon glyphicon-time"></span> Posted on Aug 13
   </p>
   <hr />
+  <p><br></p>
+  
   <p>札幌学院大学にて開催された、 PCカンファレンスに参加してきました。PCカンファレンスは、教育と学びにおけるコンピュータおよびネットワークの利用に関する学会で、今回私は、情報リテラシー系の科目に関するポスター発表をしてきました。</p>
   
   <ul>
   <li><a href="http://gakkai.univcoop.or.jp/pcc/2014/papers/pdf/pcc115.pdf">Excel 演習授業における反転授業のための補助教材の作成</a></li>
-  </ul><p>Excel演習授業では、本来の目的である「リテラシーを体得し、各々の目的に応じて活用する」に到達する以前に、演習をこなすことで精一杯になってしまうことがあります。そのため、事前学習用の教材を作成した、と...</p><a class="btn btn-primary" href="/blog/2014/08/13/14pcc.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
+  </ul><p>Excel演習授業では、本来の目的である「リテラシーを体得し、各々の目的に応じて活用する」に到達する以前に、演習をこなすことで精一杯になってしまうことがあります。そのため、事前学習用の教材を作成した...</p><a class="btn btn-primary" href="/blog/2014/08/13/14pcc.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
   <hr />
   <h2>
     <a href="/blog/2014/08/04/yahoo.html">Googleスプレッドシート上で形態素解析</a>
@@ -85,6 +121,8 @@
     <span class="glyphicon glyphicon-time"></span> Posted on Aug  4
   </p>
   <hr />
+  <p><br></p>
+  
   <p>形態素解析は、一昔前に比べると随分と導入が楽になったと感じます。一方で、「今後ばりばりテキストマイニングをしていくかどうかはわからないけれど、とりあえず試しに形態素解析をやってみたい」という人にとっては、環境構築など、面倒なことも少なくないかな、とも思います。そこで、Googleスプレッドシート上で形態素解析ができたら第一歩が気軽に踏み出せるのではないか、と考えました。</p>
   
   <p>使用するのは、</p>
@@ -96,7 +134,7 @@
   
   <p><br></p>
   
-  <h5 id="日本語形態素解析apiの利用">日本語形態素解析API...</h5><a class="btn btn-primary" href="/blog/2014/08/04/yahoo.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
+  <h4 id="日本語形態素解析apiの利用">日本語形態素...</h4><a class="btn btn-primary" href="/blog/2014/08/04/yahoo.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
   <hr />
   <h2>
     <a href="/blog/2014/08/04/imagelink.html">Markdown で画像へのハイパーリンク付与</a>
@@ -130,6 +168,8 @@
     <span class="glyphicon glyphicon-time"></span> Posted on Jul 27
   </p>
   <hr />
+  <p><br></p>
+  
   <p>ふと、「各都道府県 AND ラーメン」で検索した画像一覧があったらおもしろいんじゃないか、と思いました。そこで、「都道府県名 AND ラーメン」のGoogleの画像検索のトップを抽出する Google Apps Script を作成しました。</p>
   
   <ul>
@@ -140,14 +180,14 @@
   
   <p><br></p>
   
-  <h5 id="googleスプレッドシート上での関数等">Googleスプレッドシート上での関数等</h5>
+  <h4 id="googleスプレッドシート上での関数等">Googleスプレッドシート上での関数等</h4>
   
   <p>下記のように関数を作成し、「各都道府県名 AND ラーメン」というキーワードを引数としてURLを取得し、その後該当URLの画像を表示しています。
   <script src="https://gist.github.com/shirayuca/204a9d3a269dc8dde883.js"></script></p>
   
   <p><br></p>
   
-  <p>こちらのスク...</p><a class="btn btn-primary" href="/blog/2014/07/27/googleimage.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
+  <p>こちらの...</p><a class="btn btn-primary" href="/blog/2014/07/27/googleimage.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
   <hr />
   <h2>
     <a href="/blog/2014/07/27/recipe.html">かんたん献立シート</a>
@@ -160,6 +200,8 @@
     <span class="glyphicon glyphicon-time"></span> Posted on Jul 27
   </p>
   <hr />
+  <p><br></p>
+  
   <p>最近、Googleスプレッドシートの importXML関数にハマっています。いろいろと遊んでいる中で、さらに image関数では画像表示もできることを知りました。それならば、ぜひ画像を表示したい…とあれこれ考えてみて、そうだ、クックパッドのレシピ画像を表示できたらいいな、ということになりました。  </p>
   
   <p><br></p>  
@@ -170,10 +212,7 @@
   
   <p>ということで、Googleスプレッドシートにクックパッドのレシピを表示できるようなファイルを作成しました。使い方はとても簡単で、</p>
   
-  <ol>
-  <li>クックパッドで毎日のレシピを検索する</li>
-  <li>検...</li>
-  </ol><a class="btn btn-primary" href="/blog/2014/07/27/recipe.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
+  <ol><li>クックパッドで毎日のレシピを検索する</li></ol><a class="btn btn-primary" href="/blog/2014/07/27/recipe.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
   <hr />
   <h2>
     <a href="/blog/2014/07/16/14theme.html">2014年度春学期のテーマ一覧</a>
@@ -191,7 +230,7 @@
   <p>データ分析に関して、2014年度春学期に手を付けた／これから手を付けたいテーマの一覧です。GoogleAppsScriptでデータを取得し、Googleスプレッドシート上で分析するサイクルをまわしていけたらいいな、と思っています。このページは個人的な備忘録として使用しているため、適宜更新しています。
   </p><p><br></p>
   
-  <h5 id="ソーシャルデータ">ソーシャルデータ</h5>
+  <h4 id="ソーシャルデータ">ソーシャルデータ</h4>
   
   <ul>
   <li>みんなのウェディング</li>
@@ -201,7 +240,7 @@
   <li>twitter </li>
   </ul><p><br></p>
   
-  <h5 id="アンケート調査">アンケート調査</h5>
+  <h4 id="アンケート調査">アンケート調査</h4>
   
   <ul>
   <li>ペットボトル飲料</li>
@@ -220,7 +259,9 @@
   <p>
     <span class="glyphicon glyphicon-time"></span> Posted on Jul  8
   </p>
-  <hr /><p>ブログのエントリ作成方法のメモです。このブログは、shirayuca.github.io 上に Middleman で作っています。ローカルでは、エントリは、
+  <hr /><p><br></p>
+
+<p>ブログのエントリ作成方法のメモです。このブログは、shirayuca.github.io 上に Middleman で作っています。ローカルでは、エントリは、
 <code>/Users/yuca/dev/shirayuca.github.io/source/blog/posts</code>
 に置いています。</p>
 
@@ -229,7 +270,7 @@
 </ul><pre><code>bundle exec middleman article TITLE
 </code></pre>
 
-<ul><li>すると、 下記のようにタイトルなどの情報が入った...</li></ul><a class="btn btn-primary" href="/blog/2014/07/08/how-to-post.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
+<ul><li>すると、 下記のようにタイトルなどの情報が入...</li></ul><a class="btn btn-primary" href="/blog/2014/07/08/how-to-post.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
   <hr />
   <h2>
     <a href="/blog/2014/05/04/first-post.html">first-post</a>
@@ -241,6 +282,8 @@
     <span class="glyphicon glyphicon-time"></span> Posted on May  4
   </p>
   <hr />
+  <p><br /></p>
+  
   <p>ブログを始めます。</p>
   
   <p><br />

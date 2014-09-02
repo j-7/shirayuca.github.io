@@ -4,7 +4,9 @@
     <meta charset="utf-8" />
     <meta content="IE=edge;chrome=1" http-equiv="X-UA-Compatible" />
     <title>shirayuca.github.io | Googleスプレッドシート上で形態素解析</title>
-    <meta content="<p>形態素解析は、一昔前に比べると随分と導入が楽になったと感じます。一方で、「今後ばりばりテキストマイニングをしていくかどうかはわからないけれど、とりあえず試しに形態素解析をやってみたい」という人に...</p>" name="description" />
+    <meta content="<p><br></p>
+
+<p>形態素解析は、一昔前に比べると随分と導入が楽になったと感じます。一方で、「今後ばりばりテキストマイニングをしていくかどうかはわからないけれど、とりあえず試しに形態素解析をやってみたい」という...</p>" name="description" />
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" /><!--[if lt IE 9]><script src="../../../../js/ie8.js" type="text/javascript"></script><![endif]--><link href="../../../../css/all.css" media="screen" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -44,6 +46,9 @@
       <li>
         <a href="/blog/tags/ネットワーク分析.html">ネットワーク分析</a> (1)
       </li>
+      <li>
+        <a href="/blog/tags/mac.html">mac</a> (1)
+      </li>
     </ul>
   </div>
 </div>
@@ -55,7 +60,9 @@
   <p>
     <span class="glyphicon glyphicon-time"></span> Posted on Aug  4
   </p>
-  <hr /><p>形態素解析は、一昔前に比べると随分と導入が楽になったと感じます。一方で、「今後ばりばりテキストマイニングをしていくかどうかはわからないけれど、とりあえず試しに形態素解析をやってみたい」という人にとっては、環境構築など、面倒なことも少なくないかな、とも思います。そこで、Googleスプレッドシート上で形態素解析ができたら第一歩が気軽に踏み出せるのではないか、と考えました。</p>
+  <hr /><p><br /></p>
+
+<p>形態素解析は、一昔前に比べると随分と導入が楽になったと感じます。一方で、「今後ばりばりテキストマイニングをしていくかどうかはわからないけれど、とりあえず試しに形態素解析をやってみたい」という人にとっては、環境構築など、面倒なことも少なくないかな、とも思います。そこで、Googleスプレッドシート上で形態素解析ができたら第一歩が気軽に踏み出せるのではないか、と考えました。</p>
 
 <p>使用するのは、</p>
 
@@ -68,7 +75,7 @@
 
 <p><br /></p>
 
-<h5 id="日本語形態素解析apiの利用">日本語形態素解析APIの利用</h5>
+<h4 id="日本語形態素解析apiの利用">日本語形態素解析APIの利用</h4>
 
 <p>まず、Yahoo!デベロッパーネットワークにて、アプリケーションIDを取得します。やり方は、下記のブログが参考になります。</p>
 
@@ -78,7 +85,7 @@
 
 <p><br /></p>
 
-<h5 id="スプレッドシートの作成">スプレッドシートの作成</h5>
+<h4 id="スプレッドシートの作成">スプレッドシートの作成</h4>
 
 <p>続いて、Googleスプレッドシートを作成し、メニューから<code>ツール &gt; スクリプトエディタ</code>を選択します。その後、下記のコードを入力してください。アプリケーションIDは、上記で取得したものを用いてください。</p>
 
@@ -94,7 +101,7 @@
 
 <p><br /></p>
 
-<h5 id="参考url">参考URL</h5>
+<h4 id="参考url">参考URL</h4>
 
 <ul>
 <li><a href="http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html">http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html</a></li>
