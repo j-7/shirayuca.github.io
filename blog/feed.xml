@@ -40,7 +40,7 @@
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/09/02/watts-strogatz.html"/>
             <id>http://shirayuca.github.io/blog/2014/09/02/watts-strogatz.html</id>
             <published>2014-09-02T12:14:00Z</published>
-            <updated>2014-09-02T21:34:20+09:00</updated>
+            <updated>2014-09-02T23:04:28+09:00</updated>
             <author>
               <name>Article Author</name>
             </author>
@@ -68,7 +68,7 @@
         
         &lt;h4 id="クラスター係数と平均経路長の変化"&gt;クラスター係数と平均経路長の変化&lt;/h4&gt;
         
-        &lt;p&gt;上記で100回繰り返した結果について、 p = 0 の値で割った、初期値に対する日の変化として片対数グラフを作成します。&lt;/p&gt;
+        &lt;p&gt;上記で100回繰り返した結果について、 p = 0 の値で割った、初期値に対する比の変化として片対数グラフを作成します。&lt;/p&gt;
         
         &lt;script src="https://gist.github.com/shirayuca/5ea82d0a31dd7b35650a.js"&gt;&lt;/script&gt;
         
