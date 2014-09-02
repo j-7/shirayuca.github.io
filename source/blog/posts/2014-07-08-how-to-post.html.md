@@ -4,6 +4,7 @@ date: 2014-07-08 20:18 JST
 tags: ブログ
 ---
 
+<br />
 
 ブログのエントリ作成方法のメモです。このブログは、shirayuca.github.io 上に Middleman で作っています。ローカルでは、エントリは、
 ```/Users/yuca/dev/shirayuca.github.io/source/blog/posts```
