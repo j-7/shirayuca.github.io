@@ -12,6 +12,7 @@ def page_description
 
   if current_article && current_article.summary(100)
     description = current_article.summary(100)
+    description = '' # current_article.summary(100) に HTML タグが含まれてしまう。よくわからないので、空文字にする
   end
 
   description
