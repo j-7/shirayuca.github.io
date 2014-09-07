@@ -31,10 +31,46 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2014-09-02T12:14:00Z</updated>
+          <updated>2014-09-07T10:49:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>「つながり」を突き止めろ　入門！ネットワーク・サイエンス (安田雪)</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/09/07/yasuda.html"/>
+            <id>http://shirayuca.github.io/blog/2014/09/07/yasuda.html</id>
+            <published>2014-09-07T10:49:00Z</published>
+            <updated>2014-09-07T20:22:23+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;a href="http://www.amazon.co.jp/gp/product/4334035884/ref=as_li_ss_il?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=4334035884&amp;linkCode=as2&amp;tag=shirayuca-22"&gt;&lt;img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=4334035884&amp;Format=_SL160_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=shirayuca-22" &gt;&lt;/a&gt;&lt;img src="http://ir-jp.amazon-adsystem.com/e/ir?t=shirayuca-22&amp;l=as2&amp;o=9&amp;a=4334035884" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;ネットワーク分析の入門的な書籍です。この書籍のいいところは、実例をふんだんに扱っている点と、多くの先人達に関する逸話(小話？)が盛り込まれている点です。より楽しむためには、ネットワーク分析のはじめの一歩として読むよりも、バラバシ『新ネットワーク思考』や増田・今野『「複雑ネットワーク」とは何か』など、他の入門書や啓蒙書を読んでからの方が、より理解が広がるのではないかと思います。ネットワーク分析のインデックスとしても活用できます。&lt;/p&gt;
+        
+        &lt;p&gt;書籍の中で紹介されていた実例と関係の深いニュースやページのURLを以下にメモしておきます。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://news.livedoor.com/article/detail/7164747/"&gt;前CIA長官が使った不倫の手口&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://www.ifinance.ne.jp/glossary/world/wor018.html"&gt;エンロン事件&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://r25.yahoo.co.jp/fushigi/wxr_detail/?id=20130323-00028749-r25"&gt;レス時間で相手の好意度を読む方法&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://corp.gree.net/jp/ja/corporate/origin/"&gt;始まりと由来　グリー株式会社(GREE, Inc).&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=88inOjgMxRo"&gt;ソーシャル・ネットワーク(映画)&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=o1sjR1TtmA8"&gt;AC AIDS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://oracleofbacon.org/"&gt;The Oracle of Bacon&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;書籍の中で紹介されていたり、関連がある参考文献を以下にメモしておきます。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://www.amazon.co.jp/%E5%8F%8B%E6%83%85%E3%81%AE%E7%A4%BE%E4%BC%9A%E5%AD%A6-SEKAISHISO-SEMINAR-G-%E3%82%A2%E3%83%A9%E3%83%B3/dp/4790704610"&gt;G.アラン『友情の社会学』&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://merc.e.u-tokyo.ac.jp/mmrc/dp/pdf/MMRC100_2006.pdf"&gt;勝又・安田(2006)「見えない連鎖 ―カレシの元カノの元カレを知っていますか？― 」&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://ci.nii.ac.jp/naid/10022008079"&gt;松尾・安田(2007)「SNSにおける関係形成原理 : mixi のデータ分析」&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>watts.strogatz.game でスモールワールド・シミュレーション</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/09/02/watts-strogatz.html"/>
@@ -263,26 +299,6 @@
         &lt;li&gt;&lt;a href="http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html"&gt;http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="http://ysklog.net/php/1581.html"&gt;http://ysklog.net/php/1581.html&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;
-        &lt;br /&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>Markdown で画像へのハイパーリンク付与</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/08/04/imagelink.html"/>
-            <id>http://shirayuca.github.io/blog/2014/08/04/imagelink.html</id>
-            <published>2014-08-04T12:52:00Z</published>
-            <updated>2014-09-02T11:03:49+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;p&gt;Markdown でブログを書くのはとても簡単ですが、画像にハイパーリンクを張れないのが不便だな、と感じていました。そんなときは、直接 HTML のタグを書きます。&lt;/p&gt;
-        
-        &lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;…&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;…&amp;quot; src=&amp;quot;…&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
-        &lt;/code&gt;&lt;/pre&gt;
         
         &lt;p&gt;&lt;br /&gt;
         &lt;br /&gt;&lt;/p&gt;
