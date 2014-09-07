@@ -48,12 +48,157 @@
         <a href="/blog/tags/mac.html">mac</a> (1)
       </li>
       <li>
+        <a href="/blog/tags/データ.html">データ</a> (1)
+      </li>
+      <li>
         <a href="/blog/tags/参考文献.html">参考文献</a> (1)
       </li>
     </ul>
   </div>
 </div>
 <div class="col-lg-9 col-md-9"><h1>
+  <a href="/blog/2014/09/07/twitter-data.html">GoogleスプレッドシートでTwitter検索結果のデータ収集</a>
+</h1>
+<hr />
+<p>
+  <span class="glyphicon glyphicon-time"></span> Posted on Sep  7
+</p>
+<hr /><p><br /></p>
+
+<p>Googleスプレッドシートを使って、任意のキーワードでTwitter検索をした結果のデータを収集します。最初の設定に少しだけ手間がかかりますが、1度設定すれば、あとは勝手にデータを収集し続けてくれるので、お手軽で便利です。作成は基本的に、下記のブログで紹介されているスクリプトをベースとしており、そこから特定セルに検索キーワードを入れるなどの加工を行っています。大変お世話になりました、ありがとうございます。</p>
+
+<ul>
+<li><a href="http://blog.hika69.com/blog/2014/01/28/google-apps-script/">http://blog.hika69.com/blog/2014/01/28/google-apps-script/</a></li>
+</ul>
+
+<p><img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter1.png"></p>
+
+<p><br /></p>
+
+<h4 id="手順">手順</h4>
+
+<ol>
+<li>Twitterアプリの作成</li>
+<li>GoogleスプレッドシートとTwitterアプリの連携</li>
+<li>Googleスプレッドシートでスクリプトの編集</li>
+<li>データのフィルタリングや集計</li>
+</ol>
+
+<p><br /></p>
+
+<h4 id="1.-twitterアプリの作成">1. Twitterアプリの作成</h4>
+
+<p><a href="https://dev.twitter.com/">Twitter Developers</a>の<a href="https://apps.twitter.com">Twitter Application Management</a>にてアプリケーションを作成し、データ収集に必要なAPIキー等を取得します。私は下記のように入力しました。</p>
+
+<ul>
+<li>Name: for GoogleAppsScript(任意の名前)</li>
+<li>Description: GoogleAppsScriptから利用します(任意の説明)</li>
+<li>Website: <a href="http://shirayuca.github.io/">http://shirayuca.github.io/</a> (任意のURL)</li>
+<li>Callback URL: <a href="https://spreadsheets.google.com/macros">https://spreadsheets.google.com/macros</a> (左記と同じように入力)</li>
+</ul>
+
+<p>作成すると、<code>API key</code>と<code>API secret</code>が発行されます。</p>
+
+<p><br /></p>
+
+<h4 id="2.-googleスプレッドシートとtwitterアプリの連携">2. GoogleスプレッドシートとTwitterアプリの連携</h4>
+
+<p>任意の名前でGoogleスプレッドシートを作成します。その後、メニューバーから<code>ツール &gt; スクリプトエディタ</code>を選択します。ここでも任意のプロジェクト名をつけてください。</p>
+
+<p>続いて、スクリプトエディタのメニューバーから<code>リソース &gt; ライブラリ</code>を選択し、「ライブラリを検索」に<code>MHGYgT-unu1fC7zXOkNfBUVSHJARy_IP7</code>と入力します。その後、選択ボタンを押して、Twitterのライブラリが表示されたら、バージョンを「1」として保存します。</p>
+
+<p><img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter2.png"></p>
+
+<p>その後、スクリプトエディタのメニューバーから<code>ファイル &gt; プロジェクトのプロパティ</code>を選択し、ユーザープロパティのタブで、Twitterアプリ作成時に発行された<code>API key</code>と<code>API secret</code>を下記のように入力します。入力し終えたら、保存します。</p>
+
+<ul>
+<li><code>TWITTER_CONSUMER_KEY</code> に <code>API key</code></li>
+<li><code>TWITTER_CONSUMER_SECRET</code> に <code>API secret</code></li>
+</ul>
+
+<p><br /></p>
+
+<h4 id="3.-googleスプレッドシートでスクリプトの編集">3. Googleスプレッドシートでスクリプトの編集</h4>
+
+<p>コード.gs上に、下記のGistスクリプトをコピーし、保存してください。</p>
+
+<ul>
+<li><a href="https://gist.github.com/shirayuca/88c309c168052d35d29d">https://gist.github.com/shirayuca/88c309c168052d35d29d</a></li>
+</ul>
+
+<p>スプレッドシートに戻り、A1に検索キーワードを入力してください。データは、4行目以降(A4セル以降)に出力されます。そのため、下表のように、3行目のA3セルからF3列に、適宜列名を付与するといいでしょう。</p>
+
+<table><thead>
+<tr>
+<th>セル</th>
+<th>列名</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>A3</td>
+<td>ID</td>
+</tr>
+<tr>
+<td>B3</td>
+<td>日時</td>
+</tr>
+<tr>
+<td>C3</td>
+<td>tweet</td>
+</tr>
+<tr>
+<td>D3</td>
+<td>tweetURL</td>
+</tr>
+<tr>
+<td>E3</td>
+<td>USER</td>
+</tr>
+<tr>
+<td>F3</td>
+<td>tweet内URL</td>
+</tr>
+</tbody></table>
+
+<p><img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter3.png"></p>
+
+<p>その後、スクリプトエディタに戻り、メニューバーから<code>実行 &gt; myFunction</code>で、スクリプトを実行します。初回実行時のみ、色々な承認のアラートが出るので、OKとしてください。</p>
+
+<p>定期的に検索し、データを蓄積していきたい場合は、スクリプトエディタのメニューバーから<code>リソース &gt; すべてのトリガー</code>に移動し、「新しいトリガーを追加」して、myFunctionを定期的に実行するタイマーを指定します。下記の画像の例では、30分ごとに検索を行っています。トリガーの初回起動時にも承認アラーとが出るので、OKとしてください。</p>
+
+<p><img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter4.png"></p>
+
+<p><br /></p>
+
+<h4 id="4.-データのフィルタリングや集計">4. データのフィルタリングや集計</h4>
+
+<p>収集したデータは、適宜フィルタリングや加工を行うことで、より扱いやすくなります。簡単な例を下記のスプレッドシートにまとめました。下記のシートは、データをある程度収集した後、値のみを貼付けて、今回のフィルタリングや集計をわかりやすく説明するために作成した例です。実際にスクリプトを定期的に動かし続けている場合には、集計データもリアルタイムに変更されます。今回は、「ミューズリー」という検索キーワードを設定しています。</p>
+
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/1bDv7IbcHYRt8OFHs5SoSiGIY_mIcjugS2qlvEeum1bA/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1bDv7IbcHYRt8OFHs5SoSiGIY_mIcjugS2qlvEeum1bA/edit?usp=sharing</a></li>
+</ul>
+
+<p>収集したtweetに特定の文字列が含まれているかどうかを確認したい場合には、下図のように、任意の列を作成し、その文字列を含んでいる場合に「1」というフラグを立てます。例として、H4セルには<code>=countif($F4,&quot;*&quot;&amp;H$3&amp;&quot;*&quot;)</code>と入力しています。これは、tweet内URLを表示しているF列に、H3セル「pic」を含んでいるか否かを判定するものです。(tweet本文では、URLは全て短縮URLt.coで表示されるため、別途本文内URL列を作っています。)</p>
+
+<p><img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter5.png"></p>
+
+<p>また、新しいシートを作成し、本文内URLのみの一覧を表示することも簡単です(「URLのフィルタ」シート参照)。スプレッドシートのFILTER関数を用いて、<code>=filter(&#39;シート1&#39;!F:F,&#39;シート1&#39;!K:K=1)</code>のように条件をつけると、データのあるシート1上のF列に関して、先ほど「1」というフラグを立てた行の本文内URLのみを表示できます。本文内URLのみの一覧は、Amazonへのリンクがどれくらいあるか、その内容はどのようなものかを確認したい際などに役立ちそうです。</p>
+
+<p><img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter6.png"></p>
+
+<p>同様に、FILTER関数を用いて、特定のキーワードを含むtweetの一覧のみを別途表示することも可能です(「発言のフィルタ(ダイエット)」参照)。</p>
+
+<p><img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter7.png"></p>
+
+<p>また、特定の文字列がどの程度出現しているかのグラフを作成することもできます(「具材のグラフ」シート参照)。シート1にて、特定の文字列を含んでいる場合に「1」としたため、それを合計すれば、出現頻度となります。下記の例では、ミューズリーと合わせる具材は何が人気かがわかります。</p>
+
+<p><img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter8.png"></p>
+
+<p>集計方法に関しては、月別の集計や推移など、色々な観点で行うことができそうです。</p>
+
+<p><br /></p>
+
+<hr /><h1>
   <a href="/blog/2014/09/07/yasuda.html">安田雪(2010)『「つながり」を突き止めろ　入門！ネットワーク・サイエンス 』</a>
 </h1>
 <hr />
@@ -445,56 +590,6 @@
 </code>
 <p><br /></p></li>
 </ul></li>
-</ul>
-
-<p><br />
-<br /></p>
-
-<hr /><h1>
-  <a href="/blog/2014/07/16/14theme.html">2014年度春学期のテーマ一覧</a>
-</h1>
-<hr />
-<p>
-  <span class="glyphicon glyphicon-time"></span> Posted on Jul 16
-</p>
-<hr />
-<p><br /></p>
-
-<p>データ分析に関して、2014年度春学期に手を付けた／これから手を付けたいテーマの一覧です。GoogleAppsScriptでデータを取得し、Googleスプレッドシート上で分析するサイクルをまわしていけたらいいな、と思っています。このページは個人的な備忘録として使用しているため、適宜更新しています。
-<p><br /></p></p>
-
-<h4 id="ソーシャルデータ">ソーシャルデータ</h4>
-
-<ul>
-<li>みんなのウェディング</li>
-<li>NAVERまとめ</li>
-<li>食べログ</li>
-<li>GitHub</li>
-<li>twitter </li>
-</ul>
-
-<p><br /></p>
-
-<h4 id="アンケート調査">アンケート調査</h4>
-
-<ul>
-<li>ペットボトル飲料</li>
-<li>B級グルメ</li>
-<li>マクドナルドのメニュー</li>
-<li>ガム・のど飴</li>
-<li>東京のお出かけスポット</li>
-<li>深夜バラエティ番組</li>
-<li>ドラえもんのひみつ道具</li>
-<li>昔話</li>
-</ul>
-
-<p><br /></p>
-
-<h4 id="その他">その他</h4>
-
-<ul>
-<li>ジャニーズの歌詞</li>
-<li>アイドルの歌詞（ハロプロ、AKB、おニャン子）</li>
 </ul>
 
 <p><br />

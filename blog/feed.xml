@@ -31,10 +31,155 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2014-09-07T10:49:00Z</updated>
+          <updated>2014-09-07T14:12:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>GoogleスプレッドシートでTwitter検索結果のデータ収集</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/09/07/twitter-data.html"/>
+            <id>http://shirayuca.github.io/blog/2014/09/07/twitter-data.html</id>
+            <published>2014-09-07T14:12:00Z</published>
+            <updated>2014-09-08T01:02:43+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;Googleスプレッドシートを使って、任意のキーワードでTwitter検索をした結果のデータを収集します。最初の設定に少しだけ手間がかかりますが、1度設定すれば、あとは勝手にデータを収集し続けてくれるので、お手軽で便利です。作成は基本的に、下記のブログで紹介されているスクリプトをベースとしており、そこから特定セルに検索キーワードを入れるなどの加工を行っています。大変お世話になりました、ありがとうございます。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://blog.hika69.com/blog/2014/01/28/google-apps-script/"&gt;http://blog.hika69.com/blog/2014/01/28/google-apps-script/&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter1.png"&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="手順"&gt;手順&lt;/h4&gt;
+        
+        &lt;ol&gt;
+        &lt;li&gt;Twitterアプリの作成&lt;/li&gt;
+        &lt;li&gt;GoogleスプレッドシートとTwitterアプリの連携&lt;/li&gt;
+        &lt;li&gt;Googleスプレッドシートでスクリプトの編集&lt;/li&gt;
+        &lt;li&gt;データのフィルタリングや集計&lt;/li&gt;
+        &lt;/ol&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="1.-twitterアプリの作成"&gt;1. Twitterアプリの作成&lt;/h4&gt;
+        
+        &lt;p&gt;&lt;a href="https://dev.twitter.com/"&gt;Twitter Developers&lt;/a&gt;の&lt;a href="https://apps.twitter.com"&gt;Twitter Application Management&lt;/a&gt;にてアプリケーションを作成し、データ収集に必要なAPIキー等を取得します。私は下記のように入力しました。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;Name: for GoogleAppsScript(任意の名前)&lt;/li&gt;
+        &lt;li&gt;Description: GoogleAppsScriptから利用します(任意の説明)&lt;/li&gt;
+        &lt;li&gt;Website: &lt;a href="http://shirayuca.github.io/"&gt;http://shirayuca.github.io/&lt;/a&gt; (任意のURL)&lt;/li&gt;
+        &lt;li&gt;Callback URL: &lt;a href="https://spreadsheets.google.com/macros"&gt;https://spreadsheets.google.com/macros&lt;/a&gt; (左記と同じように入力)&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;作成すると、&lt;code&gt;API key&lt;/code&gt;と&lt;code&gt;API secret&lt;/code&gt;が発行されます。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="2.-googleスプレッドシートとtwitterアプリの連携"&gt;2. GoogleスプレッドシートとTwitterアプリの連携&lt;/h4&gt;
+        
+        &lt;p&gt;任意の名前でGoogleスプレッドシートを作成します。その後、メニューバーから&lt;code&gt;ツール &amp;gt; スクリプトエディタ&lt;/code&gt;を選択します。ここでも任意のプロジェクト名をつけてください。&lt;/p&gt;
+        
+        &lt;p&gt;続いて、スクリプトエディタのメニューバーから&lt;code&gt;リソース &amp;gt; ライブラリ&lt;/code&gt;を選択し、「ライブラリを検索」に&lt;code&gt;MHGYgT-unu1fC7zXOkNfBUVSHJARy_IP7&lt;/code&gt;と入力します。その後、選択ボタンを押して、Twitterのライブラリが表示されたら、バージョンを「1」として保存します。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter2.png"&gt;&lt;/p&gt;
+        
+        &lt;p&gt;その後、スクリプトエディタのメニューバーから&lt;code&gt;ファイル &amp;gt; プロジェクトのプロパティ&lt;/code&gt;を選択し、ユーザープロパティのタブで、Twitterアプリ作成時に発行された&lt;code&gt;API key&lt;/code&gt;と&lt;code&gt;API secret&lt;/code&gt;を下記のように入力します。入力し終えたら、保存します。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;code&gt;TWITTER_CONSUMER_KEY&lt;/code&gt; に &lt;code&gt;API key&lt;/code&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;TWITTER_CONSUMER_SECRET&lt;/code&gt; に &lt;code&gt;API secret&lt;/code&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="3.-googleスプレッドシートでスクリプトの編集"&gt;3. Googleスプレッドシートでスクリプトの編集&lt;/h4&gt;
+        
+        &lt;p&gt;コード.gs上に、下記のGistスクリプトをコピーし、保存してください。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="https://gist.github.com/shirayuca/88c309c168052d35d29d"&gt;https://gist.github.com/shirayuca/88c309c168052d35d29d&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;スプレッドシートに戻り、A1に検索キーワードを入力してください。データは、4行目以降(A4セル以降)に出力されます。そのため、下表のように、3行目のA3セルからF3列に、適宜列名を付与するといいでしょう。&lt;/p&gt;
+        
+        &lt;table&gt;&lt;thead&gt;
+        &lt;tr&gt;
+        &lt;th&gt;セル&lt;/th&gt;
+        &lt;th&gt;列名&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;/thead&gt;&lt;tbody&gt;
+        &lt;tr&gt;
+        &lt;td&gt;A3&lt;/td&gt;
+        &lt;td&gt;ID&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td&gt;B3&lt;/td&gt;
+        &lt;td&gt;日時&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td&gt;C3&lt;/td&gt;
+        &lt;td&gt;tweet&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td&gt;D3&lt;/td&gt;
+        &lt;td&gt;tweetURL&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td&gt;E3&lt;/td&gt;
+        &lt;td&gt;USER&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td&gt;F3&lt;/td&gt;
+        &lt;td&gt;tweet内URL&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/tbody&gt;&lt;/table&gt;
+        
+        &lt;p&gt;&lt;img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter3.png"&gt;&lt;/p&gt;
+        
+        &lt;p&gt;その後、スクリプトエディタに戻り、メニューバーから&lt;code&gt;実行 &amp;gt; myFunction&lt;/code&gt;で、スクリプトを実行します。初回実行時のみ、色々な承認のアラートが出るので、OKとしてください。&lt;/p&gt;
+        
+        &lt;p&gt;定期的に検索し、データを蓄積していきたい場合は、スクリプトエディタのメニューバーから&lt;code&gt;リソース &amp;gt; すべてのトリガー&lt;/code&gt;に移動し、「新しいトリガーを追加」して、myFunctionを定期的に実行するタイマーを指定します。下記の画像の例では、30分ごとに検索を行っています。トリガーの初回起動時にも承認アラーとが出るので、OKとしてください。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter4.png"&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="4.-データのフィルタリングや集計"&gt;4. データのフィルタリングや集計&lt;/h4&gt;
+        
+        &lt;p&gt;収集したデータは、適宜フィルタリングや加工を行うことで、より扱いやすくなります。簡単な例を下記のスプレッドシートにまとめました。下記のシートは、データをある程度収集した後、値のみを貼付けて、今回のフィルタリングや集計をわかりやすく説明するために作成した例です。実際にスクリプトを定期的に動かし続けている場合には、集計データもリアルタイムに変更されます。今回は、「ミューズリー」という検索キーワードを設定しています。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="https://docs.google.com/spreadsheets/d/1bDv7IbcHYRt8OFHs5SoSiGIY_mIcjugS2qlvEeum1bA/edit?usp=sharing"&gt;https://docs.google.com/spreadsheets/d/1bDv7IbcHYRt8OFHs5SoSiGIY_mIcjugS2qlvEeum1bA/edit?usp=sharing&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;収集したtweetに特定の文字列が含まれているかどうかを確認したい場合には、下図のように、任意の列を作成し、その文字列を含んでいる場合に「1」というフラグを立てます。例として、H4セルには&lt;code&gt;=countif($F4,&amp;quot;*&amp;quot;&amp;amp;H$3&amp;amp;&amp;quot;*&amp;quot;)&lt;/code&gt;と入力しています。これは、tweet内URLを表示しているF列に、H3セル「pic」を含んでいるか否かを判定するものです。(tweet本文では、URLは全て短縮URLt.coで表示されるため、別途本文内URL列を作っています。)&lt;/p&gt;
+        
+        &lt;p&gt;&lt;img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter5.png"&gt;&lt;/p&gt;
+        
+        &lt;p&gt;また、新しいシートを作成し、本文内URLのみの一覧を表示することも簡単です(「URLのフィルタ」シート参照)。スプレッドシートのFILTER関数を用いて、&lt;code&gt;=filter(&amp;#39;シート1&amp;#39;!F:F,&amp;#39;シート1&amp;#39;!K:K=1)&lt;/code&gt;のように条件をつけると、データのあるシート1上のF列に関して、先ほど「1」というフラグを立てた行の本文内URLのみを表示できます。本文内URLのみの一覧は、Amazonへのリンクがどれくらいあるか、その内容はどのようなものかを確認したい際などに役立ちそうです。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter6.png"&gt;&lt;/p&gt;
+        
+        &lt;p&gt;同様に、FILTER関数を用いて、特定のキーワードを含むtweetの一覧のみを別途表示することも可能です(「発言のフィルタ(ダイエット)」参照)。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter7.png"&gt;&lt;/p&gt;
+        
+        &lt;p&gt;また、特定の文字列がどの程度出現しているかのグラフを作成することもできます(「具材のグラフ」シート参照)。シート1にて、特定の文字列を含んでいる場合に「1」としたため、それを合計すれば、出現頻度となります。下記の例では、ミューズリーと合わせる具材は何が人気かがわかります。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter8.png"&gt;&lt;/p&gt;
+        
+        &lt;p&gt;集計方法に関しては、月別の集計や推移など、色々な観点で行うことができそうです。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>安田雪(2010)『「つながり」を突き止めろ　入門！ネットワーク・サイエンス 』</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/09/07/yasuda.html"/>
@@ -237,67 +382,6 @@
         &lt;li&gt;&lt;a href="http://gakkai.univcoop.or.jp/pcc/2014/"&gt;2014 PCカンファレンス&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="http://pc.nikkeibp.co.jp/article/news/20140808/1139503/"&gt;教育とICTの学会「PCカンファレンス」が開幕、妹尾CIEC会長理事と熊坂慶應大学教授が基調講演&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="http://pc.nikkeibp.co.jp/article/news/20140810/1139563/"&gt;【2014 PCカンファレンス】約30チームがポスター発表、高校生データサイエンティストやエプロン型コンピュータ&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;
-        &lt;br /&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>Googleスプレッドシート上で形態素解析</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/08/04/yahoo.html"/>
-            <id>http://shirayuca.github.io/blog/2014/08/04/yahoo.html</id>
-            <published>2014-08-04T13:23:00Z</published>
-            <updated>2014-09-02T11:04:04+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;p&gt;形態素解析は、一昔前に比べると随分と導入が楽になったと感じます。一方で、「今後ばりばりテキストマイニングをしていくかどうかはわからないけれど、とりあえず試しに形態素解析をやってみたい」という人にとっては、環境構築など、面倒なことも少なくないかな、とも思います。そこで、Googleスプレッドシート上で形態素解析ができたら第一歩が気軽に踏み出せるのではないか、と考えました。&lt;/p&gt;
-        
-        &lt;p&gt;使用するのは、&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;Googleスプレッドシート&lt;/li&gt;
-        &lt;li&gt;Yahoo! の日本語形態素解析API&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;です。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="日本語形態素解析apiの利用"&gt;日本語形態素解析APIの利用&lt;/h4&gt;
-        
-        &lt;p&gt;まず、Yahoo!デベロッパーネットワークにて、アプリケーションIDを取得します。やり方は、下記のブログが参考になります。&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://ysklog.net/php/1581.html"&gt;http://ysklog.net/php/1581.html&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="スプレッドシートの作成"&gt;スプレッドシートの作成&lt;/h4&gt;
-        
-        &lt;p&gt;続いて、Googleスプレッドシートを作成し、メニューから&lt;code&gt;ツール &amp;gt; スクリプトエディタ&lt;/code&gt;を選択します。その後、下記のコードを入力してください。アプリケーションIDは、上記で取得したものを用いてください。&lt;/p&gt;
-        
-        &lt;script src="https://gist.github.com/shirayuca/14e8b2cb031baafed526.js"&gt;&lt;/script&gt;
-        
-        &lt;p&gt;スクリプトを編集した後、スプレッドシートにもどり、形態素解析を行ってみましょう。例として、A2セルに任意のテキストを入力し、&lt;code&gt;=yahooTextSegmentation(A2)&lt;/code&gt;とすると、下記のようにテキストが形態素解析されます。よかったら、ぜひ試してみてください。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;  
-        
-        &lt;p&gt;&lt;img alt="簡単献立シート" src="http://shirayuca.github.io/blog/2014/08/04/yahoo/yahoo.png"&gt;&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="参考url"&gt;参考URL&lt;/h4&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html"&gt;http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://ysklog.net/php/1581.html"&gt;http://ysklog.net/php/1581.html&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
         
         &lt;p&gt;&lt;br /&gt;
