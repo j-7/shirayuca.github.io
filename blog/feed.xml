@@ -40,7 +40,7 @@
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/09/07/twitter-data.html"/>
             <id>http://shirayuca.github.io/blog/2014/09/07/twitter-data.html</id>
             <published>2014-09-07T14:12:00Z</published>
-            <updated>2014-09-08T01:02:43+09:00</updated>
+            <updated>2014-09-08T23:38:42+09:00</updated>
             <author>
               <name>Article Author</name>
             </author>
@@ -62,7 +62,6 @@
         &lt;li&gt;Twitterアプリの作成&lt;/li&gt;
         &lt;li&gt;GoogleスプレッドシートとTwitterアプリの連携&lt;/li&gt;
         &lt;li&gt;Googleスプレッドシートでスクリプトの編集&lt;/li&gt;
-        &lt;li&gt;データのフィルタリングや集計&lt;/li&gt;
         &lt;/ol&gt;
         
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -148,34 +147,6 @@
         &lt;p&gt;定期的に検索し、データを蓄積していきたい場合は、スクリプトエディタのメニューバーから&lt;code&gt;リソース &amp;gt; すべてのトリガー&lt;/code&gt;に移動し、「新しいトリガーを追加」して、myFunctionを定期的に実行するタイマーを指定します。下記の画像の例では、30分ごとに検索を行っています。トリガーの初回起動時にも承認アラーとが出るので、OKとしてください。&lt;/p&gt;
         
         &lt;p&gt;&lt;img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter4.png"&gt;&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="4.-データのフィルタリングや集計"&gt;4. データのフィルタリングや集計&lt;/h4&gt;
-        
-        &lt;p&gt;収集したデータは、適宜フィルタリングや加工を行うことで、より扱いやすくなります。簡単な例を下記のスプレッドシートにまとめました。下記のシートは、データをある程度収集した後、値のみを貼付けて、今回のフィルタリングや集計をわかりやすく説明するために作成した例です。実際にスクリプトを定期的に動かし続けている場合には、集計データもリアルタイムに変更されます。今回は、「ミューズリー」という検索キーワードを設定しています。&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="https://docs.google.com/spreadsheets/d/1bDv7IbcHYRt8OFHs5SoSiGIY_mIcjugS2qlvEeum1bA/edit?usp=sharing"&gt;https://docs.google.com/spreadsheets/d/1bDv7IbcHYRt8OFHs5SoSiGIY_mIcjugS2qlvEeum1bA/edit?usp=sharing&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;収集したtweetに特定の文字列が含まれているかどうかを確認したい場合には、下図のように、任意の列を作成し、その文字列を含んでいる場合に「1」というフラグを立てます。例として、H4セルには&lt;code&gt;=countif($F4,&amp;quot;*&amp;quot;&amp;amp;H$3&amp;amp;&amp;quot;*&amp;quot;)&lt;/code&gt;と入力しています。これは、tweet内URLを表示しているF列に、H3セル「pic」を含んでいるか否かを判定するものです。(tweet本文では、URLは全て短縮URLt.coで表示されるため、別途本文内URL列を作っています。)&lt;/p&gt;
-        
-        &lt;p&gt;&lt;img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter5.png"&gt;&lt;/p&gt;
-        
-        &lt;p&gt;また、新しいシートを作成し、本文内URLのみの一覧を表示することも簡単です(「URLのフィルタ」シート参照)。スプレッドシートのFILTER関数を用いて、&lt;code&gt;=filter(&amp;#39;シート1&amp;#39;!F:F,&amp;#39;シート1&amp;#39;!K:K=1)&lt;/code&gt;のように条件をつけると、データのあるシート1上のF列に関して、先ほど「1」というフラグを立てた行の本文内URLのみを表示できます。本文内URLのみの一覧は、Amazonへのリンクがどれくらいあるか、その内容はどのようなものかを確認したい際などに役立ちそうです。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter6.png"&gt;&lt;/p&gt;
-        
-        &lt;p&gt;同様に、FILTER関数を用いて、特定のキーワードを含むtweetの一覧のみを別途表示することも可能です(「発言のフィルタ(ダイエット)」参照)。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter7.png"&gt;&lt;/p&gt;
-        
-        &lt;p&gt;また、特定の文字列がどの程度出現しているかのグラフを作成することもできます(「具材のグラフ」シート参照)。シート1にて、特定の文字列を含んでいる場合に「1」としたため、それを合計すれば、出現頻度となります。下記の例では、ミューズリーと合わせる具材は何が人気かがわかります。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter8.png"&gt;&lt;/p&gt;
-        
-        &lt;p&gt;集計方法に関しては、月別の集計や推移など、色々な観点で行うことができそうです。&lt;/p&gt;
         
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
         </content>
