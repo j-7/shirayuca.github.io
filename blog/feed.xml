@@ -31,10 +31,26 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2014-09-07T14:12:00Z</updated>
+          <updated>2014-09-17T12:58:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>鈴木努(2009)『Rで学ぶデータサイエンス8　ネットワーク分析』</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/09/17/r-network.html"/>
+            <id>http://shirayuca.github.io/blog/2014/09/17/r-network.html</id>
+            <published>2014-09-17T12:58:00Z</published>
+            <updated>2014-09-17T21:58:49+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;Rのsnaパッケージ／igraphパッケージを用いて、ネットワーク分析を行う各手法について説明されています。Rで初めてネットワーク分析をする際、大変参考になる書籍です。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>GoogleスプレッドシートでTwitter検索結果のデータ収集</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/09/07/twitter-data.html"/>
@@ -324,39 +340,6 @@
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
         
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>2014 PCカンファレンスに参加</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/08/13/14pcc.html"/>
-            <id>http://shirayuca.github.io/blog/2014/08/13/14pcc.html</id>
-            <published>2014-08-13T05:11:00Z</published>
-            <updated>2014-09-02T11:03:43+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;p&gt;札幌学院大学にて開催された、 PCカンファレンスに参加してきました。PCカンファレンスは、教育と学びにおけるコンピュータおよびネットワークの利用に関する学会で、今回私は、情報リテラシー系の科目に関するポスター発表をしてきました。&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://gakkai.univcoop.or.jp/pcc/2014/papers/pdf/pcc115.pdf"&gt;Excel 演習授業における反転授業のための補助教材の作成&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;Excel演習授業では、本来の目的である「リテラシーを体得し、各々の目的に応じて活用する」に到達する以前に、演習をこなすことで精一杯になってしまうことがあります。そのため、事前学習用の教材を作成した、というのが今回の報告です。提案自体は技術的にも大変シンプルなのですが、特に初学者を苦しめるアプリケーション間の移動を最小限とするために、Excel上で演習や教材閲覧を全て終えられるような仕組みを目指しました。&lt;/p&gt;
-        
-        &lt;p&gt;今後は、受講者および担当教員のフィードバックに基づいて改善サイクルをまわすとともに、採点データの分析も視野に入れています。来年度のPCカンファレンスにて、報告をできるようにと考えています。&lt;/p&gt;
-        
-        &lt;p&gt;今回のPCカンファレンスでは、意見交換も活発にできて、大変勉強になりました。基調講演もとても良かったです。&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://gakkai.univcoop.or.jp/pcc/2014/"&gt;2014 PCカンファレンス&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://pc.nikkeibp.co.jp/article/news/20140808/1139503/"&gt;教育とICTの学会「PCカンファレンス」が開幕、妹尾CIEC会長理事と熊坂慶應大学教授が基調講演&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://pc.nikkeibp.co.jp/article/news/20140810/1139563/"&gt;【2014 PCカンファレンス】約30チームがポスター発表、高校生データサイエンティストやエプロン型コンピュータ&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;
-        &lt;br /&gt;&lt;/p&gt;
         </content>
           </entry>
         </feed>
