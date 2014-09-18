@@ -31,10 +31,47 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2014-09-17T14:16:00Z</updated>
+          <updated>2014-09-18T13:58:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>論文共著ネットワーク</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/09/18/coauthor-network.html"/>
+            <id>http://shirayuca.github.io/blog/2014/09/18/coauthor-network.html</id>
+            <published>2014-09-18T13:58:00Z</published>
+            <updated>2014-09-18T23:03:46+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;br /&gt;
+        東京都市大学の教員の、論文数の分布と共著ネットワークを作成します。データは、CiNiiより取得しています。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="執筆論文数の分布"&gt;執筆論文数の分布&lt;/h4&gt;
+        
+        &lt;script src="https://gist.github.com/shirayuca/c35df9631b8d3e8cd756.js"&gt;&lt;/script&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="共著ネットワーク"&gt;共著ネットワーク&lt;/h4&gt;
+        
+        &lt;script src="https://gist.github.com/shirayuca/faa8fd8e8f978ecf93e4.js"&gt;&lt;/script&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="参考"&gt;参考&lt;/h4&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://ci.nii.ac.jp/"&gt;http://ci.nii.ac.jp/&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://www.risys.gl.tcu.ac.jp/"&gt;http://www.risys.gl.tcu.ac.jp/&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://ciniicoauthornetwork.appspot.com/"&gt;http://ciniicoauthornetwork.appspot.com/&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>barabasi.game でスケールフリー・ネットワーク・シミュレーション</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/09/17/barabasi-game.html"/>
@@ -258,56 +295,6 @@
         &lt;/ul&gt;
         
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>watts.strogatz.game でスモールワールド・シミュレーション</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/09/02/watts-strogatz.html"/>
-            <id>http://shirayuca.github.io/blog/2014/09/02/watts-strogatz.html</id>
-            <published>2014-09-02T12:14:00Z</published>
-            <updated>2014-09-02T23:04:28+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;p&gt;R のパッケージ igraph の watts.strogatz.game() 関数を用いて、スモールワールド・シミュレーションを行います。sna パッケージにて紹介されていたものを、igraph にて行った形となります。 igraph と sna では、レギュラーグラフの作り方に違いがあるので、全く同じ結果にはなりません。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="ネットワーク図の作成"&gt;ネットワーク図の作成&lt;/h4&gt;
-        
-        &lt;p&gt;ランダム性 p について、0、0.2、1の3種類でネットワーク図を作成します。また、平均経路長、クラスター係数、および最短距離マトリックスと特定頂点の最短経路も出します。&lt;/p&gt;
-        
-        &lt;script src="https://gist.github.com/shirayuca/4af16341509466a9be13.js"&gt;&lt;/script&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="100回繰り返し"&gt;100回繰り返し&lt;/h4&gt;
-        
-        &lt;p&gt;ランダム性 p について、0から1まで 0.01刻みに100回繰り返し、その結果の平均経路長とクラスター係数をプロットします。&lt;/p&gt;
-        
-        &lt;script src="https://gist.github.com/shirayuca/0e6e00182086f7149a15.js"&gt;&lt;/script&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="クラスター係数と平均経路長の変化"&gt;クラスター係数と平均経路長の変化&lt;/h4&gt;
-        
-        &lt;p&gt;上記で100回繰り返した結果について、 p = 0 の値で割った、初期値に対する比の変化として片対数グラフを作成します。&lt;/p&gt;
-        
-        &lt;script src="https://gist.github.com/shirayuca/5ea82d0a31dd7b35650a.js"&gt;&lt;/script&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="参考文献"&gt;参考文献&lt;/h4&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://www.inside-r.org/packages/cran/igraph/docs/watts.strogatz.game"&gt;http://www.inside-r.org/packages/cran/igraph/docs/watts.strogatz.game&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.amazon.co.jp/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E5%88%86%E6%9E%90-R%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-8-%E9%88%B4%E6%9C%A8-%E5%8A%AA/dp/4320019288"&gt;http://www.amazon.co.jp/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E5%88%86%E6%9E%90-R%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-8-%E9%88%B4%E6%9C%A8-%E5%8A%AA/dp/4320019288&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;
-        &lt;br /&gt;&lt;/p&gt;
         </content>
           </entry>
         </feed>
