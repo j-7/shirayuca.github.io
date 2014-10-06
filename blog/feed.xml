@@ -43,10 +43,37 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2014-09-25T11:31:00Z</updated>
+          <updated>2014-10-06T13:42:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>映画「立候補」</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/10/06/rikkoho.html"/>
+            <id>http://shirayuca.github.io/blog/2014/10/06/rikkoho.html</id>
+            <published>2014-10-06T13:42:00Z</published>
+            <updated>2014-10-06T23:02:03+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;話題作ということで気になっていた映画「立候補」、大好きな映画館ポレポレ東中野で公開ということもあって、行こう行こうと思っていたのだけれど、いつの間にか慌ただしく時が過ぎてしまっていました。けれど偶然、 iTunes に見つけたので、さっそく。&lt;/p&gt;
+        
+        &lt;p&gt;当たり前だけれど、泡沫候補達にもそれぞれの思いがあって真摯に選挙に取り組んでいるということ。それに私は全く考えが至っていなかったんだなあ、ということに気づきました。映画を観ての感想は、驚きとおかしみ、そして一抹の寂しさというのが率直なところで、確かに、選挙で当選しなくとも、こうして選挙に取り組み (例えばこういう映画のようなメディアを通じて) 世の中に訴えかけ、世の中を変える (かもしれない) ことは可能なんだな、と思いました。&lt;/p&gt;
+        
+        &lt;p&gt;個別のシーンで言うと、外山恒一の政見放送がライブで使われていたり、マック赤坂が自身の政見放送を見て面白がっていたり、そういうクールだったりキュートだったりするエピソードが盛りだくさんで、グッときます。&lt;/p&gt;
+        
+        &lt;p&gt;日本の選挙はかくも開かれたものであるのか、と同時に、素朴な意味での政治が得意な人がやはり政治家になるのだろう、という印象を受けます。極上のエンタテインメント・ドキュメンタリー。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=u85B8gMad5s"&gt;&lt;img src="http://img.youtube.com/vi/u85B8gMad5s/0.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;
+        &lt;br /&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>最近観た映像作品 (2014年上半期を中心に)</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/09/25/movie.html"/>
@@ -220,122 +247,6 @@
             <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
         
         &lt;p&gt;Rのsnaパッケージ／igraphパッケージを用いて、ネットワーク分析を行う各手法について説明されています。Rで初めてネットワーク分析をする際、大変参考になる書籍です。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>GoogleスプレッドシートでTwitter検索結果のデータ収集</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/09/07/twitter-data.html"/>
-            <id>http://shirayuca.github.io/blog/2014/09/07/twitter-data.html</id>
-            <published>2014-09-07T14:12:00Z</published>
-            <updated>2014-09-08T23:38:42+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;p&gt;Googleスプレッドシートを使って、任意のキーワードでTwitter検索をした結果のデータを収集します。最初の設定に少しだけ手間がかかりますが、1度設定すれば、あとは勝手にデータを収集し続けてくれるので、お手軽で便利です。作成は基本的に、下記のブログで紹介されているスクリプトをベースとしており、そこから特定セルに検索キーワードを入れるなどの加工を行っています。大変お世話になりました、ありがとうございます。&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://blog.hika69.com/blog/2014/01/28/google-apps-script/"&gt;http://blog.hika69.com/blog/2014/01/28/google-apps-script/&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter1.png"&gt;&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="手順"&gt;手順&lt;/h4&gt;
-        
-        &lt;ol&gt;
-        &lt;li&gt;Twitterアプリの作成&lt;/li&gt;
-        &lt;li&gt;GoogleスプレッドシートとTwitterアプリの連携&lt;/li&gt;
-        &lt;li&gt;Googleスプレッドシートでスクリプトの編集&lt;/li&gt;
-        &lt;/ol&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="1.-twitterアプリの作成"&gt;1. Twitterアプリの作成&lt;/h4&gt;
-        
-        &lt;p&gt;&lt;a href="https://dev.twitter.com/"&gt;Twitter Developers&lt;/a&gt;の&lt;a href="https://apps.twitter.com"&gt;Twitter Application Management&lt;/a&gt;にてアプリケーションを作成し、データ収集に必要なAPIキー等を取得します。私は下記のように入力しました。&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;Name: for GoogleAppsScript(任意の名前)&lt;/li&gt;
-        &lt;li&gt;Description: GoogleAppsScriptから利用します(任意の説明)&lt;/li&gt;
-        &lt;li&gt;Website: &lt;a href="http://shirayuca.github.io/"&gt;http://shirayuca.github.io/&lt;/a&gt; (任意のURL)&lt;/li&gt;
-        &lt;li&gt;Callback URL: &lt;a href="https://spreadsheets.google.com/macros"&gt;https://spreadsheets.google.com/macros&lt;/a&gt; (左記と同じように入力)&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;作成すると、&lt;code&gt;API key&lt;/code&gt;と&lt;code&gt;API secret&lt;/code&gt;が発行されます。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="2.-googleスプレッドシートとtwitterアプリの連携"&gt;2. GoogleスプレッドシートとTwitterアプリの連携&lt;/h4&gt;
-        
-        &lt;p&gt;任意の名前でGoogleスプレッドシートを作成します。その後、メニューバーから&lt;code&gt;ツール &amp;gt; スクリプトエディタ&lt;/code&gt;を選択します。ここでも任意のプロジェクト名をつけてください。&lt;/p&gt;
-        
-        &lt;p&gt;続いて、スクリプトエディタのメニューバーから&lt;code&gt;リソース &amp;gt; ライブラリ&lt;/code&gt;を選択し、「ライブラリを検索」に&lt;code&gt;MHGYgT-unu1fC7zXOkNfBUVSHJARy_IP7&lt;/code&gt;と入力します。その後、選択ボタンを押して、Twitterのライブラリが表示されたら、バージョンを「1」として保存します。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter2.png"&gt;&lt;/p&gt;
-        
-        &lt;p&gt;その後、スクリプトエディタのメニューバーから&lt;code&gt;ファイル &amp;gt; プロジェクトのプロパティ&lt;/code&gt;を選択し、ユーザープロパティのタブで、Twitterアプリ作成時に発行された&lt;code&gt;API key&lt;/code&gt;と&lt;code&gt;API secret&lt;/code&gt;を下記のように入力します。入力し終えたら、保存します。&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;code&gt;TWITTER_CONSUMER_KEY&lt;/code&gt; に &lt;code&gt;API key&lt;/code&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;code&gt;TWITTER_CONSUMER_SECRET&lt;/code&gt; に &lt;code&gt;API secret&lt;/code&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="3.-googleスプレッドシートでスクリプトの編集"&gt;3. Googleスプレッドシートでスクリプトの編集&lt;/h4&gt;
-        
-        &lt;p&gt;コード.gs上に、下記のGistスクリプトをコピーし、保存してください。&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="https://gist.github.com/shirayuca/88c309c168052d35d29d"&gt;https://gist.github.com/shirayuca/88c309c168052d35d29d&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;スプレッドシートに戻り、A1に検索キーワードを入力してください。データは、4行目以降(A4セル以降)に出力されます。そのため、下表のように、3行目のA3セルからF3列に、適宜列名を付与するといいでしょう。&lt;/p&gt;
-        
-        &lt;table&gt;&lt;thead&gt;
-        &lt;tr&gt;
-        &lt;th&gt;セル&lt;/th&gt;
-        &lt;th&gt;列名&lt;/th&gt;
-        &lt;/tr&gt;
-        &lt;/thead&gt;&lt;tbody&gt;
-        &lt;tr&gt;
-        &lt;td&gt;A3&lt;/td&gt;
-        &lt;td&gt;ID&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-        &lt;td&gt;B3&lt;/td&gt;
-        &lt;td&gt;日時&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-        &lt;td&gt;C3&lt;/td&gt;
-        &lt;td&gt;tweet&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-        &lt;td&gt;D3&lt;/td&gt;
-        &lt;td&gt;tweetURL&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-        &lt;td&gt;E3&lt;/td&gt;
-        &lt;td&gt;USER&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-        &lt;td&gt;F3&lt;/td&gt;
-        &lt;td&gt;tweet内URL&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;/tbody&gt;&lt;/table&gt;
-        
-        &lt;p&gt;&lt;img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter3.png"&gt;&lt;/p&gt;
-        
-        &lt;p&gt;その後、スクリプトエディタに戻り、メニューバーから&lt;code&gt;実行 &amp;gt; myFunction&lt;/code&gt;で、スクリプトを実行します。初回実行時のみ、色々な承認のアラートが出るので、OKとしてください。&lt;/p&gt;
-        
-        &lt;p&gt;定期的に検索し、データを蓄積していきたい場合は、スクリプトエディタのメニューバーから&lt;code&gt;リソース &amp;gt; すべてのトリガー&lt;/code&gt;に移動し、「新しいトリガーを追加」して、myFunctionを定期的に実行するタイマーを指定します。下記の画像の例では、30分ごとに検索を行っています。トリガーの初回起動時にも承認アラーとが出るので、OKとしてください。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter4.png"&gt;&lt;/p&gt;
         
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
         </content>
