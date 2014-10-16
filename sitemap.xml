@@ -74,7 +74,7 @@
   </url>
   <url>
     <loc>http://shirayuca.github.io//blog/2014/09/07/twitter-data.html</loc>
-    <lastmod>2014-09-08</lastmod>
+    <lastmod>2014-10-16</lastmod>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
@@ -117,6 +117,12 @@
   <url>
     <loc>http://shirayuca.github.io//blog/2014/10/06/rikkoho.html</loc>
     <lastmod>2014-10-06</lastmod>
+    <priority>0.6</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://shirayuca.github.io//blog/2014/10/16/twitter_1.html</loc>
+    <lastmod>2014-10-16</lastmod>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
@@ -190,6 +196,12 @@
     <loc>http://shirayuca.github.io//blog/2014/10.html</loc>
     <lastmod>2014-05-04</lastmod>
     <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://shirayuca.github.io//blog/2014/10/16.html</loc>
+    <lastmod>2014-05-04</lastmod>
+    <priority>0.7</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>

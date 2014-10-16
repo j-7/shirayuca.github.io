@@ -43,10 +43,60 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2014-10-06T13:42:00Z</updated>
+          <updated>2014-10-16T12:28:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>twitteR で指定ユーザの friends 一覧を取得</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/10/16/twitter_1.html"/>
+            <id>http://shirayuca.github.io/blog/2014/10/16/twitter_1.html</id>
+            <published>2014-10-16T12:28:00Z</published>
+            <updated>2014-10-16T21:38:12+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;R の twitteR を使って、指定ユーザの friends 一覧を取得します。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="1.-twitterアプリの作成"&gt;1. Twitterアプリの作成&lt;/h4&gt;
+        
+        &lt;p&gt;&lt;a href="https://dev.twitter.com/"&gt;Twitter Developers&lt;/a&gt;の&lt;a href="https://apps.twitter.com"&gt;Twitter Application Management&lt;/a&gt;にてアプリケーションを作成し、データ収集に必要なAPIキー等を取得します。私は下記のように入力しました。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;Name: for using twitteR(任意の名前)&lt;/li&gt;
+        &lt;li&gt;Description: twitteRから利用します(任意の説明)&lt;/li&gt;
+        &lt;li&gt;Website: &lt;a href="http://shirayuca.github.io/"&gt;http://shirayuca.github.io/&lt;/a&gt; (任意のURL)&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;作成すると、&lt;code&gt;API key&lt;/code&gt;と&lt;code&gt;API secret&lt;/code&gt;が発行されます。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="2.-r-で-friends-一覧を取得"&gt;2. R で friends 一覧を取得&lt;/h4&gt;
+        
+        &lt;p&gt;初めて行う場合は、下記のスクリプトを実行します。適宜、先ほど取得した &lt;code&gt;API key&lt;/code&gt;と&lt;code&gt;API secret&lt;/code&gt; を使用してください。また、23行目にある通り、途中で Web画面での認証を求められます。その際は、コンソール上の URL をブラウザにコピーし、表示される PIN番号を再びコンソールに戻って入力してください。
+        &lt;script src="https://gist.github.com/shirayuca/0bd8b321445858c694fa.js"&gt;&lt;/script&gt;&lt;/p&gt;
+        
+        &lt;p&gt;2回目以降は、認証等を保存してあるため、下記のスクリプトを実行すれば OK です。
+        &lt;script src="https://gist.github.com/shirayuca/398335cda46b7f21d959.js"&gt;&lt;/script&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="参考"&gt;参考&lt;/h4&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://qiita.com/nezuq/items/75235f2139370cd8166c"&gt;http://qiita.com/nezuq/items/75235f2139370cd8166c&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://ameblo.jp/economics-teru/entry-11757817264.html"&gt;http://ameblo.jp/economics-teru/entry-11757817264.html&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://stackoverflow.com/questions/26138259/how-to-get-r-output-into-csv-file"&gt;http://stackoverflow.com/questions/26138259/how-to-get-r-output-into-csv-file&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>映画「立候補」</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/10/06/rikkoho.html"/>
@@ -231,22 +281,6 @@
         &lt;/blockquote&gt;
         
         &lt;p&gt;見田先生は、周囲との関係のリアルが必要とおっしゃっていて、情報を媒介にした関係は現代だけに独特のものとしています。同意する一方、リアルな関係はネットワーク環境上にも構築可能であると感じます。メル友の例では確かに交換可能性があると思いますが、オンラインゲーム上での長年の関係構築等は、決して無視できるものではないと感じています。どこで己が必要とされるかは、出来うる限り自由に考えられるといいと思います。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>鈴木努(2009)『Rで学ぶデータサイエンス8　ネットワーク分析』</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/09/17/r-network.html"/>
-            <id>http://shirayuca.github.io/blog/2014/09/17/r-network.html</id>
-            <published>2014-09-17T12:58:00Z</published>
-            <updated>2014-09-17T21:58:49+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;p&gt;Rのsnaパッケージ／igraphパッケージを用いて、ネットワーク分析を行う各手法について説明されています。Rで初めてネットワーク分析をする際、大変参考になる書籍です。&lt;/p&gt;
         
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
         </content>
