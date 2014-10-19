@@ -127,6 +127,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>http://shirayuca.github.io//blog/2014/10/19/wordcount.html</loc>
+    <lastmod>2014-10-19</lastmod>
+    <priority>0.6</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>http://shirayuca.github.io//</loc>
     <lastmod>2014-10-06</lastmod>
     <priority>1.0</priority>
@@ -196,6 +202,12 @@
     <loc>http://shirayuca.github.io//blog/2014/10.html</loc>
     <lastmod>2014-05-04</lastmod>
     <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://shirayuca.github.io//blog/2014/10/19.html</loc>
+    <lastmod>2014-05-04</lastmod>
+    <priority>0.7</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -313,7 +325,19 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>http://shirayuca.github.io//blog/page/3/</loc>
+    <lastmod>2014-07-08</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>http://shirayuca.github.io//blog/2014/page/2.html</loc>
+    <lastmod>2014-05-04</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://shirayuca.github.io//blog/2014/page/3.html</loc>
     <lastmod>2014-05-04</lastmod>
     <priority>0.7</priority>
     <changefreq>daily</changefreq>

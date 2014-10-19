@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta content="IE=edge;chrome=1" http-equiv="X-UA-Compatible" />
-    <title>shirayuca.github.io | Markdown で画像へのハイパーリンク付与</title>
+    <title>shirayuca.github.io | Googleスプレッドシートで選択範囲内の要素を数え上げ</title>
     <meta content="" name="description" />
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" /><!--[if lt IE 9]><script src="../../../../js/ie8.js" type="text/javascript"></script><![endif]--><link href="../../../../css/all.css" media="screen" rel="stylesheet" type="text/css" />
   </head>
@@ -73,21 +73,31 @@
 </div>
 <div class="col-lg-9 col-md-9">
   <h1>
-    Markdown で画像へのハイパーリンク付与
+    Googleスプレッドシートで選択範囲内の要素を数え上げ
   </h1>
   <hr />
   <p>
-    <span class="glyphicon glyphicon-time"></span> Posted on Aug  4
+    <span class="glyphicon glyphicon-time"></span> Posted on Oct 19
   </p>
   <hr /><p><br /></p>
 
-<p>Markdown でブログを書くのはとても簡単ですが、画像にハイパーリンクを張れないのが不便だな、と感じていました。そんなときは、直接 HTML のタグを書きます。</p>
+<p>Google Apps Script を用いて、Googleスプレッドシートの選択範囲内の要素を数え上げます。</p>
 
-<pre><code>&lt;p&gt;&lt;a href=&quot;…&quot;&gt;&lt;img alt=&quot;…&quot; src=&quot;…&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-</code></pre>
+<script src="https://gist.github.com/shirayuca/c828363c746970fa1a71.js"></script>
 
-<p><br />
-<br /></p>
+<p><br /></p>
+
+<h4 id="使い方">使い方</h4>
+
+<p>下記の図のような、広い範囲にある要素を数え上げます。</p>
+
+<p><img alt="4.png" src="https://qiita-image-store.s3.amazonaws.com/0/48375/db29f2b6-2c55-b005-5460-f32c1ad6615e.png" /></p>
+
+<p>関数を利用する際は、<code>=wordCount(範囲)</code>とすると、下記の図のように範囲内の要素が数え上げられます。</p>
+
+<p><img alt="5.png" src="https://qiita-image-store.s3.amazonaws.com/0/48375/facef54b-aaad-1788-b2be-7038e60fd258.png" /></p>
+
+<p><br /></p>
 
   <hr>
     <p class="text-center">
