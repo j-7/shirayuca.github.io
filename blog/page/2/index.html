@@ -48,7 +48,7 @@
         <a href="/blog/tags/テーマ.html">テーマ</a> (1)
       </li>
       <li>
-        <a href="/blog/tags/googleappsscript.html">GoogleAppsScript</a> (4)
+        <a href="/blog/tags/googleappsscript.html">GoogleAppsScript</a> (5)
       </li>
       <li>
         <a href="/blog/tags/学会.html">学会</a> (1)
@@ -72,6 +72,40 @@
   </div>
 </div>
 <div class="col-lg-9 col-md-9"><h1>
+  <a href="/blog/2014/09/07/yasuda.html">安田雪(2010)『「つながり」を突き止めろ　入門！ネットワーク・サイエンス 』</a>
+</h1>
+<hr />
+<p>
+  <span class="glyphicon glyphicon-time"></span> Posted on Sep  7
+</p>
+<hr />
+<p><br /></p>
+
+<p>ネットワーク分析の入門的な書籍です。この書籍のいいところは、実例をふんだんに扱っている点と、多くの先人達に関する逸話(小話？)が盛り込まれている点です。より楽しむためには、ネットワーク分析のはじめの一歩として読むよりも、バラバシ『新ネットワーク思考』や増田・今野『「複雑ネットワーク」とは何か』など、他の入門書や啓蒙書を読んでからの方が、より理解が広がるのではないかと思います。ネットワーク分析のインデックスとしても活用できます。</p>
+
+<p>書籍の中で紹介されていた実例と関係の深いニュースやページのURLを以下にメモしておきます。</p>
+
+<ul>
+<li><a href="http://news.livedoor.com/article/detail/7164747/">前CIA長官が使った不倫の手口</a></li>
+<li><a href="http://www.ifinance.ne.jp/glossary/world/wor018.html">エンロン事件</a></li>
+<li><a href="http://r25.yahoo.co.jp/fushigi/wxr_detail/?id=20130323-00028749-r25">レス時間で相手の好意度を読む方法</a></li>
+<li><a href="http://corp.gree.net/jp/ja/corporate/origin/">始まりと由来　グリー株式会社(GREE, Inc).</a></li>
+<li><a href="https://www.youtube.com/watch?v=88inOjgMxRo">ソーシャル・ネットワーク(映画)</a></li>
+<li><a href="https://www.youtube.com/watch?v=o1sjR1TtmA8">AC AIDS</a></li>
+<li><a href="http://oracleofbacon.org/">The Oracle of Bacon</a></li>
+</ul>
+
+<p>書籍の中で紹介されていたり、関連がある参考文献を以下にメモしておきます。</p>
+
+<ul>
+<li><a href="http://www.amazon.co.jp/%E5%8F%8B%E6%83%85%E3%81%AE%E7%A4%BE%E4%BC%9A%E5%AD%A6-SEKAISHISO-SEMINAR-G-%E3%82%A2%E3%83%A9%E3%83%B3/dp/4790704610">G.アラン『友情の社会学』</a></li>
+<li><a href="http://merc.e.u-tokyo.ac.jp/mmrc/dp/pdf/MMRC100_2006.pdf">勝又・安田(2006)「見えない連鎖 ―カレシの元カノの元カレを知っていますか？― 」</a></li>
+<li><a href="http://ci.nii.ac.jp/naid/10022008079">松尾・安田(2007)「SNSにおける関係形成原理 : mixi のデータ分析」</a></li>
+</ul>
+
+<p><br /></p>
+
+<hr /><h1>
   <a href="/blog/2014/09/02/watts-strogatz.html">watts.strogatz.game でスモールワールド・シミュレーション</a>
 </h1>
 <hr />
@@ -480,60 +514,6 @@
 <li>ジャニーズの歌詞</li>
 <li>アイドルの歌詞（ハロプロ、AKB、おニャン子）</li>
 </ul>
-
-<p><br />
-<br /></p>
-
-<hr /><h1>
-  <a href="/blog/2014/07/08/how-to-post.html">ブログエントリ作成方法</a>
-</h1>
-<hr />
-<p>
-  <span class="glyphicon glyphicon-time"></span> Posted on Jul  8
-</p>
-<hr /><p><br /></p>
-
-<p>ブログのエントリ作成方法のメモです。このブログは、shirayuca.github.io 上に Middleman で作っています。ローカルでは、エントリは、
-<code>/Users/yuca/dev/shirayuca.github.io/source/blog/posts</code>
-に置いています。</p>
-
-<ul>
-<li>TITLE に任意のタイトルを入れて、エントリの .md ファイルを作成します。</li>
-</ul>
-
-<pre><code>bundle exec middleman article TITLE
-</code></pre>
-
-<ul>
-<li>すると、 下記のようにタイトルなどの情報が入った .md ファイルが作成されます。tags には、タグを入れます。</li>
-</ul>
-
-<pre><code>---
-title: TITLE
-date: 2014-07-08
-tags: 
----
-</code></pre>
-
-<ul>
-<li><p>記事を編集します。</p></li>
-<li><p>記事の確認をします。</p></li>
-</ul>
-
-<pre><code>bundle exec middleman server
-</code></pre>
-
-<ul>
-<li>記事を投稿します。</li>
-</ul>
-
-<pre><code>git add .
-git status
-git commit -m &quot;message&quot;
-git push origin middleman
-bundle exec middleman build
-bundle exec middleman deploy
-</code></pre>
 
 <p><br />
 <br /></p>

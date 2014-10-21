@@ -43,10 +43,38 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2014-10-19T06:48:00Z</updated>
+          <updated>2014-10-21T09:22:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>Googleスプレッドシートで分かち書き</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/10/21/wakachigaki.html"/>
+            <id>http://shirayuca.github.io/blog/2014/10/21/wakachigaki.html</id>
+            <published>2014-10-21T09:22:00Z</published>
+            <updated>2014-10-21T18:30:03+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;br /&gt;
+        TinySegmenterを使って、Googleスプレッドシート上で分かち書きをします。まず、下記のスクリプトを、Googleスプレッドシートの [ツール]→[スクリプトエディタ]から貼りつけ、保存してください。
+        &lt;script src="https://gist.github.com/shirayuca/4c73c938354c17ca3aa2.js"&gt;&lt;/script&gt;&lt;/p&gt;
+        
+        &lt;p&gt;Googleスプレッドシート上で、任意のセルに分かち書きしたい文章を入力（例として、A1セル）し、&lt;code&gt;=wakachigaki(A1)&lt;/code&gt;とすると、分かち書きされた結果をかえします。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;img alt="2.png" src="https://qiita-image-store.s3.amazonaws.com/0/48375/e6d59269-5ab2-e888-52eb-90f581954920.png" /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="参考"&gt;参考&lt;/h4&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://chasen.org/%7Etaku/software/TinySegmenter/"&gt;http://chasen.org/~taku/software/TinySegmenter/&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>Googleスプレッドシートで選択範囲内の要素を数え上げ</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/10/19/wordcount.html"/>
@@ -253,33 +281,6 @@
         &lt;li&gt;&lt;a href="http://ci.nii.ac.jp/"&gt;http://ci.nii.ac.jp/&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="http://www.risys.gl.tcu.ac.jp/"&gt;http://www.risys.gl.tcu.ac.jp/&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="http://ciniicoauthornetwork.appspot.com/"&gt;http://ciniicoauthornetwork.appspot.com/&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>barabasi.game でスケールフリー・ネットワーク・シミュレーション</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/09/17/barabasi-game.html"/>
-            <id>http://shirayuca.github.io/blog/2014/09/17/barabasi-game.html</id>
-            <published>2014-09-17T14:16:00Z</published>
-            <updated>2014-09-17T23:18:53+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;p&gt;R のパッケージ igraph の barabasi.game() 関数を用いて、スケールフリー・ネットワーク・シミュレーションを行います。&lt;/p&gt;
-        
-        &lt;script src="https://gist.github.com/shirayuca/da658dcf30906fb98c18.js"&gt;&lt;/script&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="参考文献"&gt;参考文献&lt;/h4&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://www.inside-r.org/packages/cran/igraph/docs/barabasi.game"&gt;http://www.inside-r.org/packages/cran/igraph/docs/barabasi.game&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.amazon.co.jp/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E5%88%86%E6%9E%90-R%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-8-%E9%88%B4%E6%9C%A8-%E5%8A%AA/dp/4320019288"&gt;http://www.amazon.co.jp/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E5%88%86%E6%9E%90-R%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-8-%E9%88%B4%E6%9C%A8-%E5%8A%AA/dp/4320019288&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
         
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;

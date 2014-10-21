@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta content="IE=edge;chrome=1" http-equiv="X-UA-Compatible" />
-    <title>shirayuca.github.io | ターミナルでコマンドの省略</title>
+    <title>shirayuca.github.io | Googleスプレッドシートで分かち書き</title>
     <meta content="" name="description" />
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" /><!--[if lt IE 9]><script src="../../../../js/ie8.js" type="text/javascript"></script><![endif]--><link href="../../../../css/all.css" media="screen" rel="stylesheet" type="text/css" />
   </head>
@@ -73,60 +73,29 @@
 </div>
 <div class="col-lg-9 col-md-9">
   <h1>
-    ターミナルでコマンドの省略
+    Googleスプレッドシートで分かち書き
   </h1>
   <hr />
   <p>
-    <span class="glyphicon glyphicon-time"></span> Posted on Sep  2
+    <span class="glyphicon glyphicon-time"></span> Posted on Oct 21
   </p>
-  <hr /><p><br /></p>
+  <hr /><p><br />
+TinySegmenterを使って、Googleスプレッドシート上で分かち書きをします。まず、下記のスクリプトを、Googleスプレッドシートの [ツール]→[スクリプトエディタ]から貼りつけ、保存してください。
+<script src="https://gist.github.com/shirayuca/4c73c938354c17ca3aa2.js"></script></p>
 
-<p>ブログのエントリを作成する際、いつもターミナルを立ち上げ、 </p>
+<p>Googleスプレッドシート上で、任意のセルに分かち書きしたい文章を入力（例として、A1セル）し、<code>=wakachigaki(A1)</code>とすると、分かち書きされた結果をかえします。</p>
 
-<pre><code>cd /Users/yuca/dev/...
-</code></pre>
+<p><img alt="2.png" src="https://qiita-image-store.s3.amazonaws.com/0/48375/e6d59269-5ab2-e888-52eb-90f581954920.png" /></p>
 
-<p>と打ち込んでいたのですが、大変面倒なので、省略するコマンドを作りました。</p>
+<p><br /></p>
 
-<p><br></p>
-
-<h4 id="コマンド作成の流れ">コマンド作成の流れ</h4>
-
-<p>.bashrc ファイルを開く。</p>
-
-<pre><code>$ emacs ~/.bashrc
-</code></pre>
-
-<p>.bashrc ファイル内に、<code>alias エイリアス名=’コマンド’</code> を記述。</p>
-
-<pre><code>alias blog=’cd /Users/yuca/dev/shirayuca.github.io/source/blog/posts’
-</code></pre>
-
-<p>.bash_profile ファイルを開く。</p>
-
-<pre><code>$ emacs ~/.bash_profile
-</code></pre>
-
-<p>.bash_profile ファイル内に、<code>source .bashrc</code> の1行を追加。</p>
-
-<p>下記のコマンドで変更を反映する。</p>
-
-<pre><code>$ source ~/.bash_profile
-</code></pre>
-
-<p>これで、ターミナル上で <code>blog</code> と打てば、すぐにブログの .md ファイルがあるディレクトリに移動できます。</p>
-
-<p><br></p>
-
-<h4 id="参考url">参考URL</h4>
+<h4 id="参考">参考</h4>
 
 <ul>
-<li><a href="http://laugh-raku.com/archives/2905">http://laugh-raku.com/archives/2905</a></li>
-<li><a href="http://www.atmarkit.co.jp/ait/articles/0203/12/news001_2.html">http://www.atmarkit.co.jp/ait/articles/0203/12/news001_2.html</a></li>
+<li><a href="http://chasen.org/%7Etaku/software/TinySegmenter/">http://chasen.org/~taku/software/TinySegmenter/</a></li>
 </ul>
 
-<p><br />
-<br /></p>
+<p><br /></p>
 
   <hr>
     <p class="text-center">
