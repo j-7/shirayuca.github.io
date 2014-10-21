@@ -133,6 +133,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>http://shirayuca.github.io//blog/2014/10/21/wakachi_example.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <priority>0.6</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>http://shirayuca.github.io//blog/2014/10/21/wakachigaki.html</loc>
     <lastmod>2014-10-21</lastmod>
     <priority>0.6</priority>

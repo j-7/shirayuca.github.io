@@ -43,10 +43,87 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2014-10-21T09:22:00Z</updated>
+          <updated>2014-10-21T10:11:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>Googleスプレッドシートで分かち書きされた要素を数え上げ</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/10/21/wakachi_example.html"/>
+            <id>http://shirayuca.github.io/blog/2014/10/21/wakachi_example.html</id>
+            <published>2014-10-21T10:11:00Z</published>
+            <updated>2014-10-21T19:25:19+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;Googleスプレッドシートで、分かち書きされた要素を数え上げます。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="スクリプト"&gt;スクリプト&lt;/h4&gt;
+        
+        &lt;p&gt;下記の2つの記事で紹介しているスクリプトを、Googleスプレッドシートの [ツール]→[スクリプトエディタ]から貼りつけ、保存してください。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://shirayuca.github.io/blog/2014/10/19/wordcount.html"&gt;http://shirayuca.github.io/blog/2014/10/19/wordcount.html&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://shirayuca.github.io/blog/2014/10/21/wakachigaki.html"&gt;http://shirayuca.github.io/blog/2014/10/21/wakachigaki.html&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;下記のように、各々のスクリプトファイル（〜.gs）を作成します。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;img src="https://qiita-image-store.s3.amazonaws.com/0/48375/27952c95-fb78-bff5-5e87-a26384568ee8.png" width=400px /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="使い方"&gt;使い方&lt;/h4&gt;
+        
+        &lt;p&gt;下記の公開スプレッドシートにて、実際の使い方の例を示しています。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="https://docs.google.com/spreadsheets/d/17SPL31fsaraUZhsxnBTxRZaGiXbYdISFWA_7UV3mKMg/edit?usp=sharing"&gt;https://docs.google.com/spreadsheets/d/17SPL31fsaraUZhsxnBTxRZaGiXbYdISFWA_7UV3mKMg/edit?usp=sharing&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h5 id="手順1：分かち書き"&gt;手順1：分かち書き&lt;/h5&gt;
+        
+        &lt;p&gt;まず、任意のテキスト群を用意します。今回は、素敵な鬼女様（ &lt;a href="http://sutekinakijo.com/"&gt;http://sutekinakijo.com/&lt;/a&gt; ）の新着タイトルを&lt;code&gt;=IMPORTXML()&lt;/code&gt;関数で取得しました。A2セルにはブログURLが入っています。&lt;/p&gt;
+        
+        &lt;pre&gt;&lt;code&gt;=importxml(A2,&amp;quot;//h1[@class=&amp;#39;article-title&amp;#39;]&amp;quot;)
+        &lt;/code&gt;&lt;/pre&gt;
+        
+        &lt;p&gt;その後、テキストの隣のセルに、&lt;code&gt;=wakachigaki()&lt;/code&gt;関数と&lt;code&gt;=TRANSPOSE()&lt;/code&gt;関数を組み合わせ、分かち書きされた要素を横列に表示します。B2セルにはブログタイトルテキストが入っています。&lt;/p&gt;
+        
+        &lt;pre&gt;&lt;code&gt;=transpose(wakachigaki(B2))
+        &lt;/code&gt;&lt;/pre&gt;
+        
+        &lt;p&gt;&lt;img src="https://qiita-image-store.s3.amazonaws.com/0/48375/c097dace-a8c5-9243-7991-23a2558e8bbf.png" width=800px /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h5 id="手順2：数え上げ"&gt;手順2：数え上げ&lt;/h5&gt;
+        
+        &lt;p&gt;新しいシート上で、&lt;code&gt;=wordCount()&lt;/code&gt;関数を実行し、先ほど横列に順次表示された分かち書き後要素を数え上げます。&lt;code&gt;=wordCount()&lt;/code&gt;関数では、分かち書きされた要素がある範囲全てを参照してください。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;img src="https://qiita-image-store.s3.amazonaws.com/0/48375/4e7910a5-bf4d-8d99-6ec7-92a8f3ad8a1a.png" width=300px /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;数え上げ結果は、新しいシートで値として貼付けしソートする等、適宜活用してください。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;img alt="5.png" src="https://qiita-image-store.s3.amazonaws.com/0/48375/b6679f12-5588-713c-89e1-2410b1106b98.png" /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="参考"&gt;参考&lt;/h4&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://chasen.org/%7Etaku/software/TinySegmenter/"&gt;http://chasen.org/~taku/software/TinySegmenter/&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>Googleスプレッドシートで分かち書き</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/10/21/wakachigaki.html"/>
@@ -247,43 +324,6 @@
         &lt;p&gt;なんかは、家に小さい子供が遊びにきてくれた際に活躍します。&lt;/p&gt;
         
         &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>論文共著ネットワーク</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/09/18/coauthor-network.html"/>
-            <id>http://shirayuca.github.io/blog/2014/09/18/coauthor-network.html</id>
-            <published>2014-09-18T13:58:00Z</published>
-            <updated>2014-09-18T23:03:46+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br /&gt;
-        東京都市大学の教員の、論文数の分布と共著ネットワークを作成します。データは、CiNiiより取得しています。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="執筆論文数の分布"&gt;執筆論文数の分布&lt;/h4&gt;
-        
-        &lt;script src="https://gist.github.com/shirayuca/c35df9631b8d3e8cd756.js"&gt;&lt;/script&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="共著ネットワーク"&gt;共著ネットワーク&lt;/h4&gt;
-        
-        &lt;script src="https://gist.github.com/shirayuca/faa8fd8e8f978ecf93e4.js"&gt;&lt;/script&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="参考"&gt;参考&lt;/h4&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://ci.nii.ac.jp/"&gt;http://ci.nii.ac.jp/&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.risys.gl.tcu.ac.jp/"&gt;http://www.risys.gl.tcu.ac.jp/&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://ciniicoauthornetwork.appspot.com/"&gt;http://ciniicoauthornetwork.appspot.com/&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
         </content>
           </entry>
         </feed>

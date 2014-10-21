@@ -48,7 +48,7 @@
         <a href="/blog/tags/テーマ.html">テーマ</a> (1)
       </li>
       <li>
-        <a href="/blog/tags/googleappsscript.html">GoogleAppsScript</a> (5)
+        <a href="/blog/tags/googleappsscript.html">GoogleAppsScript</a> (6)
       </li>
       <li>
         <a href="/blog/tags/学会.html">学会</a> (1)
@@ -72,6 +72,80 @@
   </div>
 </div>
 <div class="col-lg-9 col-md-9"><h1>
+  <a href="/blog/2014/10/21/wakachi_example.html">Googleスプレッドシートで分かち書きされた要素を数え上げ</a>
+</h1>
+<hr />
+<p>
+  <span class="glyphicon glyphicon-time"></span> Posted on Oct 21
+</p>
+<hr /><p><br /></p>
+
+<p>Googleスプレッドシートで、分かち書きされた要素を数え上げます。</p>
+
+<p><br /></p>
+
+<h4 id="スクリプト">スクリプト</h4>
+
+<p>下記の2つの記事で紹介しているスクリプトを、Googleスプレッドシートの [ツール]→[スクリプトエディタ]から貼りつけ、保存してください。</p>
+
+<ul>
+<li><a href="http://shirayuca.github.io/blog/2014/10/19/wordcount.html">http://shirayuca.github.io/blog/2014/10/19/wordcount.html</a></li>
+<li><a href="http://shirayuca.github.io/blog/2014/10/21/wakachigaki.html">http://shirayuca.github.io/blog/2014/10/21/wakachigaki.html</a></li>
+</ul>
+
+<p>下記のように、各々のスクリプトファイル（〜.gs）を作成します。</p>
+
+<p><img src="https://qiita-image-store.s3.amazonaws.com/0/48375/27952c95-fb78-bff5-5e87-a26384568ee8.png" width=400px /></p>
+
+<p><br /></p>
+
+<h4 id="使い方">使い方</h4>
+
+<p>下記の公開スプレッドシートにて、実際の使い方の例を示しています。</p>
+
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/17SPL31fsaraUZhsxnBTxRZaGiXbYdISFWA_7UV3mKMg/edit?usp=sharing">https://docs.google.com/spreadsheets/d/17SPL31fsaraUZhsxnBTxRZaGiXbYdISFWA_7UV3mKMg/edit?usp=sharing</a></li>
+</ul>
+
+<p><br /></p>
+
+<h5 id="手順1：分かち書き">手順1：分かち書き</h5>
+
+<p>まず、任意のテキスト群を用意します。今回は、素敵な鬼女様（ <a href="http://sutekinakijo.com/">http://sutekinakijo.com/</a> ）の新着タイトルを<code>=IMPORTXML()</code>関数で取得しました。A2セルにはブログURLが入っています。</p>
+
+<pre><code>=importxml(A2,&quot;//h1[@class=&#39;article-title&#39;]&quot;)
+</code></pre>
+
+<p>その後、テキストの隣のセルに、<code>=wakachigaki()</code>関数と<code>=TRANSPOSE()</code>関数を組み合わせ、分かち書きされた要素を横列に表示します。B2セルにはブログタイトルテキストが入っています。</p>
+
+<pre><code>=transpose(wakachigaki(B2))
+</code></pre>
+
+<p><img src="https://qiita-image-store.s3.amazonaws.com/0/48375/c097dace-a8c5-9243-7991-23a2558e8bbf.png" width=800px /></p>
+
+<p><br /></p>
+
+<h5 id="手順2：数え上げ">手順2：数え上げ</h5>
+
+<p>新しいシート上で、<code>=wordCount()</code>関数を実行し、先ほど横列に順次表示された分かち書き後要素を数え上げます。<code>=wordCount()</code>関数では、分かち書きされた要素がある範囲全てを参照してください。</p>
+
+<p><img src="https://qiita-image-store.s3.amazonaws.com/0/48375/4e7910a5-bf4d-8d99-6ec7-92a8f3ad8a1a.png" width=300px /></p>
+
+<p>数え上げ結果は、新しいシートで値として貼付けしソートする等、適宜活用してください。</p>
+
+<p><img alt="5.png" src="https://qiita-image-store.s3.amazonaws.com/0/48375/b6679f12-5588-713c-89e1-2410b1106b98.png" /></p>
+
+<p><br /></p>
+
+<h4 id="参考">参考</h4>
+
+<ul>
+<li><a href="http://chasen.org/%7Etaku/software/TinySegmenter/">http://chasen.org/~taku/software/TinySegmenter/</a></li>
+</ul>
+
+<p><br /></p>
+
+<hr /><h1>
   <a href="/blog/2014/10/21/wakachigaki.html">Googleスプレッドシートで分かち書き</a>
 </h1>
 <hr />
@@ -359,119 +433,6 @@ TinySegmenterを使って、Googleスプレッドシート上で分かち書き�
 <p><br /></p>
 
 <p>Rのsnaパッケージ／igraphパッケージを用いて、ネットワーク分析を行う各手法について説明されています。Rで初めてネットワーク分析をする際、大変参考になる書籍です。</p>
-
-<p><br /></p>
-
-<hr /><h1>
-  <a href="/blog/2014/09/07/twitter-data.html">GoogleスプレッドシートでTwitter検索結果のデータ収集</a>
-</h1>
-<hr />
-<p>
-  <span class="glyphicon glyphicon-time"></span> Posted on Sep  7
-</p>
-<hr /><p><br /></p>
-
-<p>Googleスプレッドシートを使って、任意のキーワードでTwitter検索をした結果のデータを収集します。最初の設定に少しだけ手間がかかりますが、1度設定すれば、あとは勝手にデータを収集し続けてくれるので、お手軽で便利です。作成は基本的に、下記のブログで紹介されているスクリプトをベースとしており、そこから特定セルに検索キーワードを入れるなどの加工を行っています。大変お世話になりました、ありがとうございます。</p>
-
-<ul>
-<li><a href="http://blog.hika69.com/blog/2014/01/28/google-apps-script/">http://blog.hika69.com/blog/2014/01/28/google-apps-script/</a></li>
-</ul>
-
-<p><img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter1.png"></p>
-
-<p><br /></p>
-
-<h4 id="手順">手順</h4>
-
-<ol>
-<li>Twitterアプリの作成</li>
-<li>GoogleスプレッドシートとTwitterアプリの連携</li>
-<li>Googleスプレッドシートでスクリプトの編集</li>
-</ol>
-
-<p><br /></p>
-
-<h4 id="1.-twitterアプリの作成">1. Twitterアプリの作成</h4>
-
-<p><a href="https://dev.twitter.com/">Twitter Developers</a>の<a href="https://apps.twitter.com">Twitter Application Management</a>にてアプリケーションを作成し、データ収集に必要なAPIキー等を取得します。私は下記のように入力しました。</p>
-
-<ul>
-<li>Name: for GoogleAppsScript(任意の名前)</li>
-<li>Description: GoogleAppsScriptから利用します(任意の説明)</li>
-<li>Website: <a href="http://shirayuca.github.io/">http://shirayuca.github.io/</a> (任意のURL)</li>
-<li>Callback URL: <a href="https://spreadsheets.google.com/macros">https://spreadsheets.google.com/macros</a> (左記と同じように入力)</li>
-</ul>
-
-<p>作成すると、<code>API key</code>と<code>API secret</code>が発行されます。</p>
-
-<p><br /></p>
-
-<h4 id="2.-googleスプレッドシートとtwitterアプリの連携">2. GoogleスプレッドシートとTwitterアプリの連携</h4>
-
-<p>任意の名前でGoogleスプレッドシートを作成します。その後、メニューバーから<code>ツール &gt; スクリプトエディタ</code>を選択します。ここでも任意のプロジェクト名をつけてください。</p>
-
-<p>続いて、スクリプトエディタのメニューバーから<code>リソース &gt; ライブラリ</code>を選択し、「ライブラリを検索」に<code>MHGYgT-unu1fC7zXOkNfBUVSHJARy_IP7</code>と入力します。その後、選択ボタンを押して、Twitterのライブラリが表示されたら、バージョンを「1」として保存します。</p>
-
-<p><img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter2.png"></p>
-
-<p>その後、スクリプトエディタのメニューバーから<code>ファイル &gt; プロジェクトのプロパティ</code>を選択し、ユーザープロパティのタブで、Twitterアプリ作成時に発行された<code>API key</code>と<code>API secret</code>を下記のように入力します。入力し終えたら、保存します。</p>
-
-<ul>
-<li><code>TWITTER_CONSUMER_KEY</code> に <code>API key</code></li>
-<li><code>TWITTER_CONSUMER_SECRET</code> に <code>API secret</code></li>
-</ul>
-
-<p><br /></p>
-
-<h4 id="3.-googleスプレッドシートでスクリプトの編集">3. Googleスプレッドシートでスクリプトの編集</h4>
-
-<p>コード.gs上に、下記のGistスクリプトをコピーし、保存してください。</p>
-
-<ul>
-<li><a href="https://gist.github.com/shirayuca/88c309c168052d35d29d">https://gist.github.com/shirayuca/88c309c168052d35d29d</a></li>
-</ul>
-
-<p>スプレッドシートに戻り、A1に検索キーワードを入力してください。データは、4行目以降(A4セル以降)に出力されます。そのため、下表のように、3行目のA3セルからF3列に、適宜列名を付与するといいでしょう。</p>
-
-<table><thead>
-<tr>
-<th>セル</th>
-<th>列名</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>A3</td>
-<td>ID</td>
-</tr>
-<tr>
-<td>B3</td>
-<td>日時</td>
-</tr>
-<tr>
-<td>C3</td>
-<td>tweet</td>
-</tr>
-<tr>
-<td>D3</td>
-<td>tweetURL</td>
-</tr>
-<tr>
-<td>E3</td>
-<td>USER</td>
-</tr>
-<tr>
-<td>F3</td>
-<td>tweet内URL</td>
-</tr>
-</tbody></table>
-
-<p><img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter3.png"></p>
-
-<p>その後、スクリプトエディタに戻り、メニューバーから<code>実行 &gt; myFunction</code>で、スクリプトを実行します。初回実行時のみ、色々な承認のアラートが出るので、OKとしてください。</p>
-
-<p>定期的に検索し、データを蓄積していきたい場合は、スクリプトエディタのメニューバーから<code>リソース &gt; すべてのトリガー</code>に移動し、「新しいトリガーを追加」して、myFunctionを定期的に実行するタイマーを指定します。下記の画像の例では、30分ごとに検索を行っています。トリガーの初回起動時にも承認アラーとが出るので、OKとしてください。</p>
-
-<p><img src="http://shirayuca.github.io/blog/2014/09/07/twitter-data/twitter4.png"></p>
 
 <p><br /></p>
 

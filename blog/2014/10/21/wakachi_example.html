@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta content="IE=edge;chrome=1" http-equiv="X-UA-Compatible" />
-    <title>shirayuca.github.io | Googleスプレッドシートで分かち書き</title>
+    <title>shirayuca.github.io | Googleスプレッドシートで分かち書きされた要素を数え上げ</title>
     <meta content="" name="description" />
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" /><!--[if lt IE 9]><script src="../../../../js/ie8.js" type="text/javascript"></script><![endif]--><link href="../../../../css/all.css" media="screen" rel="stylesheet" type="text/css" />
   </head>
@@ -73,19 +73,68 @@
 </div>
 <div class="col-lg-9 col-md-9">
   <h1>
-    Googleスプレッドシートで分かち書き
+    Googleスプレッドシートで分かち書きされた要素を数え上げ
   </h1>
   <hr />
   <p>
     <span class="glyphicon glyphicon-time"></span> Posted on Oct 21
   </p>
-  <hr /><p><br />
-TinySegmenterを使って、Googleスプレッドシート上で分かち書きをします。まず、下記のスクリプトを、Googleスプレッドシートの [ツール]→[スクリプトエディタ]から貼りつけ、保存してください。
-<script src="https://gist.github.com/shirayuca/4c73c938354c17ca3aa2.js"></script></p>
+  <hr /><p><br /></p>
 
-<p>Googleスプレッドシート上で、任意のセルに分かち書きしたい文章を入力（例として、A1セル）し、<code>=wakachigaki(A1)</code>とすると、分かち書きされた結果をかえします。</p>
+<p>Googleスプレッドシートで、分かち書きされた要素を数え上げます。</p>
 
-<p><img alt="2.png" src="https://qiita-image-store.s3.amazonaws.com/0/48375/e6d59269-5ab2-e888-52eb-90f581954920.png" /></p>
+<p><br /></p>
+
+<h4 id="スクリプト">スクリプト</h4>
+
+<p>下記の2つの記事で紹介しているスクリプトを、Googleスプレッドシートの [ツール]→[スクリプトエディタ]から貼りつけ、保存してください。</p>
+
+<ul>
+<li><a href="http://shirayuca.github.io/blog/2014/10/19/wordcount.html">http://shirayuca.github.io/blog/2014/10/19/wordcount.html</a></li>
+<li><a href="http://shirayuca.github.io/blog/2014/10/21/wakachigaki.html">http://shirayuca.github.io/blog/2014/10/21/wakachigaki.html</a></li>
+</ul>
+
+<p>下記のように、各々のスクリプトファイル（〜.gs）を作成します。</p>
+
+<p><img src="https://qiita-image-store.s3.amazonaws.com/0/48375/27952c95-fb78-bff5-5e87-a26384568ee8.png" width=400px /></p>
+
+<p><br /></p>
+
+<h4 id="使い方">使い方</h4>
+
+<p>下記の公開スプレッドシートにて、実際の使い方の例を示しています。</p>
+
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/17SPL31fsaraUZhsxnBTxRZaGiXbYdISFWA_7UV3mKMg/edit?usp=sharing">https://docs.google.com/spreadsheets/d/17SPL31fsaraUZhsxnBTxRZaGiXbYdISFWA_7UV3mKMg/edit?usp=sharing</a></li>
+</ul>
+
+<p><br /></p>
+
+<h5 id="手順1：分かち書き">手順1：分かち書き</h5>
+
+<p>まず、任意のテキスト群を用意します。今回は、素敵な鬼女様（ <a href="http://sutekinakijo.com/">http://sutekinakijo.com/</a> ）の新着タイトルを<code>=IMPORTXML()</code>関数で取得しました。A2セルにはブログURLが入っています。</p>
+
+<pre><code>=importxml(A2,&quot;//h1[@class=&#39;article-title&#39;]&quot;)
+</code></pre>
+
+<p>その後、テキストの隣のセルに、<code>=wakachigaki()</code>関数と<code>=TRANSPOSE()</code>関数を組み合わせ、分かち書きされた要素を横列に表示します。B2セルにはブログタイトルテキストが入っています。</p>
+
+<pre><code>=transpose(wakachigaki(B2))
+</code></pre>
+
+<p><img src="https://qiita-image-store.s3.amazonaws.com/0/48375/c097dace-a8c5-9243-7991-23a2558e8bbf.png" width=800px /></p>
+
+<p><br /></p>
+
+<h5 id="手順2：数え上げ">手順2：数え上げ</h5>
+
+<p>新しいシート上で、<code>=wordCount()</code>関数を実行し、先ほど横列に順次表示された分かち書き後要素を数え上げます。<code>=wordCount()</code>関数では、分かち書きされた要素がある範囲全てを参照してください。</p>
+
+<p><img src="https://qiita-image-store.s3.amazonaws.com/0/48375/4e7910a5-bf4d-8d99-6ec7-92a8f3ad8a1a.png" width=300px /></p>
+
+<p>数え上げ結果は、新しいシートで値として貼付けしソートする等、適宜活用してください。</p>
+
+<p><img alt="5.png" src="https://qiita-image-store.s3.amazonaws.com/0/48375/b6679f12-5588-713c-89e1-2410b1106b98.png" /></p>
 
 <p><br /></p>
 
