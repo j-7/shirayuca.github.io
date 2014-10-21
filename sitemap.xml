@@ -133,6 +133,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>http://shirayuca.github.io//blog/2014/10/21/triennale.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <priority>0.6</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>http://shirayuca.github.io//blog/2014/10/21/wakachi_example.html</loc>
     <lastmod>2014-10-21</lastmod>
     <priority>0.6</priority>
@@ -200,6 +206,12 @@
   </url>
   <url>
     <loc>http://shirayuca.github.io//blog/tags/映像.html</loc>
+    <lastmod>2014-07-08</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://shirayuca.github.io//blog/tags/アート.html</loc>
     <lastmod>2014-07-08</lastmod>
     <priority>0.8</priority>
     <changefreq>daily</changefreq>
