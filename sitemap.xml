@@ -157,6 +157,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>http://shirayuca.github.io//blog/2014/11/07/twitter-friends-network.html</loc>
+    <lastmod>2014-11-07</lastmod>
+    <priority>0.6</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>http://shirayuca.github.io//</loc>
     <lastmod>2014-10-06</lastmod>
     <priority>1.0</priority>

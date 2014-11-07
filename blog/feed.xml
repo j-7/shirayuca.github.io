@@ -43,10 +43,50 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2014-11-07T10:54:00Z</updated>
+          <updated>2014-11-07T11:18:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>twitter特定ユーザのfollowing内follow関係</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/11/07/twitter-friends-network.html"/>
+            <id>http://shirayuca.github.io/blog/2014/11/07/twitter-friends-network.html</id>
+            <published>2014-11-07T11:18:00Z</published>
+            <updated>2014-11-07T20:24:38+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;twitter で、特定ユーザのfollowing内follow関係を分析します。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="データの取得"&gt;データの取得&lt;/h4&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="https://github.com/shiratsuchi/friends-data"&gt;https://github.com/shiratsuchi/friends-data&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="データの例"&gt;データの例&lt;/h4&gt;
+        
+        &lt;p&gt;@mariko_dayo のデータ例を用います。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="https://gist.github.com/shirayuca/dc6264451b589fba5e20"&gt;https://gist.github.com/shirayuca/dc6264451b589fba5e20&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="ネットワーク分析"&gt;ネットワーク分析&lt;/h4&gt;
+        
+        &lt;script src="https://gist.github.com/shirayuca/63daf569752330f00f94.js"&gt;&lt;/script&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>愛とセックスとお金 × 男／女(らしさ)</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/11/07/man.html"/>
@@ -238,56 +278,6 @@
         &lt;p&gt;関数を利用する際は、&lt;code&gt;=wordCount(範囲)&lt;/code&gt;とすると、下記の図のように範囲内の要素が数え上げられます。&lt;/p&gt;
         
         &lt;p&gt;&lt;img alt="5.png" src="https://qiita-image-store.s3.amazonaws.com/0/48375/facef54b-aaad-1788-b2be-7038e60fd258.png" /&gt;&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>twitteR で指定ユーザの friends 一覧を取得</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/10/16/twitter_1.html"/>
-            <id>http://shirayuca.github.io/blog/2014/10/16/twitter_1.html</id>
-            <published>2014-10-16T12:28:00Z</published>
-            <updated>2014-10-16T21:38:12+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;p&gt;R の twitteR を使って、指定ユーザの friends 一覧を取得します。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="1.-twitterアプリの作成"&gt;1. Twitterアプリの作成&lt;/h4&gt;
-        
-        &lt;p&gt;&lt;a href="https://dev.twitter.com/"&gt;Twitter Developers&lt;/a&gt;の&lt;a href="https://apps.twitter.com"&gt;Twitter Application Management&lt;/a&gt;にてアプリケーションを作成し、データ収集に必要なAPIキー等を取得します。私は下記のように入力しました。&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;Name: for using twitteR(任意の名前)&lt;/li&gt;
-        &lt;li&gt;Description: twitteRから利用します(任意の説明)&lt;/li&gt;
-        &lt;li&gt;Website: &lt;a href="http://shirayuca.github.io/"&gt;http://shirayuca.github.io/&lt;/a&gt; (任意のURL)&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;作成すると、&lt;code&gt;API key&lt;/code&gt;と&lt;code&gt;API secret&lt;/code&gt;が発行されます。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="2.-r-で-friends-一覧を取得"&gt;2. R で friends 一覧を取得&lt;/h4&gt;
-        
-        &lt;p&gt;初めて行う場合は、下記のスクリプトを実行します。適宜、先ほど取得した &lt;code&gt;API key&lt;/code&gt;と&lt;code&gt;API secret&lt;/code&gt; を使用してください。また、23行目にある通り、途中で Web画面での認証を求められます。その際は、コンソール上の URL をブラウザにコピーし、表示される PIN番号を再びコンソールに戻って入力してください。
-        &lt;script src="https://gist.github.com/shirayuca/0bd8b321445858c694fa.js"&gt;&lt;/script&gt;&lt;/p&gt;
-        
-        &lt;p&gt;2回目以降は、認証等を保存してあるため、下記のスクリプトを実行すれば OK です。
-        &lt;script src="https://gist.github.com/shirayuca/398335cda46b7f21d959.js"&gt;&lt;/script&gt;&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="参考"&gt;参考&lt;/h4&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://qiita.com/nezuq/items/75235f2139370cd8166c"&gt;http://qiita.com/nezuq/items/75235f2139370cd8166c&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://ameblo.jp/economics-teru/entry-11757817264.html"&gt;http://ameblo.jp/economics-teru/entry-11757817264.html&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://stackoverflow.com/questions/26138259/how-to-get-r-output-into-csv-file"&gt;http://stackoverflow.com/questions/26138259/how-to-get-r-output-into-csv-file&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
         
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
         </content>
