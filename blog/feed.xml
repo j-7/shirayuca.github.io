@@ -52,7 +52,7 @@
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/11/16/booklog.html"/>
             <id>http://shirayuca.github.io/blog/2014/11/16/booklog.html</id>
             <published>2014-11-15T15:53:00Z</published>
-            <updated>2014-11-16T01:05:11+09:00</updated>
+            <updated>2014-11-16T01:10:13+09:00</updated>
             <author>
               <name>Article Author</name>
             </author>
@@ -60,7 +60,7 @@
         
         &lt;p&gt;kindleで電子書籍を読むようになってから、Amazonでのシンプルなランキングや購入に伴うおすすめだけでは物足りなくなってきてしまい、読みたいまんがや書籍を探し求めています。そんな中、booklogでは電子書籍カテゴリでの週間ランキングを出してくれていることを知り、ランキングをタグ別に俯瞰したいという思いが出てきました。そこで、Googleスプレッドシートで幾つかの関数を組み合わせて使用することで、Googleスプレッドシートでbooklogランキングのタグ別表示を行ってみました。&lt;/p&gt;
         
-        &lt;p&gt;&lt;a href="https://docs.google.com/spreadsheets/d/1ruJcvqzbfOVGzOXT1ZrBzTIumyfzqd2LD4kgXev8yhQ/edit?usp=sharing"&gt;&lt;img src="http://shirayuca.github.io/blog/2014/11/16/booklog/booklog.png"&gt;&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;a href="https://docs.google.com/spreadsheets/d/1ruJcvqzbfOVGzOXT1ZrBzTIumyfzqd2LD4kgXev8yhQ/edit?usp=sharing"&gt;&lt;img src="http://shirayuca.github.io/blog/2014/11/16/booklog/booklog.png" width=80%&gt;&lt;/a&gt;&lt;/p&gt;
         
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
         
