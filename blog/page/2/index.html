@@ -48,7 +48,7 @@
         <a href="/blog/tags/テーマ.html">テーマ</a> (1)
       </li>
       <li>
-        <a href="/blog/tags/googleappsscript.html">GoogleAppsScript</a> (9)
+        <a href="/blog/tags/googleappsscript.html">GoogleAppsScript</a> (10)
       </li>
       <li>
         <a href="/blog/tags/学会.html">学会</a> (1)
@@ -78,6 +78,33 @@
   </div>
 </div>
 <div class="col-lg-9 col-md-9"><h1>
+  <a href="/blog/2014/10/19/wordcount.html">Googleスプレッドシートで選択範囲内の要素を数え上げ</a>
+</h1>
+<hr />
+<p>
+  <span class="glyphicon glyphicon-time"></span> Posted on Oct 19
+</p>
+<hr /><p><br /></p>
+
+<p>Google Apps Script を用いて、Googleスプレッドシートの選択範囲内の要素を数え上げます。</p>
+
+<script src="https://gist.github.com/shirayuca/c828363c746970fa1a71.js"></script>
+
+<p><br /></p>
+
+<h4 id="使い方">使い方</h4>
+
+<p>下記の図のような、広い範囲にある要素を数え上げます。</p>
+
+<p><img alt="4.png" src="https://qiita-image-store.s3.amazonaws.com/0/48375/db29f2b6-2c55-b005-5460-f32c1ad6615e.png" /></p>
+
+<p>関数を利用する際は、<code>=wordCount(範囲)</code>とすると、下記の図のように範囲内の要素が数え上げられます。</p>
+
+<p><img alt="5.png" src="https://qiita-image-store.s3.amazonaws.com/0/48375/facef54b-aaad-1788-b2be-7038e60fd258.png" /></p>
+
+<p><br /></p>
+
+<hr /><h1>
   <a href="/blog/2014/10/16/twitter_1.html">twitteR で指定ユーザの friends 一覧を取得</a>
 </h1>
 <hr />
@@ -463,61 +490,13 @@
 
 <p><br /></p>
 
-<hr /><h1>
-  <a href="/blog/2014/09/02/watts-strogatz.html">watts.strogatz.game でスモールワールド・シミュレーション</a>
-</h1>
-<hr />
-<p>
-  <span class="glyphicon glyphicon-time"></span> Posted on Sep  2
-</p>
-<hr />
-<p><br /></p>
-
-<p>R のパッケージ igraph の watts.strogatz.game() 関数を用いて、スモールワールド・シミュレーションを行います。sna パッケージにて紹介されていたものを、igraph にて行った形となります。 igraph と sna では、レギュラーグラフの作り方に違いがあるので、全く同じ結果にはなりません。</p>
-
-<p><br /></p>
-
-<h4 id="ネットワーク図の作成">ネットワーク図の作成</h4>
-
-<p>ランダム性 p について、0、0.2、1の3種類でネットワーク図を作成します。また、平均経路長、クラスター係数、および最短距離マトリックスと特定頂点の最短経路も出します。</p>
-
-<script src="https://gist.github.com/shirayuca/4af16341509466a9be13.js"></script>
-
-<p><br /></p>
-
-<h4 id="100回繰り返し">100回繰り返し</h4>
-
-<p>ランダム性 p について、0から1まで 0.01刻みに100回繰り返し、その結果の平均経路長とクラスター係数をプロットします。</p>
-
-<script src="https://gist.github.com/shirayuca/0e6e00182086f7149a15.js"></script>
-
-<p><br /></p>
-
-<h4 id="クラスター係数と平均経路長の変化">クラスター係数と平均経路長の変化</h4>
-
-<p>上記で100回繰り返した結果について、 p = 0 の値で割った、初期値に対する比の変化として片対数グラフを作成します。</p>
-
-<script src="https://gist.github.com/shirayuca/5ea82d0a31dd7b35650a.js"></script>
-
-<p><br /></p>
-
-<h4 id="参考文献">参考文献</h4>
-
-<ul>
-<li><a href="http://www.inside-r.org/packages/cran/igraph/docs/watts.strogatz.game">http://www.inside-r.org/packages/cran/igraph/docs/watts.strogatz.game</a></li>
-<li><a href="http://www.amazon.co.jp/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E5%88%86%E6%9E%90-R%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-8-%E9%88%B4%E6%9C%A8-%E5%8A%AA/dp/4320019288">http://www.amazon.co.jp/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E5%88%86%E6%9E%90-R%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-8-%E9%88%B4%E6%9C%A8-%E5%8A%AA/dp/4320019288</a></li>
-</ul>
-
-<p><br />
-<br /></p>
-
 <hr />
 <div class="well-sm">
   <ul class="pager">
     <li class="previous">
       <a href="/blog/">&larr;</a>
     </li>
-    <span class="text-center">Page 2 of 3</span>
+    <span class="text-center">Page 2 of 4</span>
     <li class="next">
       <a href="/blog/page/3/">&rarr;</a>
     </li>

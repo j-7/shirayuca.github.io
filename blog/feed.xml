@@ -43,10 +43,103 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2014-11-23T15:23:00Z</updated>
+          <updated>2014-12-13T07:09:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>家庭を支える技術を支える環境</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/12/13/home.html"/>
+            <id>http://shirayuca.github.io/blog/2014/12/13/home.html</id>
+            <published>2014-12-13T07:09:00Z</published>
+            <updated>2014-12-13T18:00:12+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;br /&gt;
+        このエントリは、&lt;a href="http://www.adventar.org/calendars/595"&gt;家庭を支える技術 Advent Calendar 2014&lt;/a&gt; の13日目です。インターネットが好きな夫婦二人の家庭にて、(1) 開発・活用しているツール群とその運用状況、(2) 開発環境について書きたいと思います。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="(1)-開発・活用しているツール群"&gt;(1) 開発・活用しているツール群&lt;/h4&gt;
+        
+        &lt;ol&gt;
+        &lt;li&gt; 帰るコール&lt;/li&gt;
+        &lt;li&gt;今日の白土家保守&lt;/li&gt;
+        &lt;li&gt;そろそろアラート&lt;/li&gt;
+        &lt;/ol&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h5 id="(1-1)-帰るコール"&gt;(1-1) 帰るコール&lt;/h5&gt;
+        
+        &lt;p&gt;&lt;a href="https://slack.com/"&gt;Slack&lt;/a&gt; と &lt;a href="https://ifttt.com/"&gt;IFTTT&lt;/a&gt; を組み合わせて、最寄駅に近づいたらアラートを送る「帰るコール」を作成し、活用しています。家庭内コミュニケーションのメインとして使用している Slack に、自動で状況を送ってくれる点が大変気に入っています。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;img alt="帰るコール" src="http://i.gyazo.com/f0af8d14b37e306766aa2b8e974a2556.png" /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br/ &gt;&lt;/p&gt;
+        
+        &lt;h5 id="(1-2)-今日の白土家保守"&gt;(1-2) 今日の白土家保守&lt;/h5&gt;
+        
+        &lt;p&gt;Googleフォームとスプレッドシートを活用し、毎日行った家事を記録する&lt;a href="http://shirayuca.github.io/blog/2014/11/24/today-s.html"&gt;今日の白土家保守&lt;/a&gt;というサービスを作成し、活用しています。運用し始めて2週間強、感じたことは、フォームに入力し忘れてしまうことがある�／何も家事をしていない日が悲しい、という2点です。&lt;/p&gt;
+        
+        &lt;p&gt;まず、1点目について。下記は、最近行った家事の集計結果です。実際は、もう少し家事を行っているのですが、夜遅くに帰宅した際にバタバタと片付けた家事などは、フォームでの入力すら面倒で怠りがちです。そのため、例えば、家事を行っていない側が労いの言葉とともにフォーム入力する、等の工夫があると、改善できるのではと考えています。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;img src="http://i.gyazo.com/05ea5ba0ebf509d064ca563e9b22c355.png" width="500"&gt;&lt;/p&gt;
+        
+        &lt;p&gt;続いて、2点目について。下記は、家事を何も行っていない日のサマリーメールです。何もしていない日に下記のようなメールが来るとささやかな罪悪感が募るので、文面を変更しなければ、ということに気づきました。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;img src="http://i.gyazo.com/44a5e08f50705b78344c99c899dd0d40.png" width="500"&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h5 id="(1-3)-そろそろアラート"&gt;(1-3) そろそろアラート&lt;/h5&gt;
+        
+        &lt;p&gt;Googleスプレッドシートを活用し、定期的にAmazonにて購入するものに関して、そろそろ買ったほうがいいものをアラートしてくれる&lt;a href="http://kei-s.hatenablog.com/entry/2014/12/01/204005"&gt;そろそろアラート&lt;/a&gt;を作成し、活用しています。Amazonは定期お得便に含まれる項目が限定されているため、例えば我が家で愛用しているゴミ箱のにおい取り等の取り替え時をお知らせしてくれて、便利です。また、私たち夫婦は、共にTO DO管理があまり得意ではないため、家に品物が届いたら取り替えればいい、という簡単ステップに快適さを感じています。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="(2)-開発環境"&gt;(2) 開発環境&lt;/h4&gt;
+        
+        &lt;ol&gt;
+        &lt;li&gt;IKEA のイーゼルと Apple TV&lt;/li&gt;
+        &lt;li&gt;Google スプレッドシート&lt;/li&gt;
+        &lt;li&gt;GitHub Organizations&lt;/li&gt;
+        &lt;/ol&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h5 id="(2-1)-ikea-のイーゼルと-apple-tv"&gt;(2-1) IKEA のイーゼルと Apple TV&lt;/h5&gt;
+        
+        &lt;p&gt;何か作りたいものについて、一番最初の &amp;quot;Let&amp;#39;s have a chat.&amp;quot; の段階では、IKEA のイーゼルと Apple TV を活用しています。イーゼルに自由にアイディアや図を書き込みながら作りたいものについてのイメージをクリアにしていきます。また、Apple TV で各自のラップトップの画面を表示したりしながら、情報収集と共有を行います。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;img src="http://i.gyazo.com/f0726d33a6d729563c6ea9a5f67e93d4.png" width="400"&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h5 id="(2-2)-google-スプレッドシート"&gt;(2-2) Google スプレッドシート&lt;/h5&gt;
+        
+        &lt;p&gt;私たちの家庭では、ツールを作成する際にGoogle スプレッドシートを活用することが多くあります。理由は2点あります。&lt;/p&gt;
+        
+        &lt;p&gt;1点目は、データのスクレイピングに向いているということです。Google スプレッドシートには Xpath でデータスクレイピングをする関数がデフォルト備わっており、インターネット上のデータを活用することに優れています。&lt;/p&gt;
+        
+        &lt;p&gt;2点目は、非エンジニアにも開発しやすいということです。夫はウェブエンジニアですが、私はそのような職業ではなく、プログラミングも得意ではありません。私が夫に作って欲しいものを頼むのは簡単なことですが、家庭とは長く続くチームであり、これからも様々なプロジェクト発足が想定されます。そのため、私も開発に携わりながら成長していき、今後、より柔軟に様々な課題に対応していけるようにという考えから、最近は専ら Google スプレッドシートを活用しています。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h5 id="(2-3)-github-organizations"&gt;(2-3) GitHub Organizations&lt;/h5&gt;
+        
+        &lt;p&gt;作成したものをパブリッシュする場として、GitHub Organizations ( &lt;a href="https://github.com/shiratsuchi"&gt;https://github.com/shiratsuchi&lt;/a&gt; )を利用しています。実は、これは、作成したものを公開したいという考えから生まれたものではなく、私たちが大学院時代に「研究を始めるにはまずディレクトリを作ることから、論文を書き始めるには TeX 一式を作成するところから」という意識から来ています。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="まとめ"&gt;まとめ&lt;/h4&gt;
+        
+        &lt;p&gt;以上が、我が家の家庭を支える技術の主な内容と、それらを支える環境についてです。おじいちゃんおばあちゃんになっても、何か一緒に作っていられたらいいね (その時にはエディタのフォントサイズは 20pt くらいかな )と、家庭内で話しています。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>今日の白土家保守</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2014/11/24/today-s.html"/>
@@ -239,35 +332,6 @@
         &lt;h4 id="ネットワーク分析"&gt;ネットワーク分析&lt;/h4&gt;
         
         &lt;script src="https://gist.github.com/shirayuca/63daf569752330f00f94.js"&gt;&lt;/script&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>愛とセックスとお金 × 男／女(らしさ)</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2014/11/07/man.html"/>
-            <id>http://shirayuca.github.io/blog/2014/11/07/man.html</id>
-            <published>2014-11-07T10:54:00Z</published>
-            <updated>2014-11-07T20:08:09+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;p&gt;最近読んだ・観た作品いくつか。&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://www.amazon.co.jp/%E3%80%8C%E7%94%B7%E3%82%89%E3%81%97%E3%81%95%E3%80%8D%E3%81%AE%E5%BF%AB%E6%A5%BD%E2%80%95%E3%83%9D%E3%83%94%E3%83%A5%E3%83%A9%E3%83%BC%E6%96%87%E5%8C%96%E3%81%8B%E3%82%89%E3%81%BF%E3%81%9F%E3%81%9D%E3%81%AE%E5%AE%9F%E6%85%8B-%E5%AE%AE%E5%8F%B0-%E7%9C%9F%E5%8F%B8/dp/4326653477"&gt;「男らしさ」の快楽―ポピュラー文化からみたその実態&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.suits-tv.jp/"&gt;SUITS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=gi2L56KTS9A"&gt;愛とセックスとセレブリティ&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=ZPqFiySOG_k"&gt;（500）日のサマー&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;草食系男子という、もはや死語となったこの単語は、男らしさと意味を拡張すると社会学でもオーソドックスなテーマとなります。最近ハマっていた海外ドラマ SUITS も典型的なその一例のようで、いわゆるマッチョでハイクラスの男性と対比させる、颯爽と自転車で街を動き回るややギークでなよっとした青年は、おそらく格好よさの新しいタイプ（というより多様性の存在）を提示するものでしょう。&lt;/p&gt;
-        
-        &lt;p&gt;期待せずに Hulu で流し始めた「愛とセックスとセレブリティ」は、想像よりも随分とおもしろく、映画分析に向いている素直な構造が見てとれました。女らしさ、女であるが故の夢見がちな甘えを恐ろしくも描き出している「(500)日のサマー」と対比させて観ると面白そう。それにしても、YouTubeでその場で映画本編を観ることができるシステム、手軽でとてもいいですね。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=gi2L56KTS9A"&gt;&lt;img src="http://img.youtube.com/vi/gi2L56KTS9A/0.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
         
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
         </content>
