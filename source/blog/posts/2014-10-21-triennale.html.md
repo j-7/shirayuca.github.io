@@ -1,7 +1,7 @@
 ---
 title: ヨコハマトリエンナーレ2014
 date: 2014-10-21 21:48 JST
-tags: アート
+tags: 文化
 ---
 
 <br />
@@ -22,4 +22,3 @@ tags: アート
 - http://www.nhk-ondemand.jp/goods/G2012035622SA000/
 
 <br />
-
