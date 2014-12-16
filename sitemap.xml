@@ -110,13 +110,13 @@
   </url>
   <url>
     <loc>http://shirayuca.github.io//blog/2014/09/25/movie.html</loc>
-    <lastmod>2014-10-06</lastmod>
+    <lastmod>2014-12-16</lastmod>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://shirayuca.github.io//blog/2014/10/06/rikkoho.html</loc>
-    <lastmod>2014-10-06</lastmod>
+    <lastmod>2014-12-16</lastmod>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
@@ -134,7 +134,7 @@
   </url>
   <url>
     <loc>http://shirayuca.github.io//blog/2014/10/21/triennale.html</loc>
-    <lastmod>2014-10-21</lastmod>
+    <lastmod>2014-12-16</lastmod>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
@@ -152,7 +152,7 @@
   </url>
   <url>
     <loc>http://shirayuca.github.io//blog/2014/11/07/man.html</loc>
-    <lastmod>2014-11-07</lastmod>
+    <lastmod>2014-12-16</lastmod>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
@@ -247,13 +247,7 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>http://shirayuca.github.io//blog/tags/映像.html</loc>
-    <lastmod>2014-07-08</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>http://shirayuca.github.io//blog/tags/アート.html</loc>
+    <loc>http://shirayuca.github.io//blog/tags/文化.html</loc>
     <lastmod>2014-07-08</lastmod>
     <priority>0.8</priority>
     <changefreq>daily</changefreq>
