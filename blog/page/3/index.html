@@ -69,7 +69,7 @@
         <a href="/blog/tags/データ.html">データ</a> (2)
       </li>
       <li>
-        <a href="/blog/tags/参考文献.html">参考文献</a> (3)
+        <a href="/blog/tags/参考文献.html">参考文献</a> (4)
       </li>
       <li>
         <a href="/blog/tags/文化.html">文化</a> (6)
@@ -80,10 +80,73 @@
       <li>
         <a href="/blog/tags/ソーシャルメディア.html">ソーシャルメディア</a> (2)
       </li>
+      <li>
+        <a href="/blog/tags/統計.html">統計</a> (1)
+      </li>
     </ul>
   </div>
 </div>
 <div class="col-lg-9 col-md-9"><h1>
+  <a href="/blog/2014/09/18/coauthor-network.html">論文共著ネットワーク</a>
+</h1>
+<hr />
+<p>
+  <span class="glyphicon glyphicon-time"></span> Posted on Sep 18
+</p>
+<hr />
+<p><br />
+東京都市大学の教員の、論文数の分布と共著ネットワークを作成します。データは、CiNiiより取得しています。</p>
+
+<p><br /></p>
+
+<h4 id="執筆論文数の分布">執筆論文数の分布</h4>
+
+<script src="https://gist.github.com/shirayuca/c35df9631b8d3e8cd756.js"></script>
+
+<p><br /></p>
+
+<h4 id="共著ネットワーク">共著ネットワーク</h4>
+
+<script src="https://gist.github.com/shirayuca/faa8fd8e8f978ecf93e4.js"></script>
+
+<p><br /></p>
+
+<h4 id="参考">参考</h4>
+
+<ul>
+<li><a href="http://ci.nii.ac.jp/">http://ci.nii.ac.jp/</a></li>
+<li><a href="http://www.risys.gl.tcu.ac.jp/">http://www.risys.gl.tcu.ac.jp/</a></li>
+<li><a href="http://ciniicoauthornetwork.appspot.com/">http://ciniicoauthornetwork.appspot.com/</a></li>
+</ul>
+
+<p><br /></p>
+
+<hr /><h1>
+  <a href="/blog/2014/09/17/barabasi-game.html">barabasi.game でスケールフリー・ネットワーク・シミュレーション</a>
+</h1>
+<hr />
+<p>
+  <span class="glyphicon glyphicon-time"></span> Posted on Sep 17
+</p>
+<hr />
+<p><br /></p>
+
+<p>R のパッケージ igraph の barabasi.game() 関数を用いて、スケールフリー・ネットワーク・シミュレーションを行います。</p>
+
+<script src="https://gist.github.com/shirayuca/da658dcf30906fb98c18.js"></script>
+
+<p><br /></p>
+
+<h4 id="参考文献">参考文献</h4>
+
+<ul>
+<li><a href="http://www.inside-r.org/packages/cran/igraph/docs/barabasi.game">http://www.inside-r.org/packages/cran/igraph/docs/barabasi.game</a></li>
+<li><a href="http://www.amazon.co.jp/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E5%88%86%E6%9E%90-R%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-8-%E9%88%B4%E6%9C%A8-%E5%8A%AA/dp/4320019288">http://www.amazon.co.jp/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E5%88%86%E6%9E%90-R%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-8-%E9%88%B4%E6%9C%A8-%E5%8A%AA/dp/4320019288</a></li>
+</ul>
+
+<p><br /></p>
+
+<hr /><h1>
   <a href="/blog/2014/09/17/mita.html">見田宗介(2012)『現代社会はどこに向かうか ≪生きるリアリティの崩壊と再生≫』</a>
 </h1>
 <hr />
@@ -431,81 +494,6 @@
 <li><a href="http://pc.nikkeibp.co.jp/article/news/20140808/1139503/">教育とICTの学会「PCカンファレンス」が開幕、妹尾CIEC会長理事と熊坂慶應大学教授が基調講演</a></li>
 <li><a href="http://pc.nikkeibp.co.jp/article/news/20140810/1139563/">【2014 PCカンファレンス】約30チームがポスター発表、高校生データサイエンティストやエプロン型コンピュータ</a></li>
 </ul>
-
-<p><br />
-<br /></p>
-
-<hr /><h1>
-  <a href="/blog/2014/08/04/yahoo.html">Googleスプレッドシート上で形態素解析</a>
-</h1>
-<hr />
-<p>
-  <span class="glyphicon glyphicon-time"></span> Posted on Aug  4
-</p>
-<hr /><p><br /></p>
-
-<p>形態素解析は、一昔前に比べると随分と導入が楽になったと感じます。一方で、「今後ばりばりテキストマイニングをしていくかどうかはわからないけれど、とりあえず試しに形態素解析をやってみたい」という人にとっては、環境構築など、面倒なことも少なくないかな、とも思います。そこで、Googleスプレッドシート上で形態素解析ができたら第一歩が気軽に踏み出せるのではないか、と考えました。</p>
-
-<p>使用するのは、</p>
-
-<ul>
-<li>Googleスプレッドシート</li>
-<li>Yahoo! の日本語形態素解析API</li>
-</ul>
-
-<p>です。</p>
-
-<p><br /></p>
-
-<h4 id="日本語形態素解析apiの利用">日本語形態素解析APIの利用</h4>
-
-<p>まず、Yahoo!デベロッパーネットワークにて、アプリケーションIDを取得します。やり方は、下記のブログが参考になります。</p>
-
-<ul>
-<li><a href="http://ysklog.net/php/1581.html">http://ysklog.net/php/1581.html</a></li>
-</ul>
-
-<p><br /></p>
-
-<h4 id="スプレッドシートの作成">スプレッドシートの作成</h4>
-
-<p>続いて、Googleスプレッドシートを作成し、メニューから<code>ツール &gt; スクリプトエディタ</code>を選択します。その後、下記のコードを入力してください。アプリケーションIDは、上記で取得したものを用いてください。</p>
-
-<script src="https://gist.github.com/shirayuca/14e8b2cb031baafed526.js"></script>
-
-<p>スクリプトを編集した後、スプレッドシートにもどり、形態素解析を行ってみましょう。例として、A2セルに任意のテキストを入力し、<code>=yahooTextSegmentation(A2)</code>とすると、下記のようにテキストが形態素解析されます。よかったら、ぜひ試してみてください。</p>
-
-<p><br /></p>  
-
-<p><img alt="簡単献立シート" src="http://shirayuca.github.io/blog/2014/08/04/yahoo/yahoo.png"></p>
-
-<p><br /></p>
-
-<p><br /></p>
-
-<h4 id="参考url">参考URL</h4>
-
-<ul>
-<li><a href="http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html">http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html</a></li>
-<li><a href="http://ysklog.net/php/1581.html">http://ysklog.net/php/1581.html</a></li>
-</ul>
-
-<p><br />
-<br /></p>
-
-<hr /><h1>
-  <a href="/blog/2014/08/04/imagelink.html">Markdown で画像へのハイパーリンク付与</a>
-</h1>
-<hr />
-<p>
-  <span class="glyphicon glyphicon-time"></span> Posted on Aug  4
-</p>
-<hr /><p><br /></p>
-
-<p>Markdown でブログを書くのはとても簡単ですが、画像にハイパーリンクを張れないのが不便だな、と感じていました。そんなときは、直接 HTML のタグを書きます。</p>
-
-<pre><code>&lt;p&gt;&lt;a href=&quot;…&quot;&gt;&lt;img alt=&quot;…&quot; src=&quot;…&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-</code></pre>
 
 <p><br />
 <br /></p>

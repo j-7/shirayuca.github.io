@@ -69,7 +69,7 @@
         <a href="/blog/tags/データ.html">データ</a> (2)
       </li>
       <li>
-        <a href="/blog/tags/参考文献.html">参考文献</a> (3)
+        <a href="/blog/tags/参考文献.html">参考文献</a> (4)
       </li>
       <li>
         <a href="/blog/tags/文化.html">文化</a> (6)
@@ -80,10 +80,88 @@
       <li>
         <a href="/blog/tags/ソーシャルメディア.html">ソーシャルメディア</a> (2)
       </li>
+      <li>
+        <a href="/blog/tags/統計.html">統計</a> (1)
+      </li>
     </ul>
   </div>
 </div>
 <div class="col-lg-9 col-md-9"><h1>
+  <a href="/blog/2014/08/04/yahoo.html">Googleスプレッドシート上で形態素解析</a>
+</h1>
+<hr />
+<p>
+  <span class="glyphicon glyphicon-time"></span> Posted on Aug  4
+</p>
+<hr /><p><br /></p>
+
+<p>形態素解析は、一昔前に比べると随分と導入が楽になったと感じます。一方で、「今後ばりばりテキストマイニングをしていくかどうかはわからないけれど、とりあえず試しに形態素解析をやってみたい」という人にとっては、環境構築など、面倒なことも少なくないかな、とも思います。そこで、Googleスプレッドシート上で形態素解析ができたら第一歩が気軽に踏み出せるのではないか、と考えました。</p>
+
+<p>使用するのは、</p>
+
+<ul>
+<li>Googleスプレッドシート</li>
+<li>Yahoo! の日本語形態素解析API</li>
+</ul>
+
+<p>です。</p>
+
+<p><br /></p>
+
+<h4 id="日本語形態素解析apiの利用">日本語形態素解析APIの利用</h4>
+
+<p>まず、Yahoo!デベロッパーネットワークにて、アプリケーションIDを取得します。やり方は、下記のブログが参考になります。</p>
+
+<ul>
+<li><a href="http://ysklog.net/php/1581.html">http://ysklog.net/php/1581.html</a></li>
+</ul>
+
+<p><br /></p>
+
+<h4 id="スプレッドシートの作成">スプレッドシートの作成</h4>
+
+<p>続いて、Googleスプレッドシートを作成し、メニューから<code>ツール &gt; スクリプトエディタ</code>を選択します。その後、下記のコードを入力してください。アプリケーションIDは、上記で取得したものを用いてください。</p>
+
+<script src="https://gist.github.com/shirayuca/14e8b2cb031baafed526.js"></script>
+
+<p>スクリプトを編集した後、スプレッドシートにもどり、形態素解析を行ってみましょう。例として、A2セルに任意のテキストを入力し、<code>=yahooTextSegmentation(A2)</code>とすると、下記のようにテキストが形態素解析されます。よかったら、ぜひ試してみてください。</p>
+
+<p><br /></p>  
+
+<p><img alt="簡単献立シート" src="http://shirayuca.github.io/blog/2014/08/04/yahoo/yahoo.png"></p>
+
+<p><br /></p>
+
+<p><br /></p>
+
+<h4 id="参考url">参考URL</h4>
+
+<ul>
+<li><a href="http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html">http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html</a></li>
+<li><a href="http://ysklog.net/php/1581.html">http://ysklog.net/php/1581.html</a></li>
+</ul>
+
+<p><br />
+<br /></p>
+
+<hr /><h1>
+  <a href="/blog/2014/08/04/imagelink.html">Markdown で画像へのハイパーリンク付与</a>
+</h1>
+<hr />
+<p>
+  <span class="glyphicon glyphicon-time"></span> Posted on Aug  4
+</p>
+<hr /><p><br /></p>
+
+<p>Markdown でブログを書くのはとても簡単ですが、画像にハイパーリンクを張れないのが不便だな、と感じていました。そんなときは、直接 HTML のタグを書きます。</p>
+
+<pre><code>&lt;p&gt;&lt;a href=&quot;…&quot;&gt;&lt;img alt=&quot;…&quot; src=&quot;…&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+</code></pre>
+
+<p><br />
+<br /></p>
+
+<hr /><h1>
   <a href="/blog/2014/07/27/googleimage.html">各県のラーメン画像</a>
 </h1>
 <hr />
