@@ -49,10 +49,71 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2015-04-19T09:37:00Z</updated>
+          <updated>2015-04-19T12:51:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>Google APIでジャニーズを見る</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/04/19/johnnys.html"/>
+            <id>http://shirayuca.github.io/blog/2015/04/19/johnnys.html</id>
+            <published>2015-04-19T12:51:00Z</published>
+            <updated>2015-04-19T22:28:23+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;br /&gt;
+        GoogleのAPIで遊んでみよう、ということで、ジャニーズ事務所のタレント名で検索をしてみました。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        
+        &lt;h4 id="googleサジェストapi"&gt;GoogleサジェストAPI&lt;/h4&gt;
+        
+        &lt;p&gt;Google検索そのものとAPIとでは結構データが異なるところが少し気になりますが、タレントそれぞれのどのような点に関心を持たれているかがわかる、面白いデータだと思います。ざっくりと見た印象では、やはり恋愛系のキーワードと共に検索されることが多いようですが、他には、ジャニーズの他メンバーと共に検索されることが多い点が興味深かったです。仲がいいかどうか、などを調べるのでしょうか。また、家族や学校について、あるいは身長が検索されているという点に関しては、マスメディアによって作られたイメージの外側に思いを馳せているのかな、と感じました。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="https://docs.google.com/spreadsheets/d/19BOXoeV8xfAssaKKSKxD3utqgvM3d0SKbt6QuBW4F1A/edit?usp=sharing"&gt;ジャニーズタレント名サジェスト&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;a href="https://docs.google.com/spreadsheets/d/19BOXoeV8xfAssaKKSKxD3utqgvM3d0SKbt6QuBW4F1A/edit?usp=sharing)"&gt;&lt;img src="http://i.gyazo.com/babb46d1c7910b348238817fdd8daf9d.png" width="600"&gt;&lt;/a&gt;&lt;/p&gt;
+        
+        &lt;p&gt;ほかに面白かった検索キーワードとしては、&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;「堂本光一　王子」&lt;/li&gt;
+        &lt;li&gt;「増田貴久　似てる芸能人」&lt;/li&gt;
+        &lt;li&gt;「上田竜也　顔文字」&lt;/li&gt;
+        &lt;li&gt;「山田涼介　2014」「山田涼介　2015」&lt;/li&gt;
+        &lt;li&gt;「中島健人　伝説」&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;などがあります。堂本光一や中島健人に関しては、キャラクターが確立されたものであることが想像できます。また、「上田竜也　顔文字」を調べてみると、KAT-TUNメンバーそれぞれの顔文字が決まっているという文化に触れることもできました。他のグループも同様にすべて決まっているのか、今後調べてみたいです。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        
+        &lt;h4 id="google画像検索api"&gt;Google画像検索API&lt;/h4&gt;
+        
+        &lt;p&gt;さらに、「山田涼介　201X」という検索クエリは想像していなかったため、改めて自分で検索してみたところ、各年次がキーワードとしてサジェストされました。これは、それぞれの年のタレントの活躍を見たいという行動からくるものなのだろうか、と今は推測しています。(詳しい方いらしたら、教えて下さい)&lt;/p&gt;
+        
+        &lt;p&gt;最後に、上述した「山田涼介　201X」に関して、Google画像検索のトップにヒットするもののみをセルに表示してみたところ、タレントの成長過程を見てとることができました。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="https://docs.google.com/spreadsheets/d/1DT2ggwuTkn7FbzaMKjsf2fIDD33JiNt51SrSwta6gyI/edit?usp=sharing"&gt;ジャニーズタレント年次別画像検索&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;a href="https://docs.google.com/spreadsheets/d/1DT2ggwuTkn7FbzaMKjsf2fIDD33JiNt51SrSwta6gyI/edit?usp=sharing"&gt;&lt;img src="http://i.gyazo.com/36af7e73eb1f0e157ad6539ab9ee8d0e.png" width="600"&gt;&lt;/a&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="参考"&gt;参考&lt;/h4&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://webshufu.com/google-suggest-api/"&gt;http://webshufu.com/google-suggest-api/&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://shirayuca.github.io/blog/2014/07/27/googleimage.html"&gt;http://shirayuca.github.io/blog/2014/07/27/googleimage.html&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1340634483"&gt;http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1340634483&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        </content>
+          </entry>
           <entry>
             <title>スティーブン・Ｄ・ラパポート(2012)『リッスン・ファースト！』</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2015/04/19/listen.html"/>
@@ -450,47 +511,6 @@
         &lt;li&gt;&lt;a href="http://www.huffingtonpost.jp/2013/10/21/enjo-twitter_n_4134990.html"&gt;The Huffington Post「「バイトテロ」で相次ぐTwitter炎上　どうやって食い止める？」2013/10/22 &lt;/a&gt;
         -&lt;a href="http://japan.cnet.com/marketers/sp_orgtransparency/35034620/"&gt;斉藤徹「賞賛と炎上を分けるもの」CNET Japan、2013/07/16&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="http://ure.pia.co.jp/articles/-/12689"&gt;ウレぴあ総研「【就活】SNSで不採用に!? 現役人事が明かす、面接者の&amp;quot;書き込み&amp;quot;が選考を左右した実例」2013/3/11&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>情報の収集と編集</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/03/25/smapplication_1.html"/>
-            <id>http://shirayuca.github.io/blog/2015/03/25/smapplication_1.html</id>
-            <published>2015-03-25T09:24:00Z</published>
-            <updated>2015-03-25T18:47:13+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br /&gt;
-        「ソーシャルメディアの活用」授業のテーマ1、「情報の収集と編集」で使用した主な資料を記しておきます。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="導入"&gt;導入&lt;/h4&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://toyokeizai.net/articles/-/34638"&gt;東洋経済オンライン「若者の情報収集に欠けている「ある視点」」2014/4/7&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.amazon.co.jp/%E6%9C%9D%E6%97%A5%E6%96%B0%E8%81%9E%E8%A8%98%E8%80%85%E3%81%AE%E3%83%8D%E3%83%83%E3%83%88%E6%83%85%E5%A0%B1%E6%B4%BB%E7%94%A8%E8%A1%93-%E6%9C%9D%E6%97%A5%E6%96%B0%E6%9B%B8-%E5%B9%B3-%E5%92%8C%E5%8D%9A/dp/4022734418"&gt;平和博『朝日新聞記者のネット情報活用術』2012/3/13&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.google.com/intl/ja/insidesearch/howsearchworks/"&gt;検索の仕組み – 検索サービス – Google&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://liginc.co.jp/web/service/google/86222"&gt;LIG Inc.「Google検索がもっと便利になる検索オプション・テクニックまとめ」2014/5/13&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="検索ツールの例"&gt;検索ツールの例&lt;/h4&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="https://twitter.com/search-advanced?lang=ja"&gt;Twitter / 高度な検索&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://search.yahoo.co.jp/realtime"&gt;Yahoo!検索（リアルタイム）&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://t21.nikkei.co.jp/"&gt;日経テレコン21&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.tk-dcl.jp/dcl/"&gt;東洋経済デジタルコンテンツ・ライブラリー&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="https://scholar.google.co.jp/"&gt;Google Scholar&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://ci.nii.ac.jp/"&gt;CiNii Articles&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="https://www.jstage.jst.go.jp/browse/-char/ja/"&gt;J-STAGE&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="https://ndlopac.ndl.go.jp/"&gt;国立国会図書館 NDL Opac&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
         
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
