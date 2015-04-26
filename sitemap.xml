@@ -277,6 +277,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>http://shirayuca.github.io//works/jiyugaoka-map/night.html</loc>
+    <lastmod>2015-04-26</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>http://shirayuca.github.io//works/work-style.html</loc>
     <lastmod>2015-04-19</lastmod>
     <priority>0.9</priority>
