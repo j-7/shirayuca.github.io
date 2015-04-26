@@ -20,7 +20,7 @@ tags: 分析
 これから、昼夜営業版、夜のみ営業版のマップの作成と、自由が丘店舗全体のデータの傾向を見ていきたいと思います。
 
 
-### 参考
+#### 参考
 - https://github.com/alanphoon/jquery-live-preview
 - http://t-kashima.hateblo.jp/entry/2012/03/11/235755
 
