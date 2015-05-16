@@ -49,10 +49,55 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2015-04-25T11:56:00Z</updated>
+          <updated>2015-05-16T09:50:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>毎日、Amazonの特定商品の価格を取得する</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/05/16/amazon-price.html"/>
+            <id>http://shirayuca.github.io/blog/2015/05/16/amazon-price.html</id>
+            <published>2015-05-16T09:50:00Z</published>
+            <updated>2015-05-16T20:28:22+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+        
+        &lt;p&gt;毎日、Amazonの特定商品の価格を取得するGoogleスプレッドシートを作成しました。元々、担当授業でもスプレッドシートを活用してスクレイピングを試みていましたが、アクセスしたその瞬間のスナップショットを取得するというものでした。定期的にスクレイピングする方法も行ってみたいと思い（例えば、何かのスコアを毎日取得するなど）、今回、Amazonの特定商品の価格を例に行いました。下記のA列、B列に毎日データが追加されていきます。グラフ化等行うと面白そうですね。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="https://docs.google.com/spreadsheets/d/1BVZH0-Vpvg6-FR3XJ4_b3_mimkU4FKVBQ3Tpg7YT6SQ/edit?usp=sharing"&gt;Amazon価格の取得シート&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;a href="https://docs.google.com/spreadsheets/d/1BVZH0-Vpvg6-FR3XJ4_b3_mimkU4FKVBQ3Tpg7YT6SQ/edit?usp=sharing"&gt;&lt;img src="http://i.gyazo.com/4d9e5dca1e3bfb1d06d979716be3d6bf.png", width="600"&gt;&lt;/a&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+        
+        &lt;h4 id="使い方"&gt;使い方&lt;/h4&gt;
+        
+        &lt;ol&gt;
+        &lt;li&gt;上記で公開しているシートをコピー&lt;/li&gt;
+        &lt;li&gt;E1セルに任意のAmazon商品ページを入力&lt;/li&gt;
+        &lt;li&gt;トリガーを設定（私は、毎日取得という方法にする予定です）&lt;/li&gt;
+        &lt;/ol&gt;
+        
+        &lt;p&gt;シートをコピーして使用しない場合は、下記のコードをスクリプトエディタに貼り付けて使用します。&lt;/p&gt;
+        
+        &lt;script src="https://gist.github.com/shirayuca/01c62520329566a82dcb.js"&gt;&lt;/script&gt;
+        
+        &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+        
+        &lt;h4 id="参考"&gt;参考&lt;/h4&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://www.bmoo.net/archives/2012/04/313841.html"&gt;http://www.bmoo.net/archives/2012/04/313841.html&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://engineer-intern.jp/archives/7551"&gt;http://engineer-intern.jp/archives/7551&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>食べログ自由が丘マップ(試作)</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2015/04/25/jiyugaoka.html"/>
@@ -431,74 +476,6 @@
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
         
         &lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=8GRQLayqdCc"&gt;&lt;img alt="映画『ニンフォマニアック』予告 - R18＋" src="http://img.youtube.com/vi/8GRQLayqdCc/0.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>kindleアプリの中がテラリウム</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/03/25/sf.html"/>
-            <id>http://shirayuca.github.io/blog/2015/03/25/sf.html</id>
-            <published>2015-03-25T10:38:00Z</published>
-            <updated>2015-03-25T21:02:09+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br /&gt;
-        もともと、藤子・F・不二雄の「すこし不思議」なSFは大好きだったのだけれど、最近、王道のSF好きな夫の影響もあってか、これまでよりもSF関連の作品に触れることが増えました。ここ最近で良かったものは、&lt;/p&gt;
-        
-        &lt;p&gt;映画・ドラマ&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://wwws.warnerbros.co.jp/interstellar/"&gt;インターステラー&lt;/a&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;映画評とワンセットで完成、というイメージ。&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://her.asmik-ace.co.jp/"&gt;her／世界でひとつの彼女&lt;/a&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;かわゆい世界。&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.hulu.jp/orphan-black"&gt;オーファン・ブラック ～暴走遺伝子&lt;/a&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;一人n役が凄すぎる。&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.amazon.co.jp/%E3%82%B8%E3%83%A5%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%83%BB%E3%83%91%E3%83%BC%E3%82%AF-DVD-%E3%83%AA%E3%83%81%E3%83%A3%E3%83%BC%E3%83%89%E3%83%BB%E3%82%A2%E3%83%83%E3%83%86%E3%83%B3%E3%83%9C%E3%83%AD%E3%83%BC/dp/B000E6GAKY"&gt;ジュラシック・パーク&lt;/a&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;今観ても、良い。&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;まんが&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://www.amazon.co.jp/%E3%83%86%E3%83%B3%E3%83%9A%E3%82%B9%E3%83%88-1-KCx-%E9%98%BF%E4%BB%81%E8%B0%B7-%E3%83%A6%E3%82%A4%E3%82%B8/dp/4063805298"&gt;阿仁谷ユイジ『テンペスト』&lt;/a&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;併せて観たい「オーファン・ブラック」。&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.amazon.co.jp/%E3%83%A8%E3%82%B3%E3%83%8F%E3%83%9E%E8%B2%B7%E3%81%84%E5%87%BA%E3%81%97%E7%B4%80%E8%A1%8C-1-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3KC-%E8%8A%A6%E5%A5%88%E9%87%8E-%E3%81%B2%E3%81%A8%E3%81%97/dp/4063210502"&gt;芦奈野ひとし『ヨコハマ買い出し紀行』&lt;/a&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;ゆるゆる系だけど嫌味がなくて良い。&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.amazon.co.jp/%E3%81%B2%E3%81%8D%E3%81%A0%E3%81%97%E3%81%AB%E3%83%86%E3%83%A9%E3%83%AA%E3%82%A6%E3%83%A0-%E4%B9%9D%E4%BA%95%E8%AB%92%E5%AD%90-ebook/dp/B00E59A03O/"&gt;九井諒子『ひきだしにテラリウム』&lt;/a&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;この緻密さに打たれる。&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.amazon.co.jp/%E7%AB%9C%E3%81%AE%E5%AD%A6%E6%A0%A1%E3%81%AF%E5%B1%B1%E3%81%AE%E4%B8%8A-%E4%B9%9D%E4%BA%95%E8%AB%92%E5%AD%90-ebook/dp/B00DLT047Q/"&gt;九井諒子『竜の学校は山の上』&lt;/a&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;九井諒子の面白さを初めて知った本。ものすごく良かった。&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;
-        我が家では kindle の本棚を共有しているので、見慣れない作品があると、夫の新たな一面を見ることができているようで、とても嬉しいです。技術の進化で、言葉に出さないコミュニケーションの手段が増えたことを感じます。&lt;/p&gt;
         
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
         </content>

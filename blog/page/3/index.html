@@ -54,7 +54,7 @@
         <a href="/blog/tags/テーマ.html">テーマ</a> (1)
       </li>
       <li>
-        <a href="/blog/tags/googleappsscript.html">GoogleAppsScript</a> (11)
+        <a href="/blog/tags/googleappsscript.html">GoogleAppsScript</a> (12)
       </li>
       <li>
         <a href="/blog/tags/学会.html">学会</a> (1)
@@ -90,6 +90,53 @@
   </div>
 </div>
 <div class="col-lg-9 col-md-9"><h1>
+  <a href="/blog/2014/10/16/twitter_1.html">twitteR で指定ユーザの friends 一覧を取得</a>
+</h1>
+<hr />
+<p>
+  <span class="glyphicon glyphicon-time"></span> Posted on Oct 16
+</p>
+<hr /><p><br /></p>
+
+<p>R の twitteR を使って、指定ユーザの friends 一覧を取得します。</p>
+
+<p><br /></p>
+
+<h4 id="1.-twitterアプリの作成">1. Twitterアプリの作成</h4>
+
+<p><a href="https://dev.twitter.com/">Twitter Developers</a>の<a href="https://apps.twitter.com">Twitter Application Management</a>にてアプリケーションを作成し、データ収集に必要なAPIキー等を取得します。私は下記のように入力しました。</p>
+
+<ul>
+<li>Name: for using twitteR(任意の名前)</li>
+<li>Description: twitteRから利用します(任意の説明)</li>
+<li>Website: <a href="http://shirayuca.github.io/">http://shirayuca.github.io/</a> (任意のURL)</li>
+</ul>
+
+<p>作成すると、<code>API key</code>と<code>API secret</code>が発行されます。</p>
+
+<p><br /></p>
+
+<h4 id="2.-r-で-friends-一覧を取得">2. R で friends 一覧を取得</h4>
+
+<p>初めて行う場合は、下記のスクリプトを実行します。適宜、先ほど取得した <code>API key</code>と<code>API secret</code> を使用してください。また、23行目にある通り、途中で Web画面での認証を求められます。その際は、コンソール上の URL をブラウザにコピーし、表示される PIN番号を再びコンソールに戻って入力してください。
+<script src="https://gist.github.com/shirayuca/0bd8b321445858c694fa.js"></script></p>
+
+<p>2回目以降は、認証等を保存してあるため、下記のスクリプトを実行すれば OK です。
+<script src="https://gist.github.com/shirayuca/398335cda46b7f21d959.js"></script></p>
+
+<p><br /></p>
+
+<h4 id="参考">参考</h4>
+
+<ul>
+<li><a href="http://qiita.com/nezuq/items/75235f2139370cd8166c">http://qiita.com/nezuq/items/75235f2139370cd8166c</a></li>
+<li><a href="http://ameblo.jp/economics-teru/entry-11757817264.html">http://ameblo.jp/economics-teru/entry-11757817264.html</a></li>
+<li><a href="http://stackoverflow.com/questions/26138259/how-to-get-r-output-into-csv-file">http://stackoverflow.com/questions/26138259/how-to-get-r-output-into-csv-file</a></li>
+</ul>
+
+<p><br /></p>
+
+<hr /><h1>
   <a href="/blog/2014/10/06/rikkoho.html">映画「立候補」</a>
 </h1>
 <hr />
@@ -471,62 +518,6 @@
 <ul>
 <li><a href="http://www.inside-r.org/packages/cran/igraph/docs/watts.strogatz.game">http://www.inside-r.org/packages/cran/igraph/docs/watts.strogatz.game</a></li>
 <li><a href="http://www.amazon.co.jp/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E5%88%86%E6%9E%90-R%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-8-%E9%88%B4%E6%9C%A8-%E5%8A%AA/dp/4320019288">http://www.amazon.co.jp/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E5%88%86%E6%9E%90-R%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-8-%E9%88%B4%E6%9C%A8-%E5%8A%AA/dp/4320019288</a></li>
-</ul>
-
-<p><br />
-<br /></p>
-
-<hr /><h1>
-  <a href="/blog/2014/09/02/alias.html">ターミナルでコマンドの省略</a>
-</h1>
-<hr />
-<p>
-  <span class="glyphicon glyphicon-time"></span> Posted on Sep  2
-</p>
-<hr /><p><br /></p>
-
-<p>ブログのエントリを作成する際、いつもターミナルを立ち上げ、 </p>
-
-<pre><code>cd /Users/yuca/dev/...
-</code></pre>
-
-<p>と打ち込んでいたのですが、大変面倒なので、省略するコマンドを作りました。</p>
-
-<p><br></p>
-
-<h4 id="コマンド作成の流れ">コマンド作成の流れ</h4>
-
-<p>.bashrc ファイルを開く。</p>
-
-<pre><code>$ emacs ~/.bashrc
-</code></pre>
-
-<p>.bashrc ファイル内に、<code>alias エイリアス名=’コマンド’</code> を記述。</p>
-
-<pre><code>alias blog=’cd /Users/yuca/dev/shirayuca.github.io/source/blog/posts’
-</code></pre>
-
-<p>.bash_profile ファイルを開く。</p>
-
-<pre><code>$ emacs ~/.bash_profile
-</code></pre>
-
-<p>.bash_profile ファイル内に、<code>source .bashrc</code> の1行を追加。</p>
-
-<p>下記のコマンドで変更を反映する。</p>
-
-<pre><code>$ source ~/.bash_profile
-</code></pre>
-
-<p>これで、ターミナル上で <code>blog</code> と打てば、すぐにブログの .md ファイルがあるディレクトリに移動できます。</p>
-
-<p><br></p>
-
-<h4 id="参考url">参考URL</h4>
-
-<ul>
-<li><a href="http://laugh-raku.com/archives/2905">http://laugh-raku.com/archives/2905</a></li>
-<li><a href="http://www.atmarkit.co.jp/ait/articles/0203/12/news001_2.html">http://www.atmarkit.co.jp/ait/articles/0203/12/news001_2.html</a></li>
 </ul>
 
 <p><br />
