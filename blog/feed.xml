@@ -49,10 +49,31 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2015-05-16T09:50:00Z</updated>
+          <updated>2015-07-02T13:24:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>IT × 家事育児 LT大会&amp;交流会！！</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/07/02/ikujixit.html"/>
+            <id>http://shirayuca.github.io/blog/2015/07/02/ikujixit.html</id>
+            <published>2015-07-02T13:24:00Z</published>
+            <updated>2015-07-02T22:29:12+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;/br&gt;
+        &lt;a href="http://ikujixit.connpass.com/event/15999/"&gt;IT × 家事育児 LT大会&amp;amp;交流会！！&lt;/a&gt;に参加、LTをしてきました。たまたま、以前書いた&lt;a href="http://www.adventar.org/calendars/595"&gt;家庭を支える技術Advent Calendar 2014&lt;/a&gt;をご覧になってくださった運営の方からお声掛けいただいたことがきっかけです。最初は、家事も苦手で育児にも携わっていないのに大丈夫だろうか、と心配をしていましたが、参加して、ウェブ業界を中心にご活躍なさっている先輩方のお話をお伺いできて、大変心強い気持ちになりました。我が家も、もっともっと家庭をハックしていきたいです。&lt;/p&gt;
+        
+        &lt;p&gt;LTでは、我が家で実践しているいくつかの例をご紹介しました。Googleスプレッドシートなどを活用して、簡単なスクリプトで動くものを作るのはとても楽しくとっつきやすいので、ぜひ今後、多くの方にチャレンジしていただきたいな、と思っています。そして、そういうものの作り方を電子書籍としてまとめていきたいな、とも思っています。&lt;/p&gt;
+        
+        &lt;div style="width: 65%"&gt;
+        &lt;script async class="speakerdeck-embed" data-id="527c7da969f54d2c9d5190cf54814a69" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+        &lt;/div&gt;
+        
+        &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>毎日、Amazonの特定商品の価格を取得する</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2015/05/16/amazon-price.html"/>
@@ -388,94 +409,6 @@
         &lt;li&gt;独自の情報：データを集め、集めたデータを分析・解釈し、背後にある構造に関して結論を導き出すための方法&lt;/li&gt;
         &lt;/ul&gt;&lt;/li&gt;
         &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>文化的な生活</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/03/25/day.html"/>
-            <id>http://shirayuca.github.io/blog/2015/03/25/day.html</id>
-            <published>2015-03-25T11:30:00Z</published>
-            <updated>2015-03-25T20:58:36+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br /&gt;
-        最近観た／読んだ、恋愛やサスペンスなどで良かったものは、&lt;/p&gt;
-        
-        &lt;p&gt;映画&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://www.nymphomaniac.jp/"&gt;ニンフォマニアック&lt;/a&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;一人で観に行って最高だった。映画館で隣の人がなぜか歯磨きしてた。&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.foxmovies-jp.com/gone-girl/"&gt;ゴーン・ガール&lt;/a&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;夫と観に行って、帰り道に「面白かった！しか言うことないね」と悔しがった思い出。&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://house-of-cards.jp/"&gt;ハウス・オブ・カード 野望の階段&lt;/a&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;とにかく早くシーズン3を観たい。&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.amazon.co.jp/17%E6%AD%B3%E3%81%AE%E3%82%AB%E3%83%AB%E3%83%86-%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA%E3%83%BB%E3%82%A8%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3-DVD-%E3%82%A6%E3%82%A3%E3%83%8E%E3%83%8A%E3%83%BB%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC/dp/B000R8X9Z8"&gt;17歳のカルテ&lt;/a&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;自分が最も多感だろう、主人公と同じくらいの歳の時には怖くて観れなくて。&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://kadokawa-d.jp/lineup/mistress/"&gt;ミストレス&lt;/a&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;断然イギリス版を支持。大人のシリアスでキュートな恋愛。&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.amazon.co.jp/%E3%83%A9%E3%83%96%E3%83%BB%E3%82%A2%E3%82%AF%E3%83%81%E3%83%A5%E3%82%A2%E3%83%AA%E3%83%BC-DVD-%E3%83%92%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%88/dp/B0001851BO"&gt;ラブ・アクチュアリー&lt;/a&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;クリスマスに。&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://saikyo-2.gaga.ne.jp/"&gt;最強のふたり&lt;/a&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;爽快な幸福感。&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://n-c-p.asmik-ace.co.jp/"&gt;ニュー・シネマ パラダイス&lt;/a&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;何度観ても良い。&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;まんが&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://www.amazon.co.jp/%EF%BC%91%E9%99%90%E3%82%81%E3%81%AF%E3%82%84%E3%82%8B%E6%B0%97%E3%81%AE%E6%B0%91%E6%B3%95%EF%BC%881%EF%BC%89-%E3%83%93%E3%83%BC%E3%83%9C%E3%83%BC%E3%82%A4%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%88%E3%81%97%E3%81%AA%E3%81%8C%E3%81%B5%E3%81%BF-ebook/dp/B00MUFOEO6/"&gt;よしながふみ「１限めはやる気の民法」&lt;/a&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;私にとって、大学生かくあるべき、のような羨望。&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.amazon.co.jp/%E5%A5%B3%E3%81%AE%E5%AD%90%E3%81%8C%E6%AD%BB%E3%81%AC%E8%A9%B1-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%9C%88%E5%88%8A%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3-%E6%9F%B3%E6%9C%AC-%E5%85%89%E6%99%B4/dp/4575843431"&gt;柳本光晴「女の子が死ぬ話」&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.amazon.co.jp/AV%E7%83%88%E4%BC%9D-1-%E3%83%93%E3%83%83%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E4%BA%95%E6%B5%A6-%E7%A7%80%E5%A4%AB/dp/4091854419"&gt;井浦秀夫「AV烈伝」&lt;/a&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;併せて読みたい「人間仮免中」。&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.amazon.co.jp/%E3%81%84%E3%81%AC-1-%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%B5%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%9F%8F%E6%9C%A8-%E3%83%8F%E3%83%AB%E3%82%B3/dp/4091516416"&gt;柏木ハルコ「いぬ」&lt;/a&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;大学時代に研究室で読んだものを再読。初見の際の衝撃はなかったけれど、やっぱり良い。&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;
-        どれも良かったな。「１限めはやる気の民法」読むと、アカデミズムへの憧れを取り戻せる。kindle は、再読まんがを購入するコストが低すぎて、困っちゃうね。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=8GRQLayqdCc"&gt;&lt;img alt="映画『ニンフォマニアック』予告 - R18＋" src="http://img.youtube.com/vi/8GRQLayqdCc/0.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
         
         &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
         </content>
