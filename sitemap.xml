@@ -253,6 +253,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>http://shirayuca.github.io//blog/2015/07/07/alot.html</loc>
+    <lastmod>2015-07-07</lastmod>
+    <priority>0.6</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>http://shirayuca.github.io//blog/2015/07/07/bunkakei.html</loc>
     <lastmod>2015-07-07</lastmod>
     <priority>0.6</priority>

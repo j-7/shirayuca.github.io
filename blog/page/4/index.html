@@ -69,7 +69,7 @@
         <a href="/blog/tags/データ.html">データ</a> (2)
       </li>
       <li>
-        <a href="/blog/tags/参考文献.html">参考文献</a> (5)
+        <a href="/blog/tags/参考文献.html">参考文献</a> (6)
       </li>
       <li>
         <a href="/blog/tags/文化.html">文化</a> (6)
@@ -96,6 +96,20 @@
   </div>
 </div>
 <div class="col-lg-9 col-md-9"><h1>
+  <a href="/blog/2014/09/17/r-network.html">鈴木努(2009)『Rで学ぶデータサイエンス8　ネットワーク分析』</a>
+</h1>
+<hr />
+<p>
+  <span class="glyphicon glyphicon-time"></span> Posted on Sep 17
+</p>
+<hr />
+<p><br /></p>
+
+<p>Rのsnaパッケージ／igraphパッケージを用いて、ネットワーク分析を行う各手法について説明されています。Rで初めてネットワーク分析をする際、大変参考になる書籍です。</p>
+
+<p><br /></p>
+
+<hr /><h1>
   <a href="/blog/2014/09/07/twitter-data.html">GoogleスプレッドシートでTwitter検索結果のデータ収集</a>
 </h1>
 <hr />
@@ -514,92 +528,6 @@
 <ul>
 <li><a href="http://t-kashima.hateblo.jp/entry/2012/03/11/235755">http://t-kashima.hateblo.jp/entry/2012/03/11/235755</a></li>
 <li><a href="http://www.garunimo.com/program/linux/linux43.xhtml">http://www.garunimo.com/program/linux/linux43.xhtml</a></li>
-</ul>
-
-<p><br />
-<br /></p>
-
-<hr /><h1>
-  <a href="/blog/2014/07/27/recipe.html">かんたん献立シート</a>
-</h1>
-<hr />
-<p>
-  <span class="glyphicon glyphicon-time"></span> Posted on Jul 27
-</p>
-<hr /><p><br /></p>
-
-<p>最近、Googleスプレッドシートの importXML関数にハマっています。いろいろと遊んでいる中で、さらに image関数では画像表示もできることを知りました。それならば、ぜひ画像を表示したい…とあれこれ考えてみて、そうだ、クックパッドのレシピ画像を表示できたらいいな、ということになりました。  </p>
-
-<p><br /></p>  
-
-<p><a href="https://docs.google.com/spreadsheets/d/1YpToeif_6z-Nb3HXlo5VtG2eMUztlUEdHdzvmk4ebBs/edit?usp=sharing"><img alt="簡単献立シート" src="http://shirayuca.github.io/blog/2014/07/27/recipe/menusheet.png"></a></p>
-
-<p><br /></p>
-
-<p>ということで、Googleスプレッドシートにクックパッドのレシピを表示できるようなファイルを作成しました。使い方はとても簡単で、</p>
-
-<ol>
-<li>クックパッドで毎日のレシピを検索する</li>
-<li>検索したレシピのURLをスプレッドシート上のグレーのセルに貼り付ける</li>
-</ol>
-
-<p>これだけです。</p>
-
-<p>Googleスプレッドシートは共有も簡単なので、例えば家族とファイルを共有して1週間の献立を一緒に考えたり、あるいは、食材のまとめ買いにも使えそうです。また、シートをコピーして使用していけば、毎週の献立を保存しておくこともできるので、あの日のメニューもすぐに思い出せます。よかったら、ぜひ使ってみてください。  </p>
-
-<p><br /></p>
-
-<p>最初に使用する際は、[ファイル]→[コピーを作成]で、自分のGoogle Drive にコピーしてください。  </p>
-
-<ul>
-<li><a href="https://docs.google.com/spreadsheets/d/1YpToeif_6z-Nb3HXlo5VtG2eMUztlUEdHdzvmk4ebBs/edit?usp=sharing">かんたん献立シート</a>
-<p><br /></p></li>
-</ul>
-
-<p><br /></p>
-
-<h4 id="googleスプレッドシート上で使用した関数">Googleスプレッドシート上で使用した関数</h4>
-
-<p>Googleスプレッドシート上のB列を例に、以下に説明します。</p>
-
-<ul>
-<li><p>B2セル</p>
-
-<ul>
-<li>クックパッドのレシピURLを入力</li>
-</ul></li>
-<li><p>B3セル</p>
-
-<ul>
-<li>レシピの画像URLを取得（シート上では非表示）
-<code>=importxml(B2,&quot;//img[@class=&#39;analytics_tracking photo large_photo_clickable&#39;]/@src&quot;)
-</code></li>
-</ul></li>
-</ul>
-
-<ul>
-<li><p>B4セル</p>
-
-<ul>
-<li>レシピのタイトルを取得
-<code>=importxml(B2,&quot;//h1&quot;)
-</code></li>
-</ul></li>
-<li><p>B5セル</p>
-
-<ul>
-<li>B3セルで取得した画像URLを表示
-<code>=image(B3,4,150,150)
-</code></li>
-</ul></li>
-<li><p>B6セル</p>
-
-<ul>
-<li>レシピの材料を取得、行列入れ替えで表示
-<code>=TRANSPOSE(importxml(B2,&quot;//*[@id=&#39;ingredients_list&#39;]&quot;))
-</code>
-<p><br /></p></li>
-</ul></li>
 </ul>
 
 <p><br />

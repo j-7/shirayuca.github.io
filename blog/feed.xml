@@ -49,10 +49,60 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2015-07-07T00:48:00Z</updated>
+          <updated>2015-07-07T00:54:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>ポール・Ｊ・シルヴィア(2015)『できる研究者の論文生産術』</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/07/07/alot.html"/>
+            <id>http://shirayuca.github.io/blog/2015/07/07/alot.html</id>
+            <published>2015-07-07T00:54:00Z</published>
+            <updated>2015-07-07T09:57:02+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;br/&gt;
+        &lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/4061531530" name="amazletlink" target="_blank"&gt;&lt;img src="http://ecx.images-amazon.com/images/I/51VV0bYjkpL._SL160_.jpg" alt="できる研究者の論文生産術 どうすれば「たくさん」書けるのか (KS科学一般書)" style="border: none;" /&gt;&lt;/a&gt;&lt;/p&gt;
+        
+        &lt;p&gt;文章を書くことが難しくて泣きたい、というのは毎日のようなもので、話題になっていた書籍に手を伸ばしました。大切だと思った箇所を以下に抜き書きし、それらに対応して私自身が実践し始めたことをメモします。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;書く時間は、その都度「見つける」のではなく、あらかじめ「割りふって」おく（大切なのは規則性）
+        
+        &lt;ul&gt;
+        &lt;li&gt;時間割同様、Googleカレンダーに「執筆コマ」を入力&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;li&gt;執筆に必要な作業は、作業の種類を問わず執筆時間中に行う
+        
+        &lt;ul&gt;
+        &lt;li&gt;目標設定、先行研究調査、分析、推敲など&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;li&gt;執筆日ごとに具体的な目標をリストアップする
+        
+        &lt;ul&gt;
+        &lt;li&gt;これも、Googleカレンダーに目標／成果を入力&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;p&gt;文章は整理してから書く&lt;/p&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;p&gt;論文の書き方&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;タイトル：抽象度のバランスが重要&lt;/li&gt;
+        &lt;li&gt;アブストラクト：検索用キーワードを意識&lt;/li&gt;
+        &lt;li&gt;序論：第一段落は研究のきっかけと正当性、第二段落は過去のレビュー、第三段落は「本研究～」で始める&lt;/li&gt;
+        &lt;li&gt;手法：実験手法への参照、および基準等の根拠や妥当性&lt;/li&gt;
+        &lt;li&gt;結果：論理的な順序で記載、結果と得られた知見の意味するところ、図表の活用&lt;/li&gt;
+        &lt;li&gt;考察：研究で得られた知見の要約、問に対してどのような貢献があるか
+        
+        &lt;ul&gt;
+        &lt;li&gt;総合考察の場合：一歩退いて他の理論や先行研究に照らして検討&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>東郷雄二(2009)『新版　文科系必修研究生活術』</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2015/07/07/bunkakei.html"/>
@@ -236,67 +286,6 @@
         &lt;/ul&gt;
         
         &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>Google APIでジャニーズを見る</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/04/19/johnnys.html"/>
-            <id>http://shirayuca.github.io/blog/2015/04/19/johnnys.html</id>
-            <published>2015-04-19T12:51:00Z</published>
-            <updated>2015-04-19T22:28:23+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br /&gt;
-        GoogleのAPIで遊んでみよう、ということで、ジャニーズ事務所のタレント名で検索をしてみました。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-        
-        &lt;h4 id="googleサジェストapi"&gt;GoogleサジェストAPI&lt;/h4&gt;
-        
-        &lt;p&gt;Google検索そのものとAPIとでは結構データが異なるところが少し気になりますが、タレントそれぞれのどのような点に関心を持たれているかがわかる、面白いデータだと思います。ざっくりと見た印象では、やはり恋愛系のキーワードと共に検索されることが多いようですが、他には、ジャニーズの他メンバーと共に検索されることが多い点が興味深かったです。仲がいいかどうか、などを調べるのでしょうか。また、家族や学校について、あるいは身長が検索されているという点に関しては、マスメディアによって作られたイメージの外側に思いを馳せているのかな、と感じました。&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="https://docs.google.com/spreadsheets/d/19BOXoeV8xfAssaKKSKxD3utqgvM3d0SKbt6QuBW4F1A/edit?usp=sharing"&gt;ジャニーズタレント名サジェスト&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;a href="https://docs.google.com/spreadsheets/d/19BOXoeV8xfAssaKKSKxD3utqgvM3d0SKbt6QuBW4F1A/edit?usp=sharing)"&gt;&lt;img src="http://i.gyazo.com/babb46d1c7910b348238817fdd8daf9d.png" width="600"&gt;&lt;/a&gt;&lt;/p&gt;
-        
-        &lt;p&gt;ほかに面白かった検索キーワードとしては、&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;「堂本光一　王子」&lt;/li&gt;
-        &lt;li&gt;「増田貴久　似てる芸能人」&lt;/li&gt;
-        &lt;li&gt;「上田竜也　顔文字」&lt;/li&gt;
-        &lt;li&gt;「山田涼介　2014」「山田涼介　2015」&lt;/li&gt;
-        &lt;li&gt;「中島健人　伝説」&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;などがあります。堂本光一や中島健人に関しては、キャラクターが確立されたものであることが想像できます。また、「上田竜也　顔文字」を調べてみると、KAT-TUNメンバーそれぞれの顔文字が決まっているという文化に触れることもできました。他のグループも同様にすべて決まっているのか、今後調べてみたいです。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-        
-        &lt;h4 id="google画像検索api"&gt;Google画像検索API&lt;/h4&gt;
-        
-        &lt;p&gt;さらに、「山田涼介　201X」という検索クエリは想像していなかったため、改めて自分で検索してみたところ、各年次がキーワードとしてサジェストされました。これは、それぞれの年のタレントの活躍を見たいという行動からくるものなのだろうか、と今は推測しています。(詳しい方いらしたら、教えて下さい)&lt;/p&gt;
-        
-        &lt;p&gt;最後に、上述した「山田涼介　201X」に関して、Google画像検索のトップにヒットするもののみをセルに表示してみたところ、タレントの成長過程を見てとることができました。&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="https://docs.google.com/spreadsheets/d/1DT2ggwuTkn7FbzaMKjsf2fIDD33JiNt51SrSwta6gyI/edit?usp=sharing"&gt;ジャニーズタレント年次別画像検索&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;a href="https://docs.google.com/spreadsheets/d/1DT2ggwuTkn7FbzaMKjsf2fIDD33JiNt51SrSwta6gyI/edit?usp=sharing"&gt;&lt;img src="http://i.gyazo.com/36af7e73eb1f0e157ad6539ab9ee8d0e.png" width="600"&gt;&lt;/a&gt;&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="参考"&gt;参考&lt;/h4&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://webshufu.com/google-suggest-api/"&gt;http://webshufu.com/google-suggest-api/&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://shirayuca.github.io/blog/2014/07/27/googleimage.html"&gt;http://shirayuca.github.io/blog/2014/07/27/googleimage.html&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1340634483"&gt;http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1340634483&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
         </content>
           </entry>
         </feed>
