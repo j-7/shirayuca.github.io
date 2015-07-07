@@ -49,10 +49,32 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2015-07-02T13:24:00Z</updated>
+          <updated>2015-07-07T00:43:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>授業でのピアレビュー</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/07/07/peer-review.html"/>
+            <id>http://shirayuca.github.io/blog/2015/07/07/peer-review.html</id>
+            <published>2015-07-07T00:43:00Z</published>
+            <updated>2015-07-07T09:44:49+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+        
+        &lt;p&gt;グループでの演習が中心となる授業をいくつか担当する中で、最近、ピアレビューの重要性を感じています。今までは、(中間発表)／最終発表など、段階に応じて発表をするという形式を採用してきましたが、今回、(中間)発表前に、ピアレビューを設けています。&lt;/p&gt;
+        
+        &lt;p&gt;ピアレビューのやり方は、グループ同士で発表を行い、それに対してアドバイス等を行うというものです。すると、ただリハーサルを行い本番に挑むよりもいい発表を聞くことができます。&lt;/p&gt;
+        
+        &lt;p&gt;考えてみると、私自身も、学生の頃発表が苦手で、とにかくその時間をやりすごせばいいや、と思っていた節がどこかにありました。しかし、レビューを挟むことで、やや客観的に自らの発表の至らない点に対峙することができます。また、他のグループを見ることで、いい点を参考にすることもできるでしょう。さらに、今後このような発表をする際の手順としても学びがあります。&lt;/p&gt;
+        
+        &lt;p&gt;不思議なことに、教室全体に向けて発表をするよりも、ピアレビューの方が誠実に取り組んでいる人がほとんどです。教室全体に向けた発表はどこか他人事なのかもしれません。今後、発表前にピアレビューを組み込んで授業を設計していきたいと思います。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>IT × 家事育児 LT大会&amp;交流会！！</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2015/07/02/ikujixit.html"/>
@@ -287,126 +309,6 @@
         &lt;li&gt;現在性：情報がタイムリーか&lt;/li&gt;
         &lt;li&gt;権威性：情報が信頼できるか&lt;/li&gt;
         &lt;/ul&gt;&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>放送大学「身近な統計（'12）」第1回メモ</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/04/19/statistics_1.html"/>
-            <id>http://shirayuca.github.io/blog/2015/04/19/statistics_1.html</id>
-            <published>2015-04-19T09:30:00Z</published>
-            <updated>2015-04-19T18:36:36+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="授業の情報"&gt;授業の情報&lt;/h4&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://www.ouj.ac.jp/hp/kamoku/H26/kyouyou/B/kiso/1234048.html"&gt;http://www.ouj.ac.jp/hp/kamoku/H26/kyouyou/B/kiso/1234048.html&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;第1回：論より数字、勘より統計&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="導入1：ナイチンゲールと統計のかかわり"&gt;導入1：ナイチンゲールと統計のかかわり&lt;/h4&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;p&gt;統計学者としてのナイチンゲール&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;データによる説得を通じて、陸軍の衛生・保険医療改革に取り組む&lt;/li&gt;
-        &lt;li&gt;例：鳥のとさかグラフの発案など
-        
-        &lt;ul&gt;
-        &lt;li&gt;Diagram of the Causesu of Mortality in the Army in the East (1858)&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://en.wikipedia.org/wiki/Florence_Nightingale#/media/File:Nightingale-mortality.jpg"&gt;http://en.wikipedia.org/wiki/Florence_Nightingale#/media/File:Nightingale-mortality.jpg&lt;/a&gt; &lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;p&gt;統計的マネジメントサイクル&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;Problem&lt;/li&gt;
-        &lt;li&gt;Plan&lt;/li&gt;
-        &lt;li&gt;Data&lt;/li&gt;
-        &lt;li&gt;Analysis&lt;/li&gt;
-        &lt;li&gt;Conclusion &amp;amp; Improve&lt;/li&gt;
-        &lt;li&gt;Control &amp;amp; Check&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="導入2：統計の重要性"&gt;導入2：統計の重要性&lt;/h4&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;統計は21世紀型ワークスキル：読み書き基礎能力のリテラシーから、数理・統計リテラシーが求められている(問題解決・知識発見方の総合情報処理能力)
-        
-        &lt;ul&gt;
-        &lt;li&gt;身の回りの課題を統計的な問題に設定する能力&lt;/li&gt;
-        &lt;li&gt;関連する資料・データ・情報の迅速な収集能力&lt;/li&gt;
-        &lt;li&gt;データの分析能力&lt;/li&gt;
-        &lt;li&gt;結果の効果的な情報発信能力&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="統計と社会との接点：スポーツの戦略立案"&gt;統計と社会との接点：スポーツの戦略立案&lt;/h4&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;野球
-        
-        &lt;ul&gt;
-        &lt;li&gt;ダルビッシュの2010年/2011年比較
-        
-        &lt;ul&gt;
-        &lt;li&gt;前試合中の球種数、割合、スピードの分布など&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;得点期待値
-        
-        &lt;ul&gt;
-        &lt;li&gt;状況設定ごとに数字を見ることで、送りバントの有効性を検討&lt;/li&gt;
-        &lt;li&gt;参考：「『勝てる野球の統計学 セイバーメトリクス【岩波科学ライブラリー】」&lt;a href="http://www.iwanami.co.jp/.PDFS/02/X/0296230.pdf"&gt;http://www.iwanami.co.jp/.PDFS/02/X/0296230.pdf&lt;/a&gt; &lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;WPA(勝利寄与度)&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;サッカー
-        
-        &lt;ul&gt;
-        &lt;li&gt;FIFA World Cup “Statistics”&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.fifa.com/worldcup/archive/brazil2014/statistics/index.html"&gt;http://www.fifa.com/worldcup/archive/brazil2014/statistics/index.html&lt;/a&gt; &lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="統計はじめの一歩"&gt;統計はじめの一歩&lt;/h4&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;p&gt;統計とは：統べて図る(集団の大量観察)&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;現在の状況の計測&lt;/li&gt;
-        &lt;li&gt;将来の到達点の予測&lt;/li&gt;
-        &lt;li&gt;目標値への制御&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;p&gt;データと情報、および統計との関係&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;データとは：客観的事実&lt;/li&gt;
-        &lt;li&gt;情報とは：個人や組織の意思決定に役立つもの&lt;/li&gt;
-        &lt;li&gt;データ→データマイニング(統計分析や人工知能)→情報→個人や組織の意思決定&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;p&gt;統計的分析手法&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;計量化と視覚化：統計数値や統計グラフを作成し、データの持つ情報を表現する&lt;/li&gt;
-        &lt;li&gt;独自の情報：データを集め、集めたデータを分析・解釈し、背後にある構造に関して結論を導き出すための方法&lt;/li&gt;
         &lt;/ul&gt;&lt;/li&gt;
         &lt;/ul&gt;
         
