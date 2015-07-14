@@ -49,10 +49,59 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2015-07-14T13:32:00Z</updated>
+          <updated>2015-07-14T14:20:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>次に買うシャンプーの検討</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/07/14/textmining.html"/>
+            <id>http://shirayuca.github.io/blog/2015/07/14/textmining.html</id>
+            <published>2015-07-14T14:20:00Z</published>
+            <updated>2015-07-14T23:43:22+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;br&gt;
+        ユーザーローカルからテキストマイニングツールがリリースされていたので、さっそく試してみました。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://textmining.userlocal.jp/"&gt;http://textmining.userlocal.jp/&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br&gt;
+        今使っているシャンプーがイマイチ合わないので、次に買うシャンプーを選ぶために、@cosmeの口コミを分析してみます。シャンプーランキング1位と2位を比較してみることにしました（3位はコンディショナーだったため除外）。口コミ数に差がありますが、ツールのお試しということで、気にしません。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://www.cosme.net/product/product_id/10091820/reviews/agg/30/agl/34/msf/1"&gt;Ahalo butter(アハロバター) プレミアムスカルプクリアシャンプー／リペアトリートメント&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://www.cosme.net/product/product_id/10091712/reviews/agg/30/agl/34/msf/1"&gt;インフィニティ    エステクレンジング&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;両者ともに、購入者かつ30代の口コミのみを抽出しました。口コミデータのスクレイピングは、いつものようにGoogleスプレッドシートの&lt;code&gt;IMPORTXML関数&lt;/code&gt;を活用しました。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://textmining.userlocal.jp/home/file_analyze/f68777665ef12f33265d08ce2cf1f336"&gt;プレミアムスカルプクリアシャンプーの口コミ分析&lt;/a&gt;
+        &lt;a href="http://textmining.userlocal.jp/home/file_analyze/f68777665ef12f33265d08ce2cf1f336"&gt;&lt;img src="http://i.gyazo.com/e03a68801c7c14d1d215a0e3ff56a210.png" width=600px /&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://textmining.userlocal.jp/home/file_analyze/b5b069ca0879d4148b6ae8f3825485b1"&gt;エステクレンジングの口コミ分析&lt;/a&gt;
+        &lt;a href="http://textmining.userlocal.jp/home/file_analyze/b5b069ca0879d4148b6ae8f3825485b1"&gt;&lt;img src="http://i.gyazo.com/368f7e368b0060a7eed0823e9c7d4383.png" width=600px /&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        
+        &lt;p&gt;どちらのシャンプーも、「泡立つ」や「サラサラ」は共通のワードのようです。&lt;/p&gt;
+        
+        &lt;p&gt;しかし、1位のプレミアムスカルプクリアシャンプーの方は、スカルプトリートメントや抜け毛といった単語も目立ちます。夏で暑いこともあり、頭皮の状態や抜け毛がちょうど気になるところだったので、次はこちらのシャンプーを試してみたいと思います。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>毎晩イカになりながら（2015年春～初夏）</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2015/07/14/day.html"/>
@@ -350,51 +399,6 @@
         &lt;/div&gt;
         
         &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>毎日、Amazonの特定商品の価格を取得する</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/05/16/amazon-price.html"/>
-            <id>http://shirayuca.github.io/blog/2015/05/16/amazon-price.html</id>
-            <published>2015-05-16T09:50:00Z</published>
-            <updated>2015-05-16T20:28:22+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
-        
-        &lt;p&gt;毎日、Amazonの特定商品の価格を取得するGoogleスプレッドシートを作成しました。元々、担当授業でもスプレッドシートを活用してスクレイピングを試みていましたが、アクセスしたその瞬間のスナップショットを取得するというものでした。定期的にスクレイピングする方法も行ってみたいと思い（例えば、何かのスコアを毎日取得するなど）、今回、Amazonの特定商品の価格を例に行いました。下記のA列、B列に毎日データが追加されていきます。グラフ化等行うと面白そうですね。&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="https://docs.google.com/spreadsheets/d/1BVZH0-Vpvg6-FR3XJ4_b3_mimkU4FKVBQ3Tpg7YT6SQ/edit?usp=sharing"&gt;Amazon価格の取得シート&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;a href="https://docs.google.com/spreadsheets/d/1BVZH0-Vpvg6-FR3XJ4_b3_mimkU4FKVBQ3Tpg7YT6SQ/edit?usp=sharing"&gt;&lt;img src="http://i.gyazo.com/4d9e5dca1e3bfb1d06d979716be3d6bf.png", width="600"&gt;&lt;/a&gt;&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-        
-        &lt;h4 id="使い方"&gt;使い方&lt;/h4&gt;
-        
-        &lt;ol&gt;
-        &lt;li&gt;上記で公開しているシートをコピー&lt;/li&gt;
-        &lt;li&gt;E1セルに任意のAmazon商品ページを入力&lt;/li&gt;
-        &lt;li&gt;トリガーを設定（私は、毎日取得という方法にする予定です）&lt;/li&gt;
-        &lt;/ol&gt;
-        
-        &lt;p&gt;シートをコピーして使用しない場合は、下記のコードをスクリプトエディタに貼り付けて使用します。&lt;/p&gt;
-        
-        &lt;script src="https://gist.github.com/shirayuca/01c62520329566a82dcb.js"&gt;&lt;/script&gt;
-        
-        &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
-        
-        &lt;h4 id="参考"&gt;参考&lt;/h4&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://www.bmoo.net/archives/2012/04/313841.html"&gt;http://www.bmoo.net/archives/2012/04/313841.html&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://engineer-intern.jp/archives/7551"&gt;http://engineer-intern.jp/archives/7551&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
         </content>
           </entry>
         </feed>

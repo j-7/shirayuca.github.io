@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta content="IE=edge;chrome=1" http-equiv="X-UA-Compatible" />
-    <title>shirayuca.github.io | Googleスプレッドシートで分かち書きされた要素を数え上げ</title>
+    <title>shirayuca.github.io | 次に買うシャンプーの検討</title>
     <meta content="" name="description" />
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" /><!--[if lt IE 9]><script src="../../../../js/ie8.js" type="text/javascript"></script><![endif]--><link href="../../../../css/all.css" media="screen" rel="stylesheet" type="text/css" />
   </head>
@@ -97,78 +97,50 @@
 </div>
 <div class="col-lg-9 col-md-9">
   <h1>
-    Googleスプレッドシートで分かち書きされた要素を数え上げ
+    次に買うシャンプーの検討
   </h1>
   <hr />
   <p>
-    <span class="glyphicon glyphicon-time"></span> Posted on Oct 21
+    <span class="glyphicon glyphicon-time"></span> Posted on Jul 14
   </p>
-  <hr /><p><br /></p>
-
-<p>Googleスプレッドシートで、分かち書きされた要素を数え上げます。</p>
-
-<p><br /></p>
-
-<h4 id="スクリプト">スクリプト</h4>
-
-<p>下記の2つの記事で紹介しているスクリプトを、Googleスプレッドシートの [ツール]→[スクリプトエディタ]から貼りつけ、保存してください。</p>
+  <hr /><p><br>
+ユーザーローカルからテキストマイニングツールがリリースされていたので、さっそく試してみました。</p>
 
 <ul>
-<li><a href="http://shirayuca.github.io/blog/2014/10/19/wordcount.html">http://shirayuca.github.io/blog/2014/10/19/wordcount.html</a></li>
-<li><a href="http://shirayuca.github.io/blog/2014/10/21/wakachigaki.html">http://shirayuca.github.io/blog/2014/10/21/wakachigaki.html</a></li>
+<li><a href="http://textmining.userlocal.jp/">http://textmining.userlocal.jp/</a></li>
 </ul>
 
-<p>下記のように、各々のスクリプトファイル（〜.gs）を作成します。</p>
-
-<p><img src="https://qiita-image-store.s3.amazonaws.com/0/48375/27952c95-fb78-bff5-5e87-a26384568ee8.png" width=400px /></p>
-
-<p><br /></p>
-
-<h4 id="使い方">使い方</h4>
-
-<p>下記の公開スプレッドシートにて、実際の使い方の例を示しています。</p>
+<p><br>
+今使っているシャンプーがイマイチ合わないので、次に買うシャンプーを選ぶために、@cosmeの口コミを分析してみます。シャンプーランキング1位と2位を比較してみることにしました（3位はコンディショナーだったため除外）。口コミ数に差がありますが、ツールのお試しということで、気にしません。</p>
 
 <ul>
-<li><a href="https://docs.google.com/spreadsheets/d/17SPL31fsaraUZhsxnBTxRZaGiXbYdISFWA_7UV3mKMg/edit?usp=sharing">https://docs.google.com/spreadsheets/d/17SPL31fsaraUZhsxnBTxRZaGiXbYdISFWA_7UV3mKMg/edit?usp=sharing</a></li>
+<li><a href="http://www.cosme.net/product/product_id/10091820/reviews/agg/30/agl/34/msf/1">Ahalo butter(アハロバター) プレミアムスカルプクリアシャンプー／リペアトリートメント</a></li>
+<li><a href="http://www.cosme.net/product/product_id/10091712/reviews/agg/30/agl/34/msf/1">インフィニティ    エステクレンジング</a></li>
 </ul>
 
-<p><br /></p>
+<p>両者ともに、購入者かつ30代の口コミのみを抽出しました。口コミデータのスクレイピングは、いつものようにGoogleスプレッドシートの<code>IMPORTXML関数</code>を活用しました。</p>
 
-<h5 id="手順1：分かち書き">手順1：分かち書き</h5>
-
-<p>まず、任意のテキスト群を用意します。今回は、素敵な鬼女様（ <a href="http://sutekinakijo.com/">http://sutekinakijo.com/</a> ）の新着タイトルを<code>=IMPORTXML()</code>関数で取得しました。A2セルにはブログURLが入っています。</p>
-
-<pre><code>=importxml(A2,&quot;//h1[@class=&#39;article-title&#39;]&quot;)
-</code></pre>
-
-<p>その後、テキストの隣のセルに、<code>=wakachigaki()</code>関数と<code>=TRANSPOSE()</code>関数を組み合わせ、分かち書きされた要素を横列に表示します。B2セルにはブログタイトルテキストが入っています。</p>
-
-<pre><code>=transpose(wakachigaki(B2))
-</code></pre>
-
-<p><img src="https://qiita-image-store.s3.amazonaws.com/0/48375/c097dace-a8c5-9243-7991-23a2558e8bbf.png" width=800px /></p>
-
-<p><br /></p>
-
-<h5 id="手順2：数え上げ">手順2：数え上げ</h5>
-
-<p>新しいシート上で、<code>=wordCount()</code>関数を実行し、先ほど横列に順次表示された分かち書き後要素を数え上げます。<code>=wordCount()</code>関数では、分かち書きされた要素がある範囲全てを参照してください。</p>
-
-<p><img src="https://qiita-image-store.s3.amazonaws.com/0/48375/4e7910a5-bf4d-8d99-6ec7-92a8f3ad8a1a.png" width=300px /></p>
-
-<p>数え上げ結果は、新しいシートで値として貼付けしソートする等、適宜活用してください。</p>
-
-<p><img alt="5.png" src="https://qiita-image-store.s3.amazonaws.com/0/48375/b6679f12-5588-713c-89e1-2410b1106b98.png" /></p>
-
-<p><br /></p>
-
-<h4 id="参考">参考</h4>
+<p><br></p>
 
 <ul>
-<li><a href="http://chasen.org/%7Etaku/software/TinySegmenter/">http://chasen.org/~taku/software/TinySegmenter/</a></li>
+<li><a href="http://textmining.userlocal.jp/home/file_analyze/f68777665ef12f33265d08ce2cf1f336">プレミアムスカルプクリアシャンプーの口コミ分析</a>
+<a href="http://textmining.userlocal.jp/home/file_analyze/f68777665ef12f33265d08ce2cf1f336"><img src="http://i.gyazo.com/e03a68801c7c14d1d215a0e3ff56a210.png" width=600px /></a></li>
 </ul>
 
-<p><br /></p>
+<p><br></p>
+
+<ul>
+<li><a href="http://textmining.userlocal.jp/home/file_analyze/b5b069ca0879d4148b6ae8f3825485b1">エステクレンジングの口コミ分析</a>
+<a href="http://textmining.userlocal.jp/home/file_analyze/b5b069ca0879d4148b6ae8f3825485b1"><img src="http://i.gyazo.com/368f7e368b0060a7eed0823e9c7d4383.png" width=600px /></a></li>
+</ul>
+
+<p><br></p>
+
+<p>どちらのシャンプーも、「泡立つ」や「サラサラ」は共通のワードのようです。</p>
+
+<p>しかし、1位のプレミアムスカルプクリアシャンプーの方は、スカルプトリートメントや抜け毛といった単語も目立ちます。夏で暑いこともあり、頭皮の状態や抜け毛がちょうど気になるところだったので、次はこちらのシャンプーを試してみたいと思います。</p>
+
+<p><br></p>
 
   <hr>
     <p class="text-center">
