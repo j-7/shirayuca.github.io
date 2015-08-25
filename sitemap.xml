@@ -272,7 +272,7 @@
   </url>
   <url>
     <loc>http://shirayuca.github.io//blog/2015/07/14/day.html</loc>
-    <lastmod>2015-07-14</lastmod>
+    <lastmod>2015-08-25</lastmod>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
@@ -284,6 +284,12 @@
   </url>
   <url>
     <loc>http://shirayuca.github.io//blog/2015/08/25/15pcc.html</loc>
+    <lastmod>2015-08-25</lastmod>
+    <priority>0.6</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://shirayuca.github.io//blog/2015/08/25/day.html</loc>
     <lastmod>2015-08-25</lastmod>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
