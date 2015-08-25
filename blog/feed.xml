@@ -49,10 +49,60 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2015-07-14T14:20:00Z</updated>
+          <updated>2015-08-25T08:35:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>2015 PCカンファレンスに参加</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/08/25/15pcc.html"/>
+            <id>http://shirayuca.github.io/blog/2015/08/25/15pcc.html</id>
+            <published>2015-08-25T08:35:00Z</published>
+            <updated>2015-08-25T19:48:36+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;br /&gt;
+        &lt;br /&gt;
+        富山大学にて開催された、コンピュータ利用教育学会の年次大会&lt;a href="http://gakkai.univcoop.or.jp/pcc/2015/"&gt;PCカンファレンス&lt;/a&gt;に参加してきました。今回は、下記のテーマで口頭発表を行ってきました。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="http://gakkai.univcoop.or.jp/pcc/2015/papers/pdf/pcc081.pdf"&gt;白土由佳「ソーシャルメディアを活用したワークスタイル研究とキャリア支援」&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;教育に関する研究発表は初めてのことで緊張がありましたが、かつての指導教員にも評価していただき、また質疑でも有益なコメントをいただけて、とてもいい経験になりました。発表内容は、進路支援ゼミにて取り組んでいるキャリア支援に関する実践の報告です。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        
+        &lt;h5 id="コメントのメモ、今後対応予定"&gt;コメントのメモ、今後対応予定&lt;/h5&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;卒業生の進路は？
+        
+        &lt;ul&gt;
+        &lt;li&gt;まだ卒業生がいないため、今後追跡予定。&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;li&gt;女子学生に特化した支援は？（産休・育休等）
+        
+        &lt;ul&gt;
+        &lt;li&gt;未実施。今後、何か活用できるデータを探し、女子版ワークスタイルブックを作成したい。&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;li&gt;在宅など、職場環境といった指標も重要なのでは？
+        
+        &lt;ul&gt;
+        &lt;li&gt;今後活用できるデータを探し、採用していきたい。&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;li&gt;本学卒業生の主な就職先に限定しないほうがいいのでは？
+        
+        &lt;ul&gt;
+        &lt;li&gt;チャンス発見的な意味でもその通り。妥当さを考慮しつつ分析対象企業を広げていきたい。&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;br /&gt;
+        &lt;br /&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>次に買うシャンプーの検討</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2015/07/14/textmining.html"/>
@@ -378,27 +428,6 @@
         &lt;p&gt;不思議なことに、教室全体に向けて発表をするよりも、ピアレビューの方が誠実に取り組んでいる人がほとんどです。教室全体に向けた発表はどこか他人事なのかもしれません。今後、発表前にピアレビューを組み込んで授業を設計していきたいと思います。&lt;/p&gt;
         
         &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>IT × 家事育児 LT大会&amp;交流会！！</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/07/02/ikujixit.html"/>
-            <id>http://shirayuca.github.io/blog/2015/07/02/ikujixit.html</id>
-            <published>2015-07-02T13:24:00Z</published>
-            <updated>2015-07-02T22:29:12+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;/br&gt;
-        &lt;a href="http://ikujixit.connpass.com/event/15999/"&gt;IT × 家事育児 LT大会&amp;amp;交流会！！&lt;/a&gt;に参加、LTをしてきました。たまたま、以前書いた&lt;a href="http://www.adventar.org/calendars/595"&gt;家庭を支える技術Advent Calendar 2014&lt;/a&gt;をご覧になってくださった運営の方からお声掛けいただいたことがきっかけです。最初は、家事も苦手で育児にも携わっていないのに大丈夫だろうか、と心配をしていましたが、参加して、ウェブ業界を中心にご活躍なさっている先輩方のお話をお伺いできて、大変心強い気持ちになりました。我が家も、もっともっと家庭をハックしていきたいです。&lt;/p&gt;
-        
-        &lt;p&gt;LTでは、我が家で実践しているいくつかの例をご紹介しました。Googleスプレッドシートなどを活用して、簡単なスクリプトで動くものを作るのはとても楽しくとっつきやすいので、ぜひ今後、多くの方にチャレンジしていただきたいな、と思っています。そして、そういうものの作り方を電子書籍としてまとめていきたいな、とも思っています。&lt;/p&gt;
-        
-        &lt;div style="width: 65%"&gt;
-        &lt;script async class="speakerdeck-embed" data-id="527c7da969f54d2c9d5190cf54814a69" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
-        &lt;/div&gt;
-        
-        &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
         </content>
           </entry>
         </feed>
