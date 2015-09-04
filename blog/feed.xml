@@ -49,10 +49,37 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2015-08-25T13:00:00Z</updated>
+          <updated>2015-09-04T12:30:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>2015 教育改革ICT戦略大会にて発表</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/09/04/juce.html"/>
+            <id>http://shirayuca.github.io/blog/2015/09/04/juce.html</id>
+            <published>2015-09-04T12:30:00Z</published>
+            <updated>2015-09-04T21:45:56+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        
+        &lt;p&gt;私立大学情報教育協会の&lt;a href="http://www.juce.jp/LINK/taikai/taikai2015.htm"&gt;教育改革ICT戦略大会にて発表&lt;/a&gt;にて発表してきました。今回は、下記のテーマで口頭発表を行ってきました。&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;白土由佳「ソーシャルメディアを活用した自由が丘�グルメ分析の実践」, 私立大学情報教育協会 教育改革ICT戦略大会, 東京, 2015.&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;報告内容は、2015年度前学期に担当した科目「ソーシャルメディアの活用」の取り組みについてです。自由が丘グルメ分析に取り組むために、食べログマップと簡易テキスト分析ツール(Googleスプレッドシート製)を作成しました。&lt;/p&gt;
+        
+        &lt;p&gt;大学院生のころ、マップとカルテという2つの視点で対象を捉え分析することを学びました。今回の取り組みは、マップは自明な基本情報として教員が作成し、それをベースに各グループはテーマ立案を行いテキスト分析ツールを用いてカルテ作成する、と説明できます。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;img src="https://i.gyazo.com/e7d7822fbb548b30bf7b785d36210a5f.png" width=300px /&gt;
+        &lt;img src="https://i.gyazo.com/b74f1b2f7ec7a8e5e69f11ebbb642a9f.png" width=300px /&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>今年のナツイチ？（2015年夏）</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2015/08/25/day.html"/>
@@ -174,11 +201,11 @@
         </content>
           </entry>
           <entry>
-            <title>2015 PCカンファレンスに参加</title>
+            <title>2015 PCカンファレンスにて発表</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2015/08/25/15pcc.html"/>
             <id>http://shirayuca.github.io/blog/2015/08/25/15pcc.html</id>
             <published>2015-08-25T08:35:00Z</published>
-            <updated>2015-08-25T19:48:36+09:00</updated>
+            <updated>2015-09-04T21:33:11+09:00</updated>
             <author>
               <name>Article Author</name>
             </author>
@@ -461,68 +488,6 @@
         &lt;li&gt;総合考察の場合：一歩退いて他の理論や先行研究に照らして検討&lt;/li&gt;
         &lt;/ul&gt;&lt;/li&gt;
         &lt;/ul&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>東郷雄二(2009)『新版　文科系必修研究生活術』</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/07/07/bunkakei.html"/>
-            <id>http://shirayuca.github.io/blog/2015/07/07/bunkakei.html</id>
-            <published>2015-07-07T00:48:00Z</published>
-            <updated>2015-07-07T09:51:57+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
-        
-        &lt;p&gt;&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/4480092056" name="amazletlink" target="_blank"&gt;&lt;img src="http://ecx.images-amazon.com/images/I/41xLXsRx9oL._SL160_.jpg" alt="文科系必修研究生活術 (ちくま学芸文庫)" style="border: none;" /&gt;&lt;/a&gt;&lt;/p&gt;
-        
-        &lt;p&gt;本書では、文科系と呼ばれる学問領域での研究方法について、具体的に説明をしています。文科系で研究活動をする立場として、自明なこともあれば改めて気を付けなければいけないと思うこともありました。下記、自分にとって大事だと思う点をいくつか抜き書きします。&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;p&gt;論文とは：特定の学問上の問題について、十分な論拠をもとにして、主張や証明を行う、論理的に構成された著作（p.156）&lt;/p&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;p&gt;研究環境を作る&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;研究仲間を持つことで自身を相対化
-        
-        &lt;ul&gt;
-        &lt;li&gt;読書会や勉強会を組織、論文の抜き刷りを送りあう&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;耳学問で自分の幅を広げる&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;p&gt;研究テーマを選ぶ&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;学会誌を片っ端から読み、ピンとくるものを探す&lt;/li&gt;
-        &lt;li&gt;学会や研究会のテーマを参考にする&lt;/li&gt;
-        &lt;li&gt;短期的テーマと長期的テーマ（一生かけて追及）の両者を常に持つ&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;p&gt;研究方法を学ぶ&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;先行研究
-        
-        &lt;ul&gt;
-        &lt;li&gt;探し方：参考文献表からたどる、論文誌および論文DBを活用&lt;/li&gt;
-        &lt;li&gt;管理：京大式カードやDBを作成&lt;/li&gt;
-        &lt;li&gt;記憶：本を汚す（書き込み）、本棚に並べる&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;論文執筆
-        
-        &lt;ul&gt;
-        &lt;li&gt;テーマ決め&lt;/li&gt;
-        &lt;li&gt;参考文献調査、整理&lt;/li&gt;
-        &lt;li&gt;問題設定&lt;/li&gt;
-        &lt;li&gt;調査・実験&lt;/li&gt;
-        &lt;li&gt;論文のアウトライン作成（項目間の抽象度に注意）&lt;/li&gt;
-        &lt;li&gt;執筆（序は最後）&lt;/li&gt;
-        &lt;li&gt;推敲と赤入れの繰り返し&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;p&gt;とにかく最初は就職できる所に就職しなさい（中略）十年たってあたりを見回してみると、みんなそれぞれ落ち着くべきところに落ち着いている。着実に業績をあげていれば、必ずよそから引き抜かれるものである。（p.285）&lt;/p&gt;&lt;/li&gt;
         &lt;/ul&gt;
         
         &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
