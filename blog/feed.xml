@@ -49,10 +49,64 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2015-09-04T12:30:00Z</updated>
+          <updated>2015-10-05T13:19:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>大向一輝「SNSの歴史」</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/10/05/sns.html"/>
+            <id>http://shirayuca.github.io/blog/2015/10/05/sns.html</id>
+            <published>2015-10-05T13:19:00Z</published>
+            <updated>2015-10-05T22:24:44+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;a href="https://www.jstage.jst.go.jp/article/bplus/9/2/9_70/_article/-char/ja/"&gt;大向一輝「SNSの歴史」電電子情報通信学会　通信ソサイエティマガジンVol. 9 (2015) No. 2 pp. 70-75&lt;/a&gt;&lt;/p&gt;
+        
+        &lt;p&gt;SNSに関するこれまでの歴史の概括、および研究対象と研究活動の場としてのSNSについての解説論文。以下、重要だと考えた箇所のまとめです。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+        
+        &lt;ul&gt;
+        &lt;li&gt;通信回路を用いた遠隔コミュニケーション手段の種類 (p.70)
+        
+        &lt;ul&gt;
+        &lt;li&gt;電子メール型&lt;/li&gt;
+        &lt;li&gt;特定テーマに関するフォーラム型&lt;/li&gt;
+        &lt;li&gt;SNS型&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;li&gt;SNSはユーザが増加するほど利便性が高まるネットワーク外部性を有する。成功を収めたサービスは急速な成長の時期がある(p.71)&lt;/li&gt;
+        &lt;li&gt;ソーシャルグラフ：SNSの情報の中から知人関係のネットワークのみを取り出したもの (p.73)&lt;/li&gt;
+        &lt;li&gt;SNSのネットワーク構造
+        
+        &lt;ul&gt;
+        &lt;li&gt;スモールワールド性&lt;/li&gt;
+        &lt;li&gt;スケールフリー性&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;li&gt;研究対象として
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="https://www.jstage.jst.go.jp/article/jsoft/25/1/25_598/_article/-char/ja/"&gt;東日本大震災時における Twitter の活用状況とコミュニケーション構造の分析&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;facebook:EdgeRankというアルゴリズムで情報の表示を制御&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;li&gt;研究活動の場として
+        
+        &lt;ul&gt;
+        &lt;li&gt;これまで、論文評価は雑誌ランキングや論文ごとの被引用回数によって行われてきたが、個人単位の指標に重きが置かれる傾向に
+        
+        &lt;ul&gt;
+        &lt;li&gt;h-index&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;li&gt;もともとWebは、(評価手法のPageRank然り)学術論文の引用ネットワークの模倣によって作られたが、SNSによって個人中心の情報空間に変貌していく過程を、今度は学術分野が追随していく　(p.75)&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>2015 教育改革ICT戦略大会にて発表</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2015/09/04/juce.html"/>
@@ -441,56 +495,6 @@
         &lt;/br&gt;&lt;/li&gt;
         &lt;/ul&gt;&lt;/li&gt;
         &lt;/ul&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>ポール・Ｊ・シルヴィア(2015)『できる研究者の論文生産術』</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/07/07/alot.html"/>
-            <id>http://shirayuca.github.io/blog/2015/07/07/alot.html</id>
-            <published>2015-07-07T00:54:00Z</published>
-            <updated>2015-07-07T09:57:02+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br/&gt;
-        &lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/4061531530" name="amazletlink" target="_blank"&gt;&lt;img src="http://ecx.images-amazon.com/images/I/51VV0bYjkpL._SL160_.jpg" alt="できる研究者の論文生産術 どうすれば「たくさん」書けるのか (KS科学一般書)" style="border: none;" /&gt;&lt;/a&gt;&lt;/p&gt;
-        
-        &lt;p&gt;文章を書くことが難しくて泣きたい、というのは毎日のようなもので、話題になっていた書籍に手を伸ばしました。大切だと思った箇所を以下に抜き書きし、それらに対応して私自身が実践し始めたことをメモします。&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;書く時間は、その都度「見つける」のではなく、あらかじめ「割りふって」おく（大切なのは規則性）
-        
-        &lt;ul&gt;
-        &lt;li&gt;時間割同様、Googleカレンダーに「執筆コマ」を入力&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;執筆に必要な作業は、作業の種類を問わず執筆時間中に行う
-        
-        &lt;ul&gt;
-        &lt;li&gt;目標設定、先行研究調査、分析、推敲など&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;執筆日ごとに具体的な目標をリストアップする
-        
-        &lt;ul&gt;
-        &lt;li&gt;これも、Googleカレンダーに目標／成果を入力&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;p&gt;文章は整理してから書く&lt;/p&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;p&gt;論文の書き方&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;タイトル：抽象度のバランスが重要&lt;/li&gt;
-        &lt;li&gt;アブストラクト：検索用キーワードを意識&lt;/li&gt;
-        &lt;li&gt;序論：第一段落は研究のきっかけと正当性、第二段落は過去のレビュー、第三段落は「本研究～」で始める&lt;/li&gt;
-        &lt;li&gt;手法：実験手法への参照、および基準等の根拠や妥当性&lt;/li&gt;
-        &lt;li&gt;結果：論理的な順序で記載、結果と得られた知見の意味するところ、図表の活用&lt;/li&gt;
-        &lt;li&gt;考察：研究で得られた知見の要約、問に対してどのような貢献があるか
-        
-        &lt;ul&gt;
-        &lt;li&gt;総合考察の場合：一歩退いて他の理論や先行研究に照らして検討&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;/ul&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
         </content>
           </entry>
         </feed>

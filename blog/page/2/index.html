@@ -41,745 +41,737 @@
       </div>
     </nav>
     <div class="container">
-      <div class="row"><div class="col-lg-3 col-md-3">
-  <div class="well">
-    <h4>
-      Tags
-    </h4>
-    <ul class="list-unstyled">
-      <li>
-        <a href="/blog/tags/ブログ.html">ブログ</a> (2)
-      </li>
-      <li>
-        <a href="/blog/tags/テーマ.html">テーマ</a> (1)
-      </li>
-      <li>
-        <a href="/blog/tags/googleappsscript.html">GoogleAppsScript</a> (12)
-      </li>
-      <li>
-        <a href="/blog/tags/学会.html">学会</a> (3)
-      </li>
-      <li>
-        <a href="/blog/tags/ネットワーク分析.html">ネットワーク分析</a> (5)
-      </li>
-      <li>
-        <a href="/blog/tags/mac.html">mac</a> (1)
-      </li>
-      <li>
-        <a href="/blog/tags/データ.html">データ</a> (2)
-      </li>
-      <li>
-        <a href="/blog/tags/参考文献.html">参考文献</a> (6)
-      </li>
-      <li>
-        <a href="/blog/tags/文化.html">文化</a> (8)
-      </li>
-      <li>
-        <a href="/blog/tags/拡張.html">拡張</a> (1)
-      </li>
-      <li>
-        <a href="/blog/tags/ソーシャルメディア.html">ソーシャルメディア</a> (2)
-      </li>
-      <li>
-        <a href="/blog/tags/統計.html">統計</a> (1)
-      </li>
-      <li>
-        <a href="/blog/tags/分析.html">分析</a> (2)
-      </li>
-      <li>
-        <a href="/blog/tags/生活.html">生活</a> (1)
-      </li>
-      <li>
-        <a href="/blog/tags/授業.html">授業</a> (1)
-      </li>
-    </ul>
-  </div>
-</div>
-<div class="col-lg-9 col-md-9"><h1>
-  <a href="/blog/2015/04/25/jiyugaoka.html">食べログ自由が丘マップ(試作)</a>
-</h1>
-<hr />
-<p>
-  <span class="glyphicon glyphicon-time"></span> Posted on Apr 25
-</p>
-<hr />
-<p><br/></p>
-
-<p>担当科目「ソーシャルメディアの活用」にて、自由が丘のグルメ店舗のテキスト分析をおこなう予定のため、その補助資料として、自由が丘のグルメ店舗マップを作成しています。食べログの自由が丘エリアのデータを対象として、ジャンルおよび価格帯に基づいてマッピングするというものです。</p>
-
-<p>自由が丘エリアの店舗数は約600と多いため、営業時間別に、昼のみ営業、夜のみ営業、昼夜営業の3マップを作成していきます。今回は、試作として昼のみ営業している店舗をマッピングしました。店舗名隣の数値は食べログのスコアです。</p>
-
-<ul>
-<li><a href="http://shirayuca.github.io/works/jiyugaoka-map/day.html">自由が丘の食べログマップ(昼のみ)</a></li>
-</ul>
-
-<p><a href="http://shirayuca.github.io/works/jiyugaoka-map/day.html"><img src="http://i.gyazo.com/76e1842c553ebce52386f78d9cc36934.png" width="600"></a></p>
-
-<p>マッピングだけではやや寂しかったので、各店舗へのハイパーリンクをプレビューする機能もつけました。プレビューは各店舗の個性が出ていて、見ているだけで楽しくなります。ただし注意点として、Google検索で「店舗名 AND 自由が丘 -食べログ」と検索して最初にヒットしたページを表示しているので、多少、リンク先に間違いがある可能性もあります。（外部サイトでのiframeの埋め込みが禁止されているいくつかのページはブランクとして表示されます。）</p>
-
-<p>これから、昼夜営業版、夜のみ営業版のマップの作成と、自由が丘店舗全体のデータの傾向を見ていきたいと思います。</p>
-
-<h4 id="参考">参考</h4>
-
-<ul>
-<li><a href="https://github.com/alanphoon/jquery-live-preview">https://github.com/alanphoon/jquery-live-preview</a></li>
-<li><a href="http://t-kashima.hateblo.jp/entry/2012/03/11/235755">http://t-kashima.hateblo.jp/entry/2012/03/11/235755</a></li>
-</ul>
-
-<p><br/></p>
-
-<hr /><h1>
-  <a href="/blog/2015/04/19/johnnys.html">Google APIでジャニーズを見る</a>
-</h1>
-<hr />
-<p>
-  <span class="glyphicon glyphicon-time"></span> Posted on Apr 19
-</p>
-<hr />
-<p><br />
-GoogleのAPIで遊んでみよう、ということで、ジャニーズ事務所のタレント名で検索をしてみました。</p>
-
-<p><br></p>
-
-<h4 id="googleサジェストapi">GoogleサジェストAPI</h4>
-
-<p>Google検索そのものとAPIとでは結構データが異なるところが少し気になりますが、タレントそれぞれのどのような点に関心を持たれているかがわかる、面白いデータだと思います。ざっくりと見た印象では、やはり恋愛系のキーワードと共に検索されることが多いようですが、他には、ジャニーズの他メンバーと共に検索されることが多い点が興味深かったです。仲がいいかどうか、などを調べるのでしょうか。また、家族や学校について、あるいは身長が検索されているという点に関しては、マスメディアによって作られたイメージの外側に思いを馳せているのかな、と感じました。</p>
-
-<ul>
-<li><a href="https://docs.google.com/spreadsheets/d/19BOXoeV8xfAssaKKSKxD3utqgvM3d0SKbt6QuBW4F1A/edit?usp=sharing">ジャニーズタレント名サジェスト</a></li>
-</ul>
-
-<p><a href="https://docs.google.com/spreadsheets/d/19BOXoeV8xfAssaKKSKxD3utqgvM3d0SKbt6QuBW4F1A/edit?usp=sharing)"><img src="http://i.gyazo.com/babb46d1c7910b348238817fdd8daf9d.png" width="600"></a></p>
-
-<p>ほかに面白かった検索キーワードとしては、</p>
-
-<ul>
-<li>「堂本光一　王子」</li>
-<li>「増田貴久　似てる芸能人」</li>
-<li>「上田竜也　顔文字」</li>
-<li>「山田涼介　2014」「山田涼介　2015」</li>
-<li>「中島健人　伝説」</li>
-</ul>
-
-<p>などがあります。堂本光一や中島健人に関しては、キャラクターが確立されたものであることが想像できます。また、「上田竜也　顔文字」を調べてみると、KAT-TUNメンバーそれぞれの顔文字が決まっているという文化に触れることもできました。他のグループも同様にすべて決まっているのか、今後調べてみたいです。</p>
-
-<p><br></p>
-
-<h4 id="google画像検索api">Google画像検索API</h4>
-
-<p>さらに、「山田涼介　201X」という検索クエリは想像していなかったため、改めて自分で検索してみたところ、各年次がキーワードとしてサジェストされました。これは、それぞれの年のタレントの活躍を見たいという行動からくるものなのだろうか、と今は推測しています。(詳しい方いらしたら、教えて下さい)</p>
-
-<p>最後に、上述した「山田涼介　201X」に関して、Google画像検索のトップにヒットするもののみをセルに表示してみたところ、タレントの成長過程を見てとることができました。</p>
-
-<ul>
-<li><a href="https://docs.google.com/spreadsheets/d/1DT2ggwuTkn7FbzaMKjsf2fIDD33JiNt51SrSwta6gyI/edit?usp=sharing">ジャニーズタレント年次別画像検索</a></li>
-</ul>
-
-<p><a href="https://docs.google.com/spreadsheets/d/1DT2ggwuTkn7FbzaMKjsf2fIDD33JiNt51SrSwta6gyI/edit?usp=sharing"><img src="http://i.gyazo.com/36af7e73eb1f0e157ad6539ab9ee8d0e.png" width="600"></a></p>
-
-<p><br /></p>
-
-<h4 id="参考">参考</h4>
-
-<ul>
-<li><a href="http://webshufu.com/google-suggest-api/">http://webshufu.com/google-suggest-api/</a></li>
-<li><a href="http://shirayuca.github.io/blog/2014/07/27/googleimage.html">http://shirayuca.github.io/blog/2014/07/27/googleimage.html</a></li>
-<li><a href="http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1340634483">http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1340634483</a></li>
-</ul>
-
-<hr /><h1>
-  <a href="/blog/2015/04/19/listen.html">スティーブン・Ｄ・ラパポート(2012)『リッスン・ファースト！』</a>
-</h1>
-<hr />
-<p>
-  <span class="glyphicon glyphicon-time"></span> Posted on Apr 19
-</p>
-<hr />
-<p><br /></p>
-
-<p>本書では、ソーシャルメディアアカウントを通じた顧客との対話だけでなく、リスニングを通じてマーケティングに活用するためのエッセンスと事例を紹介しています。パート1を中心に、下記に要点整理します。</p>
-
-<p><br /></p>
-
-<ul>
-<li><p>リスニング</p>
-
-<ul>
-<li>誘導の有無に関わらず、自然に発生した人々の会話・行動・シグナルを研究し、人々の実生活に基づいた意見をブランドに取り入れること (p.3)</li>
-</ul></li>
-<li><p>ソーシャルリスニングにおける2種類のリサーチ (p.7)</p></li>
-<li><p>参考：<a href="http://listenfirst.buildcapacity.com/2011/01/05/social-media-monitoring-is-not-research/">http://listenfirst.buildcapacity.com/2011/01/05/social-media-monitoring-is-not-research/</a> </p>
-
-<ul>
-<li>ソーシャルメディア・モニタリング (戦術的)
-
-<ul>
-<li>オンライン上のブランドに関するコメントを日々トラッキングし、広報、ブランド保護、業務活動、顧客サービス、社会活動、エンゲージメント構築などに利用する</li>
-</ul></li>
-<li>ソーシャル・リサーチ (戦略的)
-
-<ul>
-<li>自然に発生したオンライン上の会話のカテゴリを分析し、人々の行動の背景、彼らの生活におけるブランドの役割、そしてブランド所有者から見た商品、ブランド、コミュニケーションの意味をより深く理解する</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><br /></p>
-
-<ul>
-<li>リスニング・リサーチのメリット (p.8)
-
-<ul>
-<li>スピードとタイミング：日単位で方向性がわかる</li>
-<li>柔軟性と軌道修正：新たな手段が見つかった場合にすばやく変更</li>
-<li>調査設計：リサーチャーではなく顧客の視点で調査設計ができる</li>
-<li>リサーチャーの想像の圏外の回答が得られる</li>
-<li>フィルタリング：フィルタリングされていないデータを得られる</li>
-<li>規模：大きい</li>
-<li>コスト：低い</li>
-</ul></li>
-</ul>
-
-<p><br /></p>
-
-<ul>
-<li>リスニング・リサーチの大きな流れ (p.12)
-
-<ul>
-<li>リスニングのための組織作り</li>
-<li>ビジネスのゴールと絡めた目標設定</li>
-<li>KPI (重要業績評価指標) の定義</li>
-<li>リサーチ対象 (最適な意見や会話のソースの決定) の決定、下記の条件を満たすもの (単に人気のSNSを選択してはいけない)
-
-<ul>
-<li>参考：<a href="http://www.b-eye-network.com/view/12244">http://www.b-eye-network.com/view/12244</a> </li>
-<li>論点性：興味のある情報が十分含まれているか</li>
-<li>集中性：関連情報の密度が高く無関係の情報が少ないか (ノイズに対してシグナル比が高いこと)</li>
-<li>現在性：情報がタイムリーか</li>
-<li>権威性：情報が信頼できるか</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><br /></p>
-
-<hr /><h1>
-  <a href="/blog/2015/04/19/statistics_1.html">放送大学「身近な統計（'12）」第1回メモ</a>
-</h1>
-<hr />
-<p>
-  <span class="glyphicon glyphicon-time"></span> Posted on Apr 19
-</p>
-<hr />
-<p><br /></p>
-
-<h4 id="授業の情報">授業の情報</h4>
-
-<ul>
-<li><a href="http://www.ouj.ac.jp/hp/kamoku/H26/kyouyou/B/kiso/1234048.html">http://www.ouj.ac.jp/hp/kamoku/H26/kyouyou/B/kiso/1234048.html</a></li>
-<li>第1回：論より数字、勘より統計</li>
-</ul>
-
-<p><br /></p>
-
-<h4 id="導入1：ナイチンゲールと統計のかかわり">導入1：ナイチンゲールと統計のかかわり</h4>
-
-<ul>
-<li><p>統計学者としてのナイチンゲール</p>
-
-<ul>
-<li>データによる説得を通じて、陸軍の衛生・保険医療改革に取り組む</li>
-<li>例：鳥のとさかグラフの発案など
-
-<ul>
-<li>Diagram of the Causesu of Mortality in the Army in the East (1858)</li>
-<li><a href="http://en.wikipedia.org/wiki/Florence_Nightingale#/media/File:Nightingale-mortality.jpg">http://en.wikipedia.org/wiki/Florence_Nightingale#/media/File:Nightingale-mortality.jpg</a> </li>
-</ul></li>
-</ul></li>
-<li><p>統計的マネジメントサイクル</p>
-
-<ul>
-<li>Problem</li>
-<li>Plan</li>
-<li>Data</li>
-<li>Analysis</li>
-<li>Conclusion &amp; Improve</li>
-<li>Control &amp; Check</li>
-</ul></li>
-</ul>
-
-<p><br /></p>
-
-<h4 id="導入2：統計の重要性">導入2：統計の重要性</h4>
-
-<ul>
-<li>統計は21世紀型ワークスキル：読み書き基礎能力のリテラシーから、数理・統計リテラシーが求められている(問題解決・知識発見方の総合情報処理能力)
-
-<ul>
-<li>身の回りの課題を統計的な問題に設定する能力</li>
-<li>関連する資料・データ・情報の迅速な収集能力</li>
-<li>データの分析能力</li>
-<li>結果の効果的な情報発信能力</li>
-</ul></li>
-</ul>
-
-<p><br /></p>
-
-<h4 id="統計と社会との接点：スポーツの戦略立案">統計と社会との接点：スポーツの戦略立案</h4>
-
-<ul>
-<li>野球
-
-<ul>
-<li>ダルビッシュの2010年/2011年比較
-
-<ul>
-<li>前試合中の球種数、割合、スピードの分布など</li>
-</ul></li>
-<li>得点期待値
-
-<ul>
-<li>状況設定ごとに数字を見ることで、送りバントの有効性を検討</li>
-<li>参考：「『勝てる野球の統計学 セイバーメトリクス【岩波科学ライブラリー】」<a href="http://www.iwanami.co.jp/.PDFS/02/X/0296230.pdf">http://www.iwanami.co.jp/.PDFS/02/X/0296230.pdf</a> </li>
-</ul></li>
-<li>WPA(勝利寄与度)</li>
-</ul></li>
-<li>サッカー
-
-<ul>
-<li>FIFA World Cup “Statistics”</li>
-<li><a href="http://www.fifa.com/worldcup/archive/brazil2014/statistics/index.html">http://www.fifa.com/worldcup/archive/brazil2014/statistics/index.html</a> </li>
-</ul></li>
-</ul>
-
-<p><br /></p>
-
-<h4 id="統計はじめの一歩">統計はじめの一歩</h4>
-
-<ul>
-<li><p>統計とは：統べて図る(集団の大量観察)</p>
-
-<ul>
-<li>現在の状況の計測</li>
-<li>将来の到達点の予測</li>
-<li>目標値への制御</li>
-</ul></li>
-<li><p>データと情報、および統計との関係</p>
-
-<ul>
-<li>データとは：客観的事実</li>
-<li>情報とは：個人や組織の意思決定に役立つもの</li>
-<li>データ→データマイニング(統計分析や人工知能)→情報→個人や組織の意思決定</li>
-</ul></li>
-<li><p>統計的分析手法</p>
-
-<ul>
-<li>計量化と視覚化：統計数値や統計グラフを作成し、データの持つ情報を表現する</li>
-<li>独自の情報：データを集め、集めたデータを分析・解釈し、背後にある構造に関して結論を導き出すための方法</li>
-</ul></li>
-</ul>
-
-<p><br /></p>
-
-<hr /><h1>
-  <a href="/blog/2015/03/25/day.html">文化的な生活</a>
-</h1>
-<hr />
-<p>
-  <span class="glyphicon glyphicon-time"></span> Posted on Mar 25
-</p>
-<hr />
-<p><br />
-最近観た／読んだ、恋愛やサスペンスなどで良かったものは、</p>
-
-<p>映画</p>
-
-<ul>
-<li><a href="http://www.nymphomaniac.jp/">ニンフォマニアック</a>
-
-<ul>
-<li>一人で観に行って最高だった。映画館で隣の人がなぜか歯磨きしてた。</li>
-</ul></li>
-<li><a href="http://www.foxmovies-jp.com/gone-girl/">ゴーン・ガール</a>
-
-<ul>
-<li>夫と観に行って、帰り道に「面白かった！しか言うことないね」と悔しがった思い出。</li>
-</ul></li>
-<li><a href="http://house-of-cards.jp/">ハウス・オブ・カード 野望の階段</a>
-
-<ul>
-<li>とにかく早くシーズン3を観たい。</li>
-</ul></li>
-<li><a href="http://www.amazon.co.jp/17%E6%AD%B3%E3%81%AE%E3%82%AB%E3%83%AB%E3%83%86-%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA%E3%83%BB%E3%82%A8%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3-DVD-%E3%82%A6%E3%82%A3%E3%83%8E%E3%83%8A%E3%83%BB%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC/dp/B000R8X9Z8">17歳のカルテ</a>
-
-<ul>
-<li>自分が最も多感だろう、主人公と同じくらいの歳の時には怖くて観れなくて。</li>
-</ul></li>
-<li><a href="http://kadokawa-d.jp/lineup/mistress/">ミストレス</a>
-
-<ul>
-<li>断然イギリス版を支持。大人のシリアスでキュートな恋愛。</li>
-</ul></li>
-<li><a href="http://www.amazon.co.jp/%E3%83%A9%E3%83%96%E3%83%BB%E3%82%A2%E3%82%AF%E3%83%81%E3%83%A5%E3%82%A2%E3%83%AA%E3%83%BC-DVD-%E3%83%92%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%88/dp/B0001851BO">ラブ・アクチュアリー</a>
-
-<ul>
-<li>クリスマスに。</li>
-</ul></li>
-<li><a href="http://saikyo-2.gaga.ne.jp/">最強のふたり</a>
-
-<ul>
-<li>爽快な幸福感。</li>
-</ul></li>
-<li><a href="http://n-c-p.asmik-ace.co.jp/">ニュー・シネマ パラダイス</a>
-
-<ul>
-<li>何度観ても良い。</li>
-</ul></li>
-</ul>
-
-<p>まんが</p>
-
-<ul>
-<li><a href="http://www.amazon.co.jp/%EF%BC%91%E9%99%90%E3%82%81%E3%81%AF%E3%82%84%E3%82%8B%E6%B0%97%E3%81%AE%E6%B0%91%E6%B3%95%EF%BC%881%EF%BC%89-%E3%83%93%E3%83%BC%E3%83%9C%E3%83%BC%E3%82%A4%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%88%E3%81%97%E3%81%AA%E3%81%8C%E3%81%B5%E3%81%BF-ebook/dp/B00MUFOEO6/">よしながふみ「１限めはやる気の民法」</a>
-
-<ul>
-<li>私にとって、大学生かくあるべき、のような羨望。</li>
-</ul></li>
-<li><a href="http://www.amazon.co.jp/%E5%A5%B3%E3%81%AE%E5%AD%90%E3%81%8C%E6%AD%BB%E3%81%AC%E8%A9%B1-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%9C%88%E5%88%8A%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3-%E6%9F%B3%E6%9C%AC-%E5%85%89%E6%99%B4/dp/4575843431">柳本光晴「女の子が死ぬ話」</a></li>
-<li><a href="http://www.amazon.co.jp/AV%E7%83%88%E4%BC%9D-1-%E3%83%93%E3%83%83%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E4%BA%95%E6%B5%A6-%E7%A7%80%E5%A4%AB/dp/4091854419">井浦秀夫「AV烈伝」</a>
-
-<ul>
-<li>併せて読みたい「人間仮免中」。</li>
-</ul></li>
-<li><a href="http://www.amazon.co.jp/%E3%81%84%E3%81%AC-1-%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%B5%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%9F%8F%E6%9C%A8-%E3%83%8F%E3%83%AB%E3%82%B3/dp/4091516416">柏木ハルコ「いぬ」</a>
-
-<ul>
-<li>大学時代に研究室で読んだものを再読。初見の際の衝撃はなかったけれど、やっぱり良い。</li>
-</ul></li>
-</ul>
-
-<p><br />
-どれも良かったな。「１限めはやる気の民法」読むと、アカデミズムへの憧れを取り戻せる。kindle は、再読まんがを購入するコストが低すぎて、困っちゃうね。</p>
-
-<p><br /></p>
-
-<p><a href="https://www.youtube.com/watch?v=8GRQLayqdCc"><img alt="映画『ニンフォマニアック』予告 - R18＋" src="http://img.youtube.com/vi/8GRQLayqdCc/0.jpg" /></a></p>
-
-<p><br /></p>
-
-<hr /><h1>
-  <a href="/blog/2015/03/25/sf.html">kindleアプリの中がテラリウム</a>
-</h1>
-<hr />
-<p>
-  <span class="glyphicon glyphicon-time"></span> Posted on Mar 25
-</p>
-<hr />
-<p><br />
-もともと、藤子・F・不二雄の「すこし不思議」なSFは大好きだったのだけれど、最近、王道のSF好きな夫の影響もあってか、これまでよりもSF関連の作品に触れることが増えました。ここ最近で良かったものは、</p>
-
-<p>映画・ドラマ</p>
-
-<ul>
-<li><a href="http://wwws.warnerbros.co.jp/interstellar/">インターステラー</a>
-
-<ul>
-<li>映画評とワンセットで完成、というイメージ。</li>
-</ul></li>
-<li><a href="http://her.asmik-ace.co.jp/">her／世界でひとつの彼女</a>
-
-<ul>
-<li>かわゆい世界。</li>
-</ul></li>
-<li><a href="http://www.hulu.jp/orphan-black">オーファン・ブラック ～暴走遺伝子</a>
-
-<ul>
-<li>一人n役が凄すぎる。</li>
-</ul></li>
-<li><a href="http://www.amazon.co.jp/%E3%82%B8%E3%83%A5%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%83%BB%E3%83%91%E3%83%BC%E3%82%AF-DVD-%E3%83%AA%E3%83%81%E3%83%A3%E3%83%BC%E3%83%89%E3%83%BB%E3%82%A2%E3%83%83%E3%83%86%E3%83%B3%E3%83%9C%E3%83%AD%E3%83%BC/dp/B000E6GAKY">ジュラシック・パーク</a>
-
-<ul>
-<li>今観ても、良い。</li>
-</ul></li>
-</ul>
-
-<p>まんが</p>
-
-<ul>
-<li><a href="http://www.amazon.co.jp/%E3%83%86%E3%83%B3%E3%83%9A%E3%82%B9%E3%83%88-1-KCx-%E9%98%BF%E4%BB%81%E8%B0%B7-%E3%83%A6%E3%82%A4%E3%82%B8/dp/4063805298">阿仁谷ユイジ『テンペスト』</a>
-
-<ul>
-<li>併せて観たい「オーファン・ブラック」。</li>
-</ul></li>
-<li><a href="http://www.amazon.co.jp/%E3%83%A8%E3%82%B3%E3%83%8F%E3%83%9E%E8%B2%B7%E3%81%84%E5%87%BA%E3%81%97%E7%B4%80%E8%A1%8C-1-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3KC-%E8%8A%A6%E5%A5%88%E9%87%8E-%E3%81%B2%E3%81%A8%E3%81%97/dp/4063210502">芦奈野ひとし『ヨコハマ買い出し紀行』</a>
-
-<ul>
-<li>ゆるゆる系だけど嫌味がなくて良い。</li>
-</ul></li>
-<li><a href="http://www.amazon.co.jp/%E3%81%B2%E3%81%8D%E3%81%A0%E3%81%97%E3%81%AB%E3%83%86%E3%83%A9%E3%83%AA%E3%82%A6%E3%83%A0-%E4%B9%9D%E4%BA%95%E8%AB%92%E5%AD%90-ebook/dp/B00E59A03O/">九井諒子『ひきだしにテラリウム』</a>
-
-<ul>
-<li>この緻密さに打たれる。</li>
-</ul></li>
-<li><a href="http://www.amazon.co.jp/%E7%AB%9C%E3%81%AE%E5%AD%A6%E6%A0%A1%E3%81%AF%E5%B1%B1%E3%81%AE%E4%B8%8A-%E4%B9%9D%E4%BA%95%E8%AB%92%E5%AD%90-ebook/dp/B00DLT047Q/">九井諒子『竜の学校は山の上』</a>
-
-<ul>
-<li>九井諒子の面白さを初めて知った本。ものすごく良かった。</li>
-</ul></li>
-</ul>
-
-<p><br />
-我が家では kindle の本棚を共有しているので、見慣れない作品があると、夫の新たな一面を見ることができているようで、とても嬉しいです。技術の進化で、言葉に出さないコミュニケーションの手段が増えたことを感じます。</p>
-
-<p><br /></p>
-
-<hr /><h1>
-  <a href="/blog/2015/03/25/smcommunication_1.html">コミュニケーションから始まる問題</a>
-</h1>
-<hr />
-<p>
-  <span class="glyphicon glyphicon-time"></span> Posted on Mar 25
-</p>
-<hr />
-<p><br />
-「ソーシャルメディアコミュニケーション」授業のテーマ1、「コミュニケーションから始まる問題」で使用した主な資料を記しておきます。</p>
-
-<p><br /></p>
-
-<h4 id="モチーフ">モチーフ</h4>
-
-<p>「（ハル）」<br />
-<a href="https://www.youtube.com/watch?v=imbgfab4O2o"><img alt="（ハル）" src="http://img.youtube.com/vi/imbgfab4O2o/0.jpg" /></a>
-<br /></p>
-
-<p>「ソーシャル・ネットワーク - 予告編」<br />
-<a href="https://www.youtube.com/watch?v=WAzw1LrHaXo"><img alt="ソーシャル・ネットワーク - 予告編" src="http://img.youtube.com/vi/WAzw1LrHaXo/0.jpg" /></a></p>
-
-<p><br /></p>
-
-<h4 id="導入">導入</h4>
-
-<ul>
-<li><a href="http://www.amazon.co.jp/%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E9%80%B2%E5%8C%96%E8%AB%96-%E6%AD%A6%E7%94%B0%E9%9A%86/dp/4478016313">武田隆『ソーシャルメディア進化論』2011/7/29</a></li>
-<li><a href="http://www.amazon.co.jp/%E3%82%A6%E3%82%A7%E3%83%96%E7%82%8E%E4%B8%8A%E2%80%95%E3%83%8D%E3%83%83%E3%83%88%E7%BE%A4%E9%9B%86%E3%81%AE%E6%9A%B4%E8%B5%B0%E3%81%A8%E5%8F%AF%E8%83%BD%E6%80%A7-%E3%81%A1%E3%81%8F%E3%81%BE%E6%96%B0%E6%9B%B8-%E8%8D%BB%E4%B8%8A-%E3%83%81%E3%82%AD/dp/4480063919">荻上チキ『ウェブ炎上―ネット群集の暴走と可能性』2007/10</a></li>
-<li><a href="https://www.ted.com/talks/juan_enriquez_how_to_think_about_digital_tattoos?language=ja">フアン・エンリケス「タトゥーのように残るあなたのオンラインライフ」2013/2 </a></li>
-<li><a href="http://www.amazon.co.jp/%E5%AD%A6%E3%81%B3%E3%81%A8%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%8F%E3%83%B3%E3%83%89%E3%83%96%E3%83%83%E3%82%AF-%E4%BD%90%E4%BC%AF-%E8%83%96/dp/4501544201">田代光輝「ブログ炎上」、佐伯胖(著)CIEC(編集)『学びとコンピュータハンドブック』2008/8</a></li>
-<li><a href="http://ci.nii.ac.jp/naid/110009753225">田代光輝・折田明子「ネット炎上の発生過程と収束過程に関する一考察 ~不具合に対する嫌がらせと決着による収束~」情報処理学会研究報告、2012/9/6</a></li>
-</ul>
-
-<p><br /></p>
-
-<h4 id="紹介事例">紹介事例</h4>
-
-<ul>
-<li><a href="http://www.huffingtonpost.jp/2013/10/21/enjo-twitter_n_4134990.html">The Huffington Post「「バイトテロ」で相次ぐTwitter炎上　どうやって食い止める？」2013/10/22 </a>
--<a href="http://japan.cnet.com/marketers/sp_orgtransparency/35034620/">斉藤徹「賞賛と炎上を分けるもの」CNET Japan、2013/07/16</a></li>
-<li><a href="http://ure.pia.co.jp/articles/-/12689">ウレぴあ総研「【就活】SNSで不採用に!? 現役人事が明かす、面接者の&quot;書き込み&quot;が選考を左右した実例」2013/3/11</a></li>
-</ul>
-
-<p><br /></p>
-
-<hr /><h1>
-  <a href="/blog/2015/03/25/smapplication_1.html">情報の収集と編集</a>
-</h1>
-<hr />
-<p>
-  <span class="glyphicon glyphicon-time"></span> Posted on Mar 25
-</p>
-<hr />
-<p><br />
-「ソーシャルメディアの活用」授業のテーマ1、「情報の収集と編集」で使用した主な資料を記しておきます。</p>
-
-<p><br /></p>
-
-<h4 id="導入">導入</h4>
-
-<ul>
-<li><a href="http://toyokeizai.net/articles/-/34638">東洋経済オンライン「若者の情報収集に欠けている「ある視点」」2014/4/7</a></li>
-<li><a href="http://www.amazon.co.jp/%E6%9C%9D%E6%97%A5%E6%96%B0%E8%81%9E%E8%A8%98%E8%80%85%E3%81%AE%E3%83%8D%E3%83%83%E3%83%88%E6%83%85%E5%A0%B1%E6%B4%BB%E7%94%A8%E8%A1%93-%E6%9C%9D%E6%97%A5%E6%96%B0%E6%9B%B8-%E5%B9%B3-%E5%92%8C%E5%8D%9A/dp/4022734418">平和博『朝日新聞記者のネット情報活用術』2012/3/13</a></li>
-<li><a href="http://www.google.com/intl/ja/insidesearch/howsearchworks/">検索の仕組み – 検索サービス – Google</a></li>
-<li><a href="http://liginc.co.jp/web/service/google/86222">LIG Inc.「Google検索がもっと便利になる検索オプション・テクニックまとめ」2014/5/13</a></li>
-</ul>
-
-<p><br /></p>
-
-<h4 id="検索ツールの例">検索ツールの例</h4>
-
-<ul>
-<li><a href="https://twitter.com/search-advanced?lang=ja">Twitter / 高度な検索</a></li>
-<li><a href="http://search.yahoo.co.jp/realtime">Yahoo!検索（リアルタイム）</a></li>
-<li><a href="http://t21.nikkei.co.jp/">日経テレコン21</a></li>
-<li><a href="http://www.tk-dcl.jp/dcl/">東洋経済デジタルコンテンツ・ライブラリー</a></li>
-<li><a href="https://scholar.google.co.jp/">Google Scholar</a></li>
-<li><a href="http://ci.nii.ac.jp/">CiNii Articles</a></li>
-<li><a href="https://www.jstage.jst.go.jp/browse/-char/ja/">J-STAGE</a></li>
-<li><a href="https://ndlopac.ndl.go.jp/">国立国会図書館 NDL Opac</a></li>
-</ul>
-
-<p><br /></p>
-
-<hr /><h1>
-  <a href="/blog/2014/12/13/home.html">家庭を支える技術を支える環境</a>
-</h1>
-<hr />
-<p>
-  <span class="glyphicon glyphicon-time"></span> Posted on Dec 13
-</p>
-<hr />
-<p><br />
-このエントリは、<a href="http://www.adventar.org/calendars/595">家庭を支える技術 Advent Calendar 2014</a> の13日目です。インターネットが好きな夫婦二人の家庭にて、(1) 開発・活用しているツール群とその運用状況、(2) 開発環境について書きたいと思います。</p>
-
-<p><br /></p>
-
-<h4 id="(1)-開発・活用しているツール群">(1) 開発・活用しているツール群</h4>
-
-<ol>
-<li> 帰るコール</li>
-<li>今日の白土家保守</li>
-<li>そろそろアラート</li>
-</ol>
-
-<p><br /></p>
-
-<h5 id="(1-1)-帰るコール">(1-1) 帰るコール</h5>
-
-<p><a href="https://slack.com/">Slack</a> と <a href="https://ifttt.com/">IFTTT</a> を組み合わせて、最寄駅に近づいたらアラートを送る「帰るコール」を作成し、活用しています。家庭内コミュニケーションのメインとして使用している Slack に、自動で状況を送ってくれる点が大変気に入っています。</p>
-
-<p><img alt="帰るコール" src="http://i.gyazo.com/f0af8d14b37e306766aa2b8e974a2556.png" /></p>
-
-<p><br/ ></p>
-
-<h5 id="(1-2)-今日の白土家保守">(1-2) 今日の白土家保守</h5>
-
-<p>Googleフォームとスプレッドシートを活用し、毎日行った家事を記録する<a href="http://shirayuca.github.io/blog/2014/11/24/today-s.html">今日の白土家保守</a>というサービスを作成し、活用しています。運用し始めて2週間強、感じたことは、フォームに入力し忘れてしまうことがある／何も家事をしていない日が悲しい、という2点です。</p>
-
-<p>まず、1点目について。下記は、最近行った家事の集計結果です。実際は、もう少し家事を行っているのですが、夜遅くに帰宅した際にバタバタと片付けた家事などは、フォームでの入力すら面倒で怠りがちです。そのため、例えば、家事を行っていない側が労いの言葉とともにフォーム入力する、等の工夫があると、改善できるのではと考えています。</p>
-
-<p><img src="http://i.gyazo.com/05ea5ba0ebf509d064ca563e9b22c355.png" width="500"></p>
-
-<p>続いて、2点目について。下記は、家事を何も行っていない日のサマリーメールです。何もしていない日に下記のようなメールが来るとささやかな罪悪感が募るので、文面を変更しなければ、ということに気づきました。</p>
-
-<p><img src="http://i.gyazo.com/44a5e08f50705b78344c99c899dd0d40.png" width="500"></p>
-
-<p><br /></p>
-
-<h5 id="(1-3)-そろそろアラート">(1-3) そろそろアラート</h5>
-
-<p>Googleスプレッドシートを活用し、定期的にAmazonにて購入するものに関して、そろそろ買ったほうがいいものをアラートしてくれる<a href="http://kei-s.hatenablog.com/entry/2014/12/01/204005">そろそろアラート</a>を作成し、活用しています。Amazonは定期お得便に含まれる項目が限定されているため、例えば我が家で愛用しているゴミ箱のにおい取り等の取り替え時をお知らせしてくれて、便利です。また、私たち夫婦は、共にTO DO管理があまり得意ではないため、家に品物が届いたら取り替えればいい、という簡単ステップに快適さを感じています。</p>
-
-<p><br /></p>
-
-<h4 id="(2)-開発環境">(2) 開発環境</h4>
-
-<ol>
-<li>IKEA のイーゼルと Apple TV</li>
-<li>Google スプレッドシート</li>
-<li>GitHub Organizations</li>
-</ol>
-
-<p><br /></p>
-
-<h5 id="(2-1)-ikea-のイーゼルと-apple-tv">(2-1) IKEA のイーゼルと Apple TV</h5>
-
-<p>何か作りたいものについて、一番最初の &quot;Let&#39;s have a chat.&quot; の段階では、IKEA のイーゼルと Apple TV を活用しています。イーゼルに自由にアイディアや図を書き込みながら作りたいものについてのイメージをクリアにしていきます。また、Apple TV で各自のラップトップの画面を表示したりしながら、情報収集と共有を行います。</p>
-
-<p><img src="http://i.gyazo.com/f0726d33a6d729563c6ea9a5f67e93d4.png" width="400"></p>
-
-<p><br /></p>
-
-<h5 id="(2-2)-google-スプレッドシート">(2-2) Google スプレッドシート</h5>
-
-<p>私たちの家庭では、ツールを作成する際にGoogle スプレッドシートを活用することが多くあります。理由は2点あります。</p>
-
-<p>1点目は、データのスクレイピングに向いているということです。Google スプレッドシートには Xpath でデータスクレイピングをする関数がデフォルト備わっており、インターネット上のデータを活用することに優れています。</p>
-
-<p>2点目は、非エンジニアにも開発しやすいということです。夫はウェブエンジニアですが、私はそのような職業ではなく、プログラミングも得意ではありません。私が夫に作って欲しいものを頼むのは簡単なことですが、家庭とは長く続くチームであり、これからも様々なプロジェクト発足が想定されます。そのため、私も開発に携わりながら成長していき、今後、より柔軟に様々な課題に対応していけるようにという考えから、最近は専ら Google スプレッドシートを活用しています。</p>
-
-<p><br /></p>
-
-<h5 id="(2-3)-github-organizations">(2-3) GitHub Organizations</h5>
-
-<p>作成したものをパブリッシュする場として、GitHub Organizations ( <a href="https://github.com/shiratsuchi">https://github.com/shiratsuchi</a> )を利用しています。実は、これは、作成したものを公開したいという考えから生まれたものではなく、私たちが大学院時代に「研究を始めるにはまずディレクトリを作ることから、論文を書き始めるには TeX 一式を作成するところから」という意識から来ています。</p>
-
-<p><br /></p>
-
-<h4 id="まとめ">まとめ</h4>
-
-<p>以上が、我が家の家庭を支える技術の主な内容と、それらを支える環境についてです。おじいちゃんおばあちゃんになっても、何か一緒に作っていられたらいいね (その時にはエディタのフォントサイズは 20pt くらいかな )と、家庭内で話しています。</p>
-
-<p><br /></p>
-
-<hr /><h1>
-  <a href="/blog/2014/11/24/today-s.html">今日の白土家保守</a>
-</h1>
-<hr />
-<p>
-  <span class="glyphicon glyphicon-time"></span> Posted on Nov 24
-</p>
-<hr /><p><br />
-家の中を快適に保つため、毎日の家事の記録と集計を行う「今日の白土家保守」という仕組みを作りました。使用の流れは、</p>
-
-<pre><code>1. Googleフォームで行なった家事を選択し送信
-2. ( 1日の終わりに、行なった家事一覧をメール受信 )
-3. ( 1週間の終わりに、週間の集計と目標設定との差分をメール受信 )
-</code></pre>
-
-<p>としました。基本的に、1. のみ、ポチポチとフォームで送信さえすれば、あとは自動で集計メール等が届く仕組みです。</p>
-
-<p><br /></p>
-
-<h4 id="1.-googleフォームで行なった家事を送信">1. Googleフォームで行なった家事を送信</h4>
-
-<p>炊事や洗濯等、家事を行なったその都度、下記のようなGoogleフォームでデータを送信します。プルダウンでユーザ（夫か私の2択）と、ラジオボタンで家事内容を洗濯するのみのシンプル設計です。（iPhoneの Safari で「ホームに登録」しておきます。）</p>
-
-<p><img src="http://i.gyazo.com/afd338938e41b23ecf33bdfd489478a1.png" width="350"></p>
-
-<p><br /></p>
-
-<h4 id="2.-1日の終わりに家事一覧をメール受信">2. 1日の終わりに家事一覧をメール受信</h4>
-
-<p>家事の都度、フォームにて送信していたデータを、1日の終わりにまとめてメールで受信します。GoogleAppsScriptにてトリガー設定し、毎日23時ごろに自動メール送信をしています。</p>
-
-<p><img src="http://i.gyazo.com/b09655f6cd51f7228aac6ca5c07510d2.png" width="450"></p>
-
-<p><br /></p>
-
-<h4 id="3.-1週間の終わりに、週間の集計と目標設定との差分をメール受信">3. 1週間の終わりに、週間の集計と目標設定との差分をメール受信</h4>
-
-<p>家事の都度登録しているデータを週ごとで集計し、1週間の成果をメールで受信します。各々の家事内容に応じて、週間の目標設定値を下回っている場合には、それに応じたコメントも掲載します。こちらもトリガー設定し、自動でメール送信しています。</p>
-
-<p><img src="http://i.gyazo.com/86ebc44249fc6c0f27c41685a445cdc0.png" width="450"></p>
-
-<p><img src="http://i.gyazo.com/2d095e4932aebc936fca7a69651be336.png" width="450"></p>
-
-<p><br /></p>
-
-<h4 id="参考">参考</h4>
-
-<ul>
-<li><a href="https://gist.github.com/shirayuca/d5e5767dfe74fdab6ec3">https://gist.github.com/shirayuca/d5e5767dfe74fdab6ec3</a></li>
-</ul>
-
-<p><br /></p>
-
-<hr />
-<div class="well-sm">
-  <ul class="pager">
-    <li class="previous">
-      <a href="/blog/">&larr;</a>
-    </li>
-    <span class="text-center">Page 2 of 5</span>
-    <li class="next">
-      <a href="/blog/page/3/">&rarr;</a>
-    </li>
-  </ul>
-</div>
-  <hr>
-    <p class="text-center">
-      2014 <a href="/">shirayuca.github.io</a>
-    </p>
-  </hr>
-</div>
+      <div class="row">
+        <div class="col-lg-3 col-md-3">
+          <div class="well">
+            <h4>
+              Tags
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="/blog/tags/ブログ.html">ブログ</a> (2)
+              </li>
+              <li>
+                <a href="/blog/tags/テーマ.html">テーマ</a> (1)
+              </li>
+              <li>
+                <a href="/blog/tags/googleappsscript.html">GoogleAppsScript</a> (12)
+              </li>
+              <li>
+                <a href="/blog/tags/学会.html">学会</a> (3)
+              </li>
+              <li>
+                <a href="/blog/tags/ネットワーク分析.html">ネットワーク分析</a> (5)
+              </li>
+              <li>
+                <a href="/blog/tags/mac.html">mac</a> (1)
+              </li>
+              <li>
+                <a href="/blog/tags/データ.html">データ</a> (2)
+              </li>
+              <li>
+                <a href="/blog/tags/参考文献.html">参考文献</a> (7)
+              </li>
+              <li>
+                <a href="/blog/tags/文化.html">文化</a> (8)
+              </li>
+              <li>
+                <a href="/blog/tags/拡張.html">拡張</a> (1)
+              </li>
+              <li>
+                <a href="/blog/tags/ソーシャルメディア.html">ソーシャルメディア</a> (2)
+              </li>
+              <li>
+                <a href="/blog/tags/統計.html">統計</a> (1)
+              </li>
+              <li>
+                <a href="/blog/tags/分析.html">分析</a> (2)
+              </li>
+              <li>
+                <a href="/blog/tags/生活.html">生活</a> (1)
+              </li>
+              <li>
+                <a href="/blog/tags/授業.html">授業</a> (1)
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-9 col-md-9">
+          <h1>
+            <a href="/blog/2015/05/16/amazon-price.html">毎日、Amazonの特定商品の価格を取得する</a>
+          </h1>
+          <hr />
+          <p>
+            <span class="glyphicon glyphicon-time"></span> Posted on May 16
+          </p>
+          <hr />
+          <p><br/></p>
+          
+          <p>毎日、Amazonの特定商品の価格を取得するGoogleスプレッドシートを作成しました。元々、担当授業でもスプレッドシートを活用してスクレイピングを試みていましたが、アクセスしたその瞬間のスナップショットを取得するというものでした。定期的にスクレイピングする方法も行ってみたいと思い（例えば、何かのスコアを毎日取得するなど）、今回、Amazonの特定商品の価格を例に行いました。下記のA列、B列に毎日データが追加されていきます。グラフ化等行うと面白そうですね。</p>
+          
+          <ul>
+          <li><a href="https://docs.google.com/spreadsheets/d/1BVZH0-Vpvg6-FR3XJ4_b3_mimkU4FKVBQ3Tpg7YT6SQ/edit?usp=sharing">Amazon価格の取得シート</a></li>
+          </ul>
+          
+          <p><a href="https://docs.google.com/spreadsheets/d/1BVZH0-Vpvg6-FR3XJ4_b3_mimkU4FKVBQ3Tpg7YT6SQ/edit?usp=sharing"><img src="http://i.gyazo.com/4d9e5dca1e3bfb1d06d979716be3d6bf.png", width="600"></a></p>
+          
+          <p><br /></p>
+          
+          <h4 id="使い方">使い方</h4>
+          
+          <ol>
+          <li>上記で公開しているシートをコピー</li>
+          <li>E1セルに任意のAmazon商品ページを入力</li>
+          <li>トリガーを設定（私は、毎日取得という方法にする予定です）</li>
+          </ol>
+          
+          <p>シートをコピーして使用しない場合は、下記のコードをスクリプトエディタに貼り付けて使用します。</p>
+          
+          <script src="https://gist.github.com/shirayuca/01c62520329566a82dcb.js"></script>
+          
+          <p><br/></p>
+          
+          <h4 id="参考">参考</h4>
+          
+          <ul>
+          <li><a href="http://www.bmoo.net/archives/2012/04/313841.html">http://www.bmoo.net/archives/2012/04/313841.html</a></li>
+          <li><a href="http://engineer-intern.jp/archives/7551">http://engineer-intern.jp/archives/7551</a></li>
+          </ul>
+          
+          <p><br/></p>
+          
+          <hr /><h1>
+            <a href="/blog/2015/04/25/jiyugaoka.html">食べログ自由が丘マップ(試作)</a>
+          </h1>
+          <hr />
+          <p>
+            <span class="glyphicon glyphicon-time"></span> Posted on Apr 25
+          </p>
+          <hr />
+          <p><br/></p>
+          
+          <p>担当科目「ソーシャルメディアの活用」にて、自由が丘のグルメ店舗のテキスト分析をおこなう予定のため、その補助資料として、自由が丘のグルメ店舗マップを作成しています。食べログの自由が丘エリアのデータを対象として、ジャンルおよび価格帯に基づいてマッピングするというものです。</p>
+          
+          <p>自由が丘エリアの店舗数は約600と多いため、営業時間別に、昼のみ営業、夜のみ営業、昼夜営業の3マップを作成していきます。今回は、試作として昼のみ営業している店舗をマッピングしました。店舗名隣の数値は食べログのスコアです。</p>
+          
+          <ul>
+          <li><a href="http://shirayuca.github.io/works/jiyugaoka-map/day.html">自由が丘の食べログマップ(昼のみ)</a></li>
+          </ul>
+          
+          <p><a href="http://shirayuca.github.io/works/jiyugaoka-map/day.html"><img src="http://i.gyazo.com/76e1842c553ebce52386f78d9cc36934.png" width="600"></a></p>
+          
+          <p>マッピングだけではやや寂しかったので、各店舗へのハイパーリンクをプレビューする機能もつけました。プレビューは各店舗の個性が出ていて、見ているだけで楽しくなります。ただし注意点として、Google検索で「店舗名 AND 自由が丘 -食べログ」と検索して最初にヒットしたページを表示しているので、多少、リンク先に間違いがある可能性もあります。（外部サイトでのiframeの埋め込みが禁止されているいくつかのページはブランクとして表示されます。）</p>
+          
+          <p>これから、昼夜営業版、夜のみ営業版のマップの作成と、自由が丘店舗全体のデータの傾向を見ていきたいと思います。</p>
+          
+          <h4 id="参考">参考</h4>
+          
+          <ul>
+          <li><a href="https://github.com/alanphoon/jquery-live-preview">https://github.com/alanphoon/jquery-live-preview</a></li>
+          <li><a href="http://t-kashima.hateblo.jp/entry/2012/03/11/235755">http://t-kashima.hateblo.jp/entry/2012/03/11/235755</a></li>
+          </ul>
+          
+          <p><br/></p>
+          
+          <hr /><h1>
+            <a href="/blog/2015/04/19/johnnys.html">Google APIでジャニーズを見る</a>
+          </h1>
+          <hr />
+          <p>
+            <span class="glyphicon glyphicon-time"></span> Posted on Apr 19
+          </p>
+          <hr />
+          <p><br />
+          GoogleのAPIで遊んでみよう、ということで、ジャニーズ事務所のタレント名で検索をしてみました。</p>
+          
+          <p><br></p>
+          
+          <h4 id="googleサジェストapi">GoogleサジェストAPI</h4>
+          
+          <p>Google検索そのものとAPIとでは結構データが異なるところが少し気になりますが、タレントそれぞれのどのような点に関心を持たれているかがわかる、面白いデータだと思います。ざっくりと見た印象では、やはり恋愛系のキーワードと共に検索されることが多いようですが、他には、ジャニーズの他メンバーと共に検索されることが多い点が興味深かったです。仲がいいかどうか、などを調べるのでしょうか。また、家族や学校について、あるいは身長が検索されているという点に関しては、マスメディアによって作られたイメージの外側に思いを馳せているのかな、と感じました。</p>
+          
+          <ul>
+          <li><a href="https://docs.google.com/spreadsheets/d/19BOXoeV8xfAssaKKSKxD3utqgvM3d0SKbt6QuBW4F1A/edit?usp=sharing">ジャニーズタレント名サジェスト</a></li>
+          </ul>
+          
+          <p><a href="https://docs.google.com/spreadsheets/d/19BOXoeV8xfAssaKKSKxD3utqgvM3d0SKbt6QuBW4F1A/edit?usp=sharing)"><img src="http://i.gyazo.com/babb46d1c7910b348238817fdd8daf9d.png" width="600"></a></p>
+          
+          <p>ほかに面白かった検索キーワードとしては、</p>
+          
+          <ul>
+          <li>「堂本光一　王子」</li>
+          <li>「増田貴久　似てる芸能人」</li>
+          <li>「上田竜也　顔文字」</li>
+          <li>「山田涼介　2014」「山田涼介　2015」</li>
+          <li>「中島健人　伝説」</li>
+          </ul>
+          
+          <p>などがあります。堂本光一や中島健人に関しては、キャラクターが確立されたものであることが想像できます。また、「上田竜也　顔文字」を調べてみると、KAT-TUNメンバーそれぞれの顔文字が決まっているという文化に触れることもできました。他のグループも同様にすべて決まっているのか、今後調べてみたいです。</p>
+          
+          <p><br></p>
+          
+          <h4 id="google画像検索api">Google画像検索API</h4>
+          
+          <p>さらに、「山田涼介　201X」という検索クエリは想像していなかったため、改めて自分で検索してみたところ、各年次がキーワードとしてサジェストされました。これは、それぞれの年のタレントの活躍を見たいという行動からくるものなのだろうか、と今は推測しています。(詳しい方いらしたら、教えて下さい)</p>
+          
+          <p>最後に、上述した「山田涼介　201X」に関して、Google画像検索のトップにヒットするもののみをセルに表示してみたところ、タレントの成長過程を見てとることができました。</p>
+          
+          <ul>
+          <li><a href="https://docs.google.com/spreadsheets/d/1DT2ggwuTkn7FbzaMKjsf2fIDD33JiNt51SrSwta6gyI/edit?usp=sharing">ジャニーズタレント年次別画像検索</a></li>
+          </ul>
+          
+          <p><a href="https://docs.google.com/spreadsheets/d/1DT2ggwuTkn7FbzaMKjsf2fIDD33JiNt51SrSwta6gyI/edit?usp=sharing"><img src="http://i.gyazo.com/36af7e73eb1f0e157ad6539ab9ee8d0e.png" width="600"></a></p>
+          
+          <p><br /></p>
+          
+          <h4 id="参考">参考</h4>
+          
+          <ul>
+          <li><a href="http://webshufu.com/google-suggest-api/">http://webshufu.com/google-suggest-api/</a></li>
+          <li><a href="http://shirayuca.github.io/blog/2014/07/27/googleimage.html">http://shirayuca.github.io/blog/2014/07/27/googleimage.html</a></li>
+          <li><a href="http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1340634483">http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1340634483</a></li>
+          </ul>
+          
+          <hr /><h1>
+            <a href="/blog/2015/04/19/listen.html">スティーブン・Ｄ・ラパポート(2012)『リッスン・ファースト！』</a>
+          </h1>
+          <hr />
+          <p>
+            <span class="glyphicon glyphicon-time"></span> Posted on Apr 19
+          </p>
+          <hr />
+          <p><br /></p>
+          
+          <p>本書では、ソーシャルメディアアカウントを通じた顧客との対話だけでなく、リスニングを通じてマーケティングに活用するためのエッセンスと事例を紹介しています。パート1を中心に、下記に要点整理します。</p>
+          
+          <p><br /></p>
+          
+          <ul>
+          <li><p>リスニング</p>
+          
+          <ul>
+          <li>誘導の有無に関わらず、自然に発生した人々の会話・行動・シグナルを研究し、人々の実生活に基づいた意見をブランドに取り入れること (p.3)</li>
+          </ul></li>
+          <li><p>ソーシャルリスニングにおける2種類のリサーチ (p.7)</p></li>
+          <li><p>参考：<a href="http://listenfirst.buildcapacity.com/2011/01/05/social-media-monitoring-is-not-research/">http://listenfirst.buildcapacity.com/2011/01/05/social-media-monitoring-is-not-research/</a> </p>
+          
+          <ul>
+          <li>ソーシャルメディア・モニタリング (戦術的)
+          
+          <ul>
+          <li>オンライン上のブランドに関するコメントを日々トラッキングし、広報、ブランド保護、業務活動、顧客サービス、社会活動、エンゲージメント構築などに利用する</li>
+          </ul></li>
+          <li>ソーシャル・リサーチ (戦略的)
+          
+          <ul>
+          <li>自然に発生したオンライン上の会話のカテゴリを分析し、人々の行動の背景、彼らの生活におけるブランドの役割、そしてブランド所有者から見た商品、ブランド、コミュニケーションの意味をより深く理解する</li>
+          </ul></li>
+          </ul></li>
+          </ul>
+          
+          <p><br /></p>
+          
+          <ul>
+          <li>リスニング・リサーチのメリット (p.8)
+          
+          <ul>
+          <li>スピードとタイミング：日単位で方向性がわかる</li>
+          <li>柔軟性と軌道修正：新たな手段が見つかった場合にすばやく変更</li>
+          <li>調査設計：リサーチャーではなく顧客の視点で調査設計ができる</li>
+          <li>リサーチャーの想像の圏外の回答が得られる</li>
+          <li>フィルタリング：フィルタリングされていないデータを得られる</li>
+          <li>規模：大きい</li>
+          <li>コスト：低い</li>
+          </ul></li>
+          </ul>
+          
+          <p><br /></p>
+          
+          <ul>
+          <li>リスニング・リサーチの大きな流れ (p.12)
+          
+          <ul>
+          <li>リスニングのための組織作り</li>
+          <li>ビジネスのゴールと絡めた目標設定</li>
+          <li>KPI (重要業績評価指標) の定義</li>
+          <li>リサーチ対象 (最適な意見や会話のソースの決定) の決定、下記の条件を満たすもの (単に人気のSNSを選択してはいけない)
+          
+          <ul>
+          <li>参考：<a href="http://www.b-eye-network.com/view/12244">http://www.b-eye-network.com/view/12244</a> </li>
+          <li>論点性：興味のある情報が十分含まれているか</li>
+          <li>集中性：関連情報の密度が高く無関係の情報が少ないか (ノイズに対してシグナル比が高いこと)</li>
+          <li>現在性：情報がタイムリーか</li>
+          <li>権威性：情報が信頼できるか</li>
+          </ul></li>
+          </ul></li>
+          </ul>
+          
+          <p><br /></p>
+          
+          <hr /><h1>
+            <a href="/blog/2015/04/19/statistics_1.html">放送大学「身近な統計（'12）」第1回メモ</a>
+          </h1>
+          <hr />
+          <p>
+            <span class="glyphicon glyphicon-time"></span> Posted on Apr 19
+          </p>
+          <hr />
+          <p><br /></p>
+          
+          <h4 id="授業の情報">授業の情報</h4>
+          
+          <ul>
+          <li><a href="http://www.ouj.ac.jp/hp/kamoku/H26/kyouyou/B/kiso/1234048.html">http://www.ouj.ac.jp/hp/kamoku/H26/kyouyou/B/kiso/1234048.html</a></li>
+          <li>第1回：論より数字、勘より統計</li>
+          </ul>
+          
+          <p><br /></p>
+          
+          <h4 id="導入1：ナイチンゲールと統計のかかわり">導入1：ナイチンゲールと統計のかかわり</h4>
+          
+          <ul>
+          <li><p>統計学者としてのナイチンゲール</p>
+          
+          <ul>
+          <li>データによる説得を通じて、陸軍の衛生・保険医療改革に取り組む</li>
+          <li>例：鳥のとさかグラフの発案など
+          
+          <ul>
+          <li>Diagram of the Causesu of Mortality in the Army in the East (1858)</li>
+          <li><a href="http://en.wikipedia.org/wiki/Florence_Nightingale#/media/File:Nightingale-mortality.jpg">http://en.wikipedia.org/wiki/Florence_Nightingale#/media/File:Nightingale-mortality.jpg</a> </li>
+          </ul></li>
+          </ul></li>
+          <li><p>統計的マネジメントサイクル</p>
+          
+          <ul>
+          <li>Problem</li>
+          <li>Plan</li>
+          <li>Data</li>
+          <li>Analysis</li>
+          <li>Conclusion &amp; Improve</li>
+          <li>Control &amp; Check</li>
+          </ul></li>
+          </ul>
+          
+          <p><br /></p>
+          
+          <h4 id="導入2：統計の重要性">導入2：統計の重要性</h4>
+          
+          <ul>
+          <li>統計は21世紀型ワークスキル：読み書き基礎能力のリテラシーから、数理・統計リテラシーが求められている(問題解決・知識発見方の総合情報処理能力)
+          
+          <ul>
+          <li>身の回りの課題を統計的な問題に設定する能力</li>
+          <li>関連する資料・データ・情報の迅速な収集能力</li>
+          <li>データの分析能力</li>
+          <li>結果の効果的な情報発信能力</li>
+          </ul></li>
+          </ul>
+          
+          <p><br /></p>
+          
+          <h4 id="統計と社会との接点：スポーツの戦略立案">統計と社会との接点：スポーツの戦略立案</h4>
+          
+          <ul>
+          <li>野球
+          
+          <ul>
+          <li>ダルビッシュの2010年/2011年比較
+          
+          <ul>
+          <li>前試合中の球種数、割合、スピードの分布など</li>
+          </ul></li>
+          <li>得点期待値
+          
+          <ul>
+          <li>状況設定ごとに数字を見ることで、送りバントの有効性を検討</li>
+          <li>参考：「『勝てる野球の統計学 セイバーメトリクス【岩波科学ライブラリー】」<a href="http://www.iwanami.co.jp/.PDFS/02/X/0296230.pdf">http://www.iwanami.co.jp/.PDFS/02/X/0296230.pdf</a> </li>
+          </ul></li>
+          <li>WPA(勝利寄与度)</li>
+          </ul></li>
+          <li>サッカー
+          
+          <ul>
+          <li>FIFA World Cup “Statistics”</li>
+          <li><a href="http://www.fifa.com/worldcup/archive/brazil2014/statistics/index.html">http://www.fifa.com/worldcup/archive/brazil2014/statistics/index.html</a> </li>
+          </ul></li>
+          </ul>
+          
+          <p><br /></p>
+          
+          <h4 id="統計はじめの一歩">統計はじめの一歩</h4>
+          
+          <ul>
+          <li><p>統計とは：統べて図る(集団の大量観察)</p>
+          
+          <ul>
+          <li>現在の状況の計測</li>
+          <li>将来の到達点の予測</li>
+          <li>目標値への制御</li>
+          </ul></li>
+          <li><p>データと情報、および統計との関係</p>
+          
+          <ul>
+          <li>データとは：客観的事実</li>
+          <li>情報とは：個人や組織の意思決定に役立つもの</li>
+          <li>データ→データマイニング(統計分析や人工知能)→情報→個人や組織の意思決定</li>
+          </ul></li>
+          <li><p>統計的分析手法</p>
+          
+          <ul>
+          <li>計量化と視覚化：統計数値や統計グラフを作成し、データの持つ情報を表現する</li>
+          <li>独自の情報：データを集め、集めたデータを分析・解釈し、背後にある構造に関して結論を導き出すための方法</li>
+          </ul></li>
+          </ul>
+          
+          <p><br /></p>
+          
+          <hr /><h1>
+            <a href="/blog/2015/03/25/day.html">文化的な生活</a>
+          </h1>
+          <hr />
+          <p>
+            <span class="glyphicon glyphicon-time"></span> Posted on Mar 25
+          </p>
+          <hr />
+          <p><br />
+          最近観た／読んだ、恋愛やサスペンスなどで良かったものは、</p>
+          
+          <p>映画</p>
+          
+          <ul>
+          <li><a href="http://www.nymphomaniac.jp/">ニンフォマニアック</a>
+          
+          <ul>
+          <li>一人で観に行って最高だった。映画館で隣の人がなぜか歯磨きしてた。</li>
+          </ul></li>
+          <li><a href="http://www.foxmovies-jp.com/gone-girl/">ゴーン・ガール</a>
+          
+          <ul>
+          <li>夫と観に行って、帰り道に「面白かった！しか言うことないね」と悔しがった思い出。</li>
+          </ul></li>
+          <li><a href="http://house-of-cards.jp/">ハウス・オブ・カード 野望の階段</a>
+          
+          <ul>
+          <li>とにかく早くシーズン3を観たい。</li>
+          </ul></li>
+          <li><a href="http://www.amazon.co.jp/17%E6%AD%B3%E3%81%AE%E3%82%AB%E3%83%AB%E3%83%86-%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA%E3%83%BB%E3%82%A8%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3-DVD-%E3%82%A6%E3%82%A3%E3%83%8E%E3%83%8A%E3%83%BB%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC/dp/B000R8X9Z8">17歳のカルテ</a>
+          
+          <ul>
+          <li>自分が最も多感だろう、主人公と同じくらいの歳の時には怖くて観れなくて。</li>
+          </ul></li>
+          <li><a href="http://kadokawa-d.jp/lineup/mistress/">ミストレス</a>
+          
+          <ul>
+          <li>断然イギリス版を支持。大人のシリアスでキュートな恋愛。</li>
+          </ul></li>
+          <li><a href="http://www.amazon.co.jp/%E3%83%A9%E3%83%96%E3%83%BB%E3%82%A2%E3%82%AF%E3%83%81%E3%83%A5%E3%82%A2%E3%83%AA%E3%83%BC-DVD-%E3%83%92%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%88/dp/B0001851BO">ラブ・アクチュアリー</a>
+          
+          <ul>
+          <li>クリスマスに。</li>
+          </ul></li>
+          <li><a href="http://saikyo-2.gaga.ne.jp/">最強のふたり</a>
+          
+          <ul>
+          <li>爽快な幸福感。</li>
+          </ul></li>
+          <li><a href="http://n-c-p.asmik-ace.co.jp/">ニュー・シネマ パラダイス</a>
+          
+          <ul>
+          <li>何度観ても良い。</li>
+          </ul></li>
+          </ul>
+          
+          <p>まんが</p>
+          
+          <ul>
+          <li><a href="http://www.amazon.co.jp/%EF%BC%91%E9%99%90%E3%82%81%E3%81%AF%E3%82%84%E3%82%8B%E6%B0%97%E3%81%AE%E6%B0%91%E6%B3%95%EF%BC%881%EF%BC%89-%E3%83%93%E3%83%BC%E3%83%9C%E3%83%BC%E3%82%A4%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%88%E3%81%97%E3%81%AA%E3%81%8C%E3%81%B5%E3%81%BF-ebook/dp/B00MUFOEO6/">よしながふみ「１限めはやる気の民法」</a>
+          
+          <ul>
+          <li>私にとって、大学生かくあるべき、のような羨望。</li>
+          </ul></li>
+          <li><a href="http://www.amazon.co.jp/%E5%A5%B3%E3%81%AE%E5%AD%90%E3%81%8C%E6%AD%BB%E3%81%AC%E8%A9%B1-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%9C%88%E5%88%8A%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3-%E6%9F%B3%E6%9C%AC-%E5%85%89%E6%99%B4/dp/4575843431">柳本光晴「女の子が死ぬ話」</a></li>
+          <li><a href="http://www.amazon.co.jp/AV%E7%83%88%E4%BC%9D-1-%E3%83%93%E3%83%83%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E4%BA%95%E6%B5%A6-%E7%A7%80%E5%A4%AB/dp/4091854419">井浦秀夫「AV烈伝」</a>
+          
+          <ul>
+          <li>併せて読みたい「人間仮免中」。</li>
+          </ul></li>
+          <li><a href="http://www.amazon.co.jp/%E3%81%84%E3%81%AC-1-%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%B5%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%9F%8F%E6%9C%A8-%E3%83%8F%E3%83%AB%E3%82%B3/dp/4091516416">柏木ハルコ「いぬ」</a>
+          
+          <ul>
+          <li>大学時代に研究室で読んだものを再読。初見の際の衝撃はなかったけれど、やっぱり良い。</li>
+          </ul></li>
+          </ul>
+          
+          <p><br />
+          どれも良かったな。「１限めはやる気の民法」読むと、アカデミズムへの憧れを取り戻せる。kindle は、再読まんがを購入するコストが低すぎて、困っちゃうね。</p>
+          
+          <p><br /></p>
+          
+          <p><a href="https://www.youtube.com/watch?v=8GRQLayqdCc"><img alt="映画『ニンフォマニアック』予告 - R18＋" src="http://img.youtube.com/vi/8GRQLayqdCc/0.jpg" /></a></p>
+          
+          <p><br /></p>
+          
+          <hr /><h1>
+            <a href="/blog/2015/03/25/sf.html">kindleアプリの中がテラリウム</a>
+          </h1>
+          <hr />
+          <p>
+            <span class="glyphicon glyphicon-time"></span> Posted on Mar 25
+          </p>
+          <hr />
+          <p><br />
+          もともと、藤子・F・不二雄の「すこし不思議」なSFは大好きだったのだけれど、最近、王道のSF好きな夫の影響もあってか、これまでよりもSF関連の作品に触れることが増えました。ここ最近で良かったものは、</p>
+          
+          <p>映画・ドラマ</p>
+          
+          <ul>
+          <li><a href="http://wwws.warnerbros.co.jp/interstellar/">インターステラー</a>
+          
+          <ul>
+          <li>映画評とワンセットで完成、というイメージ。</li>
+          </ul></li>
+          <li><a href="http://her.asmik-ace.co.jp/">her／世界でひとつの彼女</a>
+          
+          <ul>
+          <li>かわゆい世界。</li>
+          </ul></li>
+          <li><a href="http://www.hulu.jp/orphan-black">オーファン・ブラック ～暴走遺伝子</a>
+          
+          <ul>
+          <li>一人n役が凄すぎる。</li>
+          </ul></li>
+          <li><a href="http://www.amazon.co.jp/%E3%82%B8%E3%83%A5%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%83%BB%E3%83%91%E3%83%BC%E3%82%AF-DVD-%E3%83%AA%E3%83%81%E3%83%A3%E3%83%BC%E3%83%89%E3%83%BB%E3%82%A2%E3%83%83%E3%83%86%E3%83%B3%E3%83%9C%E3%83%AD%E3%83%BC/dp/B000E6GAKY">ジュラシック・パーク</a>
+          
+          <ul>
+          <li>今観ても、良い。</li>
+          </ul></li>
+          </ul>
+          
+          <p>まんが</p>
+          
+          <ul>
+          <li><a href="http://www.amazon.co.jp/%E3%83%86%E3%83%B3%E3%83%9A%E3%82%B9%E3%83%88-1-KCx-%E9%98%BF%E4%BB%81%E8%B0%B7-%E3%83%A6%E3%82%A4%E3%82%B8/dp/4063805298">阿仁谷ユイジ『テンペスト』</a>
+          
+          <ul>
+          <li>併せて観たい「オーファン・ブラック」。</li>
+          </ul></li>
+          <li><a href="http://www.amazon.co.jp/%E3%83%A8%E3%82%B3%E3%83%8F%E3%83%9E%E8%B2%B7%E3%81%84%E5%87%BA%E3%81%97%E7%B4%80%E8%A1%8C-1-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3KC-%E8%8A%A6%E5%A5%88%E9%87%8E-%E3%81%B2%E3%81%A8%E3%81%97/dp/4063210502">芦奈野ひとし『ヨコハマ買い出し紀行』</a>
+          
+          <ul>
+          <li>ゆるゆる系だけど嫌味がなくて良い。</li>
+          </ul></li>
+          <li><a href="http://www.amazon.co.jp/%E3%81%B2%E3%81%8D%E3%81%A0%E3%81%97%E3%81%AB%E3%83%86%E3%83%A9%E3%83%AA%E3%82%A6%E3%83%A0-%E4%B9%9D%E4%BA%95%E8%AB%92%E5%AD%90-ebook/dp/B00E59A03O/">九井諒子『ひきだしにテラリウム』</a>
+          
+          <ul>
+          <li>この緻密さに打たれる。</li>
+          </ul></li>
+          <li><a href="http://www.amazon.co.jp/%E7%AB%9C%E3%81%AE%E5%AD%A6%E6%A0%A1%E3%81%AF%E5%B1%B1%E3%81%AE%E4%B8%8A-%E4%B9%9D%E4%BA%95%E8%AB%92%E5%AD%90-ebook/dp/B00DLT047Q/">九井諒子『竜の学校は山の上』</a>
+          
+          <ul>
+          <li>九井諒子の面白さを初めて知った本。ものすごく良かった。</li>
+          </ul></li>
+          </ul>
+          
+          <p><br />
+          我が家では kindle の本棚を共有しているので、見慣れない作品があると、夫の新たな一面を見ることができているようで、とても嬉しいです。技術の進化で、言葉に出さないコミュニケーションの手段が増えたことを感じます。</p>
+          
+          <p><br /></p>
+          
+          <hr /><h1>
+            <a href="/blog/2015/03/25/smcommunication_1.html">コミュニケーションから始まる問題</a>
+          </h1>
+          <hr />
+          <p>
+            <span class="glyphicon glyphicon-time"></span> Posted on Mar 25
+          </p>
+          <hr />
+          <p><br />
+          「ソーシャルメディアコミュニケーション」授業のテーマ1、「コミュニケーションから始まる問題」で使用した主な資料を記しておきます。</p>
+          
+          <p><br /></p>
+          
+          <h4 id="モチーフ">モチーフ</h4>
+          
+          <p>「（ハル）」<br />
+          <a href="https://www.youtube.com/watch?v=imbgfab4O2o"><img alt="（ハル）" src="http://img.youtube.com/vi/imbgfab4O2o/0.jpg" /></a>
+          <br /></p>
+          
+          <p>「ソーシャル・ネットワーク - 予告編」<br />
+          <a href="https://www.youtube.com/watch?v=WAzw1LrHaXo"><img alt="ソーシャル・ネットワーク - 予告編" src="http://img.youtube.com/vi/WAzw1LrHaXo/0.jpg" /></a></p>
+          
+          <p><br /></p>
+          
+          <h4 id="導入">導入</h4>
+          
+          <ul>
+          <li><a href="http://www.amazon.co.jp/%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E9%80%B2%E5%8C%96%E8%AB%96-%E6%AD%A6%E7%94%B0%E9%9A%86/dp/4478016313">武田隆『ソーシャルメディア進化論』2011/7/29</a></li>
+          <li><a href="http://www.amazon.co.jp/%E3%82%A6%E3%82%A7%E3%83%96%E7%82%8E%E4%B8%8A%E2%80%95%E3%83%8D%E3%83%83%E3%83%88%E7%BE%A4%E9%9B%86%E3%81%AE%E6%9A%B4%E8%B5%B0%E3%81%A8%E5%8F%AF%E8%83%BD%E6%80%A7-%E3%81%A1%E3%81%8F%E3%81%BE%E6%96%B0%E6%9B%B8-%E8%8D%BB%E4%B8%8A-%E3%83%81%E3%82%AD/dp/4480063919">荻上チキ『ウェブ炎上―ネット群集の暴走と可能性』2007/10</a></li>
+          <li><a href="https://www.ted.com/talks/juan_enriquez_how_to_think_about_digital_tattoos?language=ja">フアン・エンリケス「タトゥーのように残るあなたのオンラインライフ」2013/2 </a></li>
+          <li><a href="http://www.amazon.co.jp/%E5%AD%A6%E3%81%B3%E3%81%A8%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%8F%E3%83%B3%E3%83%89%E3%83%96%E3%83%83%E3%82%AF-%E4%BD%90%E4%BC%AF-%E8%83%96/dp/4501544201">田代光輝「ブログ炎上」、佐伯胖(著)CIEC(編集)『学びとコンピュータハンドブック』2008/8</a></li>
+          <li><a href="http://ci.nii.ac.jp/naid/110009753225">田代光輝・折田明子「ネット炎上の発生過程と収束過程に関する一考察 ~不具合に対する嫌がらせと決着による収束~」情報処理学会研究報告、2012/9/6</a></li>
+          </ul>
+          
+          <p><br /></p>
+          
+          <h4 id="紹介事例">紹介事例</h4>
+          
+          <ul>
+          <li><a href="http://www.huffingtonpost.jp/2013/10/21/enjo-twitter_n_4134990.html">The Huffington Post「「バイトテロ」で相次ぐTwitter炎上　どうやって食い止める？」2013/10/22 </a>
+          -<a href="http://japan.cnet.com/marketers/sp_orgtransparency/35034620/">斉藤徹「賞賛と炎上を分けるもの」CNET Japan、2013/07/16</a></li>
+          <li><a href="http://ure.pia.co.jp/articles/-/12689">ウレぴあ総研「【就活】SNSで不採用に!? 現役人事が明かす、面接者の&quot;書き込み&quot;が選考を左右した実例」2013/3/11</a></li>
+          </ul>
+          
+          <p><br /></p>
+          
+          <hr /><h1>
+            <a href="/blog/2015/03/25/smapplication_1.html">情報の収集と編集</a>
+          </h1>
+          <hr />
+          <p>
+            <span class="glyphicon glyphicon-time"></span> Posted on Mar 25
+          </p>
+          <hr />
+          <p><br />
+          「ソーシャルメディアの活用」授業のテーマ1、「情報の収集と編集」で使用した主な資料を記しておきます。</p>
+          
+          <p><br /></p>
+          
+          <h4 id="導入">導入</h4>
+          
+          <ul>
+          <li><a href="http://toyokeizai.net/articles/-/34638">東洋経済オンライン「若者の情報収集に欠けている「ある視点」」2014/4/7</a></li>
+          <li><a href="http://www.amazon.co.jp/%E6%9C%9D%E6%97%A5%E6%96%B0%E8%81%9E%E8%A8%98%E8%80%85%E3%81%AE%E3%83%8D%E3%83%83%E3%83%88%E6%83%85%E5%A0%B1%E6%B4%BB%E7%94%A8%E8%A1%93-%E6%9C%9D%E6%97%A5%E6%96%B0%E6%9B%B8-%E5%B9%B3-%E5%92%8C%E5%8D%9A/dp/4022734418">平和博『朝日新聞記者のネット情報活用術』2012/3/13</a></li>
+          <li><a href="http://www.google.com/intl/ja/insidesearch/howsearchworks/">検索の仕組み – 検索サービス – Google</a></li>
+          <li><a href="http://liginc.co.jp/web/service/google/86222">LIG Inc.「Google検索がもっと便利になる検索オプション・テクニックまとめ」2014/5/13</a></li>
+          </ul>
+          
+          <p><br /></p>
+          
+          <h4 id="検索ツールの例">検索ツールの例</h4>
+          
+          <ul>
+          <li><a href="https://twitter.com/search-advanced?lang=ja">Twitter / 高度な検索</a></li>
+          <li><a href="http://search.yahoo.co.jp/realtime">Yahoo!検索（リアルタイム）</a></li>
+          <li><a href="http://t21.nikkei.co.jp/">日経テレコン21</a></li>
+          <li><a href="http://www.tk-dcl.jp/dcl/">東洋経済デジタルコンテンツ・ライブラリー</a></li>
+          <li><a href="https://scholar.google.co.jp/">Google Scholar</a></li>
+          <li><a href="http://ci.nii.ac.jp/">CiNii Articles</a></li>
+          <li><a href="https://www.jstage.jst.go.jp/browse/-char/ja/">J-STAGE</a></li>
+          <li><a href="https://ndlopac.ndl.go.jp/">国立国会図書館 NDL Opac</a></li>
+          </ul>
+          
+          <p><br /></p>
+          
+          <hr /><h1>
+            <a href="/blog/2014/12/13/home.html">家庭を支える技術を支える環境</a>
+          </h1>
+          <hr />
+          <p>
+            <span class="glyphicon glyphicon-time"></span> Posted on Dec 13
+          </p>
+          <hr />
+          <p><br />
+          このエントリは、<a href="http://www.adventar.org/calendars/595">家庭を支える技術 Advent Calendar 2014</a> の13日目です。インターネットが好きな夫婦二人の家庭にて、(1) 開発・活用しているツール群とその運用状況、(2) 開発環境について書きたいと思います。</p>
+          
+          <p><br /></p>
+          
+          <h4 id="(1)-開発・活用しているツール群">(1) 開発・活用しているツール群</h4>
+          
+          <ol>
+          <li> 帰るコール</li>
+          <li>今日の白土家保守</li>
+          <li>そろそろアラート</li>
+          </ol>
+          
+          <p><br /></p>
+          
+          <h5 id="(1-1)-帰るコール">(1-1) 帰るコール</h5>
+          
+          <p><a href="https://slack.com/">Slack</a> と <a href="https://ifttt.com/">IFTTT</a> を組み合わせて、最寄駅に近づいたらアラートを送る「帰るコール」を作成し、活用しています。家庭内コミュニケーションのメインとして使用している Slack に、自動で状況を送ってくれる点が大変気に入っています。</p>
+          
+          <p><img alt="帰るコール" src="http://i.gyazo.com/f0af8d14b37e306766aa2b8e974a2556.png" /></p>
+          
+          <p><br/ ></p>
+          
+          <h5 id="(1-2)-今日の白土家保守">(1-2) 今日の白土家保守</h5>
+          
+          <p>Googleフォームとスプレッドシートを活用し、毎日行った家事を記録する<a href="http://shirayuca.github.io/blog/2014/11/24/today-s.html">今日の白土家保守</a>というサービスを作成し、活用しています。運用し始めて2週間強、感じたことは、フォームに入力し忘れてしまうことがある／何も家事をしていない日が悲しい、という2点です。</p>
+          
+          <p>まず、1点目について。下記は、最近行った家事の集計結果です。実際は、もう少し家事を行っているのですが、夜遅くに帰宅した際にバタバタと片付けた家事などは、フォームでの入力すら面倒で怠りがちです。そのため、例えば、家事を行っていない側が労いの言葉とともにフォーム入力する、等の工夫があると、改善できるのではと考えています。</p>
+          
+          <p><img src="http://i.gyazo.com/05ea5ba0ebf509d064ca563e9b22c355.png" width="500"></p>
+          
+          <p>続いて、2点目について。下記は、家事を何も行っていない日のサマリーメールです。何もしていない日に下記のようなメールが来るとささやかな罪悪感が募るので、文面を変更しなければ、ということに気づきました。</p>
+          
+          <p><img src="http://i.gyazo.com/44a5e08f50705b78344c99c899dd0d40.png" width="500"></p>
+          
+          <p><br /></p>
+          
+          <h5 id="(1-3)-そろそろアラート">(1-3) そろそろアラート</h5>
+          
+          <p>Googleスプレッドシートを活用し、定期的にAmazonにて購入するものに関して、そろそろ買ったほうがいいものをアラートしてくれる<a href="http://kei-s.hatenablog.com/entry/2014/12/01/204005">そろそろアラート</a>を作成し、活用しています。Amazonは定期お得便に含まれる項目が限定されているため、例えば我が家で愛用しているゴミ箱のにおい取り等の取り替え時をお知らせしてくれて、便利です。また、私たち夫婦は、共にTO DO管理があまり得意ではないため、家に品物が届いたら取り替えればいい、という簡単ステップに快適さを感じています。</p>
+          
+          <p><br /></p>
+          
+          <h4 id="(2)-開発環境">(2) 開発環境</h4>
+          
+          <ol>
+          <li>IKEA のイーゼルと Apple TV</li>
+          <li>Google スプレッドシート</li>
+          <li>GitHub Organizations</li>
+          </ol>
+          
+          <p><br /></p>
+          
+          <h5 id="(2-1)-ikea-のイーゼルと-apple-tv">(2-1) IKEA のイーゼルと Apple TV</h5>
+          
+          <p>何か作りたいものについて、一番最初の &quot;Let&#39;s have a chat.&quot; の段階では、IKEA のイーゼルと Apple TV を活用しています。イーゼルに自由にアイディアや図を書き込みながら作りたいものについてのイメージをクリアにしていきます。また、Apple TV で各自のラップトップの画面を表示したりしながら、情報収集と共有を行います。</p>
+          
+          <p><img src="http://i.gyazo.com/f0726d33a6d729563c6ea9a5f67e93d4.png" width="400"></p>
+          
+          <p><br /></p>
+          
+          <h5 id="(2-2)-google-スプレッドシート">(2-2) Google スプレッドシート</h5>
+          
+          <p>私たちの家庭では、ツールを作成する際にGoogle スプレッドシートを活用することが多くあります。理由は2点あります。</p>
+          
+          <p>1点目は、データのスクレイピングに向いているということです。Google スプレッドシートには Xpath でデータスクレイピングをする関数がデフォルト備わっており、インターネット上のデータを活用することに優れています。</p>
+          
+          <p>2点目は、非エンジニアにも開発しやすいということです。夫はウェブエンジニアですが、私はそのような職業ではなく、プログラミングも得意ではありません。私が夫に作って欲しいものを頼むのは簡単なことですが、家庭とは長く続くチームであり、これからも様々なプロジェクト発足が想定されます。そのため、私も開発に携わりながら成長していき、今後、より柔軟に様々な課題に対応していけるようにという考えから、最近は専ら Google スプレッドシートを活用しています。</p>
+          
+          <p><br /></p>
+          
+          <h5 id="(2-3)-github-organizations">(2-3) GitHub Organizations</h5>
+          
+          <p>作成したものをパブリッシュする場として、GitHub Organizations ( <a href="https://github.com/shiratsuchi">https://github.com/shiratsuchi</a> )を利用しています。実は、これは、作成したものを公開したいという考えから生まれたものではなく、私たちが大学院時代に「研究を始めるにはまずディレクトリを作ることから、論文を書き始めるには TeX 一式を作成するところから」という意識から来ています。</p>
+          
+          <p><br /></p>
+          
+          <h4 id="まとめ">まとめ</h4>
+          
+          <p>以上が、我が家の家庭を支える技術の主な内容と、それらを支える環境についてです。おじいちゃんおばあちゃんになっても、何か一緒に作っていられたらいいね (その時にはエディタのフォントサイズは 20pt くらいかな )と、家庭内で話しています。</p>
+          
+          <p><br /></p>
+          
+          <hr />
+          <div class="well-sm">
+            <ul class="pager">
+              <li class="previous">
+                <a href="/blog/">&larr;</a>
+              </li>
+              <span class="text-center">Page 2 of 5</span>
+              <li class="next">
+                <a href="/blog/page/3/">&rarr;</a>
+              </li>
+            </ul>
+          </div>
+          <hr>
+            <p class="text-center">
+              2014 <a href="/">shirayuca.github.io</a>
+            </p>
+          </hr>
+        </div>
       </div>
     </div>
     <script src="../../../js/all.js" type="text/javascript"></script>
