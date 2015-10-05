@@ -69,7 +69,7 @@
         <a href="/blog/tags/データ.html">データ</a> (2)
       </li>
       <li>
-        <a href="/blog/tags/参考文献.html">参考文献</a> (7)
+        <a href="/blog/tags/参考文献.html">参考文献</a> (8)
       </li>
       <li>
         <a href="/blog/tags/文化.html">文化</a> (8)
@@ -96,6 +96,54 @@
   </div>
 </div>
 <div class="col-lg-9 col-md-9"><h1>
+  <a href="/blog/2014/09/02/watts-strogatz.html">watts.strogatz.game でスモールワールド・シミュレーション</a>
+</h1>
+<hr />
+<p>
+  <span class="glyphicon glyphicon-time"></span> Posted on Sep  2
+</p>
+<hr />
+<p><br /></p>
+
+<p>R のパッケージ igraph の watts.strogatz.game() 関数を用いて、スモールワールド・シミュレーションを行います。sna パッケージにて紹介されていたものを、igraph にて行った形となります。 igraph と sna では、レギュラーグラフの作り方に違いがあるので、全く同じ結果にはなりません。</p>
+
+<p><br /></p>
+
+<h4 id="ネットワーク図の作成">ネットワーク図の作成</h4>
+
+<p>ランダム性 p について、0、0.2、1の3種類でネットワーク図を作成します。また、平均経路長、クラスター係数、および最短距離マトリックスと特定頂点の最短経路も出します。</p>
+
+<script src="https://gist.github.com/shirayuca/4af16341509466a9be13.js"></script>
+
+<p><br /></p>
+
+<h4 id="100回繰り返し">100回繰り返し</h4>
+
+<p>ランダム性 p について、0から1まで 0.01刻みに100回繰り返し、その結果の平均経路長とクラスター係数をプロットします。</p>
+
+<script src="https://gist.github.com/shirayuca/0e6e00182086f7149a15.js"></script>
+
+<p><br /></p>
+
+<h4 id="クラスター係数と平均経路長の変化">クラスター係数と平均経路長の変化</h4>
+
+<p>上記で100回繰り返した結果について、 p = 0 の値で割った、初期値に対する比の変化として片対数グラフを作成します。</p>
+
+<script src="https://gist.github.com/shirayuca/5ea82d0a31dd7b35650a.js"></script>
+
+<p><br /></p>
+
+<h4 id="参考文献">参考文献</h4>
+
+<ul>
+<li><a href="http://www.inside-r.org/packages/cran/igraph/docs/watts.strogatz.game">http://www.inside-r.org/packages/cran/igraph/docs/watts.strogatz.game</a></li>
+<li><a href="http://www.amazon.co.jp/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E5%88%86%E6%9E%90-R%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-8-%E9%88%B4%E6%9C%A8-%E5%8A%AA/dp/4320019288">http://www.amazon.co.jp/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E5%88%86%E6%9E%90-R%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-8-%E9%88%B4%E6%9C%A8-%E5%8A%AA/dp/4320019288</a></li>
+</ul>
+
+<p><br />
+<br /></p>
+
+<hr /><h1>
   <a href="/blog/2014/09/02/alias.html">ターミナルでコマンドの省略</a>
 </h1>
 <hr />
@@ -514,28 +562,16 @@ bundle exec middleman deploy
 <p><br />
 <br /></p>
 
-<hr /><h1>
-  <a href="/blog/2014/05/04/first-post.html">first-post</a>
-</h1>
-<hr />
-<p>
-  <span class="glyphicon glyphicon-time"></span> Posted on May  4
-</p>
-<hr />
-<p><br /></p>
-
-<p>ブログを始めます。</p>
-
-<p><br />
-<br /></p>
-
 <hr />
 <div class="well-sm">
   <ul class="pager">
     <li class="previous">
       <a href="/blog/page/4/">&larr;</a>
     </li>
-    <span class="text-center">Page 5 of 5</span>
+    <span class="text-center">Page 5 of 6</span>
+    <li class="next">
+      <a href="/blog/page/6/">&rarr;</a>
+    </li>
   </ul>
 </div>
   <hr>
