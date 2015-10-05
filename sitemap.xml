@@ -313,6 +313,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>http://shirayuca.github.io//blog/2015/10/06/stamp.html</loc>
+    <lastmod>2015-10-06</lastmod>
+    <priority>0.6</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>http://shirayuca.github.io//classes.html</loc>
     <lastmod>2015-08-25</lastmod>
     <priority>1.0</priority>
@@ -472,6 +478,12 @@
     <loc>http://shirayuca.github.io//blog/2015/10.html</loc>
     <lastmod>2014-05-04</lastmod>
     <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://shirayuca.github.io//blog/2015/10/06.html</loc>
+    <lastmod>2014-05-04</lastmod>
+    <priority>0.7</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -776,6 +788,12 @@
   </url>
   <url>
     <loc>http://shirayuca.github.io//blog/2015/page/2.html</loc>
+    <lastmod>2014-05-04</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://shirayuca.github.io//blog/2015/page/3.html</loc>
     <lastmod>2014-05-04</lastmod>
     <priority>0.7</priority>
     <changefreq>daily</changefreq>

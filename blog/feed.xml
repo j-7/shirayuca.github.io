@@ -49,10 +49,68 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2015-10-05T13:32:00Z</updated>
+          <updated>2015-10-05T22:33:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>Slackで自動スタンプ風</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/10/06/stamp.html"/>
+            <id>http://shirayuca.github.io/blog/2015/10/06/stamp.html</id>
+            <published>2015-10-05T22:33:00Z</published>
+            <updated>2015-10-06T07:51:05+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+        
+        &lt;p&gt;我が家では、家庭内コミュニケーションのツールとしてSlackを利用しています。botの活用など、自由に拡張できる点が大変気に入っている一方で、LINEやFacebook Messengerのようにスタンプが使えないことに寂しさも感じていました。そこで、自動でスタンプ風の画像を表示させるスクリプトをbotに組み込みました。特定のキーワードを含むテキストが投稿されると、それに応じたスタンプ風画像が表示されるというものです。（実際には、画像プレビューが自動展開されているだけです。）&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        
+        &lt;h4 id="作成手順"&gt;作成手順&lt;/h4&gt;
+        
+        &lt;ol&gt;
+        &lt;li&gt;画像を作成する&lt;/li&gt;
+        &lt;li&gt;github等に画像を置く
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="https://github.com/shiratsuchi/stamp"&gt;https://github.com/shiratsuchi/stamp&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;li&gt;slack上のbotの設定
+        
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="https://github.com/shiratsuchi/hitsuji/blob/master/scripts/stamp.coffee"&gt;https://github.com/shiratsuchi/hitsuji/blob/master/scripts/stamp.coffee&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+        
+        &lt;p&gt;画像作成は、我が家ではおなじみIKEAのイーゼルで描き、それを写真に撮ってKeynoteで背景透過という手順を踏みました。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        
+        &lt;blockquote class="instagram-media" data-instgrm-version="5" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:300px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;&lt;a href="https://instagram.com/p/8dN-rvHio9/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"&gt;yuka shiratsuchiさん(@yuca_y)が投稿した写真&lt;/a&gt; - &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-10-05T12:50:48+00:00"&gt;2015 10月 5 5:50午前 PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+        
+        &lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+        
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        
+        &lt;blockquote class="instagram-media" data-instgrm-version="5" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:300px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;&lt;a href="https://instagram.com/p/8YLhc3nikf/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"&gt;yuka shiratsuchiさん(@yuca_y)が投稿した写真&lt;/a&gt; - &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-10-03T13:53:08+00:00"&gt;2015 10月 3 6:53午前 PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+        
+        &lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+        
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        
+        &lt;p&gt;下記は利用イメージです。スタンプを選ぶ楽しさとはまた異なった、自動で画像が挿入される嬉しさがあります。みなさんもぜひ、試してみてくださいね。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        
+        &lt;blockquote class="instagram-media" data-instgrm-version="5" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:300px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;&lt;a href="https://instagram.com/p/8dOA7qnipE/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"&gt;yuka shiratsuchiさん(@yuca_y)が投稿した写真&lt;/a&gt; - &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-10-05T12:51:06+00:00"&gt;2015 10月 5 5:51午前 PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+        
+        &lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+        
+        &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>佐藤望ほか『アカデミック・スキルズ　大学生のための知的技法入門』</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2015/10/05/academic.html"/>
@@ -412,55 +470,6 @@
         
         &lt;p&gt;&lt;br /&gt;
         &lt;br /&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>次に買うシャンプーの検討</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/07/14/textmining.html"/>
-            <id>http://shirayuca.github.io/blog/2015/07/14/textmining.html</id>
-            <published>2015-07-14T14:20:00Z</published>
-            <updated>2015-07-14T23:43:22+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br&gt;
-        ユーザーローカルからテキストマイニングツールがリリースされていたので、さっそく試してみました。&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://textmining.userlocal.jp/"&gt;http://textmining.userlocal.jp/&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br&gt;
-        今使っているシャンプーがイマイチ合わないので、次に買うシャンプーを選ぶために、@cosmeの口コミを分析してみます。シャンプーランキング1位と2位を比較してみることにしました（3位はコンディショナーだったため除外）。口コミ数に差がありますが、ツールのお試しということで、気にしません。&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://www.cosme.net/product/product_id/10091820/reviews/agg/30/agl/34/msf/1"&gt;Ahalo butter(アハロバター) プレミアムスカルプクリアシャンプー／リペアトリートメント&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="http://www.cosme.net/product/product_id/10091712/reviews/agg/30/agl/34/msf/1"&gt;インフィニティ    エステクレンジング&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;両者ともに、購入者かつ30代の口コミのみを抽出しました。口コミデータのスクレイピングは、いつものようにGoogleスプレッドシートの&lt;code&gt;IMPORTXML関数&lt;/code&gt;を活用しました。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://textmining.userlocal.jp/home/file_analyze/f68777665ef12f33265d08ce2cf1f336"&gt;プレミアムスカルプクリアシャンプーの口コミ分析&lt;/a&gt;
-        &lt;a href="http://textmining.userlocal.jp/home/file_analyze/f68777665ef12f33265d08ce2cf1f336"&gt;&lt;img src="http://i.gyazo.com/e03a68801c7c14d1d215a0e3ff56a210.png" width=600px /&gt;&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;&lt;a href="http://textmining.userlocal.jp/home/file_analyze/b5b069ca0879d4148b6ae8f3825485b1"&gt;エステクレンジングの口コミ分析&lt;/a&gt;
-        &lt;a href="http://textmining.userlocal.jp/home/file_analyze/b5b069ca0879d4148b6ae8f3825485b1"&gt;&lt;img src="http://i.gyazo.com/368f7e368b0060a7eed0823e9c7d4383.png" width=600px /&gt;&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-        
-        &lt;p&gt;どちらのシャンプーも、「泡立つ」や「サラサラ」は共通のワードのようです。&lt;/p&gt;
-        
-        &lt;p&gt;しかし、1位のプレミアムスカルプクリアシャンプーの方は、スカルプトリートメントや抜け毛といった単語も目立ちます。夏で暑いこともあり、頭皮の状態や抜け毛がちょうど気になるところだったので、次はこちらのシャンプーを試してみたいと思います。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
         </content>
           </entry>
         </feed>
