@@ -49,10 +49,136 @@
           <id>http://shirayuca.github.io/blog</id>
           <link href="http://shirayuca.github.io/blog"/>
           <link href="http://shirayuca.github.io/blog/feed.xml" rel="self"/>
-          <updated>2015-10-20T10:24:00Z</updated>
+          <updated>2015-12-12T00:41:00Z</updated>
           <author>
             <name>yuka shiratsuchi</name>
           </author>
+          <entry>
+            <title>お弁当を持参する技術</title>
+            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/12/12/bento.html"/>
+            <id>http://shirayuca.github.io/blog/2015/12/12/bento.html</id>
+            <published>2015-12-12T00:41:00Z</published>
+            <updated>2015-12-12T11:47:05+09:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;&lt;/br&gt;
+        このエントリは、&lt;a href="http://www.adventar.org/calendars/769"&gt;家庭を支える技術 Advent Calendar 2015&lt;/a&gt;の12日目です。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+        
+        &lt;h4 id="概要"&gt;概要&lt;/h4&gt;
+        
+        &lt;p&gt;我が家では、最近、できるだけ職場にお弁当を持参しようと試みています。毎日のことなので、稼働し続けることを第一目標に取り組んでおり、そのプロセスについてご紹介します。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+        
+        &lt;h4 id="背景"&gt;背景&lt;/h4&gt;
+        
+        &lt;p&gt;我が家は夫と�私(妻)の2人家族で、共働きです。これまでは昼食は職場近くでの外食が主でしたが、先日私がアナフィラキシーショックで入院することがあり、それから食べ物に対しやや敏感になりました。まだ検査が続いている状態なので、できるだけ想定外のショック状態を起こさないよう、また、何を食べているかを明瞭にするためにもお弁当持参を決めました。
+        けれど、夫婦ともに料理が得意というわけでもなく、加えてどちらもそれなりにぐうたらです。そのため、「まずは持参し続けて日常のサイクルに埋め込むことから始めよう」というのがお弁当を持参する技術を考えるに至ったきっかけです。&lt;/p&gt;
+        
+        &lt;p&gt;もう一つ、お弁当を通じたコミュニケーションにも関心が出てきたという側面もあります。大学院時代にお世話になった加藤文俊先生の『おべんとうと日本人』を読み、我が家でお弁当を続けることでコミュニケーションの変化はあるだろうか、という興味もわいてきました。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/4794221630" name="amazletlink" target="_blank"&gt;&lt;img src="http://ecx.images-amazon.com/images/I/51-wX5bbUTL._SL160_.jpg" alt="おべんとうと日本人" style="border: none;" /&gt;&lt;/a&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+        
+        &lt;h4 id="お弁当を持参するためのtips"&gt;お弁当を持参するためのTips&lt;/h4&gt;
+        
+        &lt;p&gt;下図は、お弁当を持参するためのTipsについて、縦に時間軸、横に課題と対策を示したものです。上から順に、段階別のTipsを説明していきます。&lt;/p&gt;
+        
+        &lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:300px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/_LD28FHisK/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;お弁当を持参するためのTips&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;yuka shiratsuchiさん(@yuca_y)が投稿した写真 - &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-12-12T01:10:13+00:00"&gt;2015 12月 11 5:10午後 PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+        
+        &lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+        
+        &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+        
+        &lt;h5 id="tips.1-アイディアはinstagramから"&gt;Tips.1 アイディアはInstagramから&lt;/h5&gt;
+        
+        &lt;p&gt;いざお弁当を持参しようと決意しても、日々のお弁当をどのように作ればいいかわからず途方に暮れてしまいました。それもそのはず、私たちはお弁当作りの初心者だからです。そこで、餅は餅屋ということで、日々お弁当を作っている皆さんの力を借りることにしました。やっていることは極めてシンプルで、Instagramのハッシュタグの1つである &lt;a href="https://www.instagram.com/explore/tags/japanesebento/"&gt;#japanesebento&lt;/a&gt; への投稿を、IFTTTを活用し、自動で家庭用コミュニケーションツール Slackに流し込むことにしました。こうすれば、普段の生活の中に、お弁当アイディアがスッと入ってきます。下図はSlackの画面例です。いくつかのハッシュタグで試してみましたが、 #japanesebento の流量が最もちょうど良く、内容も目的に沿っていたため採用しました。&lt;/p&gt;
+        
+        &lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:300px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/_LGTsiHig9/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;Tips.1 Instagram to Slack&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;yuka shiratsuchiさん(@yuca_y)が投稿した写真 - &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-12-12T01:31:37+00:00"&gt;2015 12月 11 5:31午後 PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+        
+        &lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+        
+        &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+        
+        &lt;h5 id="tips.2-献立は決めない"&gt;Tips.2 献立は決めない&lt;/h5&gt;
+        
+        &lt;p&gt;Tips.1でお弁当アイディアのイメージを得ることができましたが、いざ何を献立を考え、その通りに買い物をして…というのは、私たちにとってかなり高いハードルです。そのため、ざっくりとしたお弁当アイディアを得たら、献立は決めず、スーパーではジャズのセッションのように、その場でいいなと思ったものをカゴに放り込みます。
+        ただし、おかずがあまりにアンバランスになってしまうと困るため、基本的な3カテゴリを決め、それらを満たすように買い物をします。3カテゴリとは、緑系の野菜、赤系の肉や魚、プラスαとして調理せずに利用できるチーズなどで、余力があればキノコなどを炒めることもあります。下表は、3カテゴリとおかずの例です。緑系の野菜はシリコンスチーマーで蒸したりフライパンで炒めるのみ、赤系の肉や魚も同様です。今晩はもう調理したくないな、という日には、お肉屋さんでコロッケを買って帰ったこともあります:P&lt;/p&gt;
+        
+        &lt;table&gt;&lt;thead&gt;
+        &lt;tr&gt;
+        &lt;th style="text-align: center"&gt;緑&lt;/th&gt;
+        &lt;th style="text-align: center"&gt;赤&lt;/th&gt;
+        &lt;th style="text-align: center"&gt;プラスα&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;/thead&gt;&lt;tbody&gt;
+        &lt;tr&gt;
+        &lt;td style="text-align: center"&gt;ブロッコリー&lt;/td&gt;
+        &lt;td style="text-align: center"&gt;玉ねぎと豚バラ炒め&lt;/td&gt;
+        &lt;td style="text-align: center"&gt;エリンギ炒め&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style="text-align: center"&gt;小松菜&lt;/td&gt;
+        &lt;td style="text-align: center"&gt;牛肉とピーマン炒め&lt;/td&gt;
+        &lt;td style="text-align: center"&gt;チーズ&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style="text-align: center"&gt;いんげん&lt;/td&gt;
+        &lt;td style="text-align: center"&gt;コロッケ&lt;/td&gt;
+        &lt;td style="text-align: center"&gt;ひじき煮&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style="text-align: center"&gt;春菊&lt;/td&gt;
+        &lt;td style="text-align: center"&gt;焼鮭&lt;/td&gt;
+        &lt;td style="text-align: center"&gt;卵焼き&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style="text-align: center"&gt;ししとう&lt;/td&gt;
+        &lt;td style="text-align: center"&gt;牛肉のすきやき風&lt;/td&gt;
+        &lt;td style="text-align: center"&gt;蓮根の梅煮&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/tbody&gt;&lt;/table&gt;
+        
+        &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+        
+        &lt;h5 id="tips.3-実装には冗長性を"&gt;Tips.3 実装には冗長性を&lt;/h5&gt;
+        
+        &lt;p&gt;Tips.2で材料が手に入りました。次に課題となるのはお弁当の実装です。朝はバタバタしてしまうこともあり、我が家のお弁当づくりは専ら夜が中心です。しかし、その日の疲れや気分によって、お弁当を作りたくない、という日ももちろんあります。また、どちらかしかお弁当を作れないとなると、作っていた人が病気の際などに家庭の運用に支障をきたすため、冗長性を持つことは極めて重要だと考えられます。
+        そんな時のために、お弁当の設計図を共有する、という取り組みを行っています。リビングにあるIKEAのイーゼルにお弁当の設計図を描いておき、あとは詰めるのよろしくね、というようにです。どちらかが特定の家事を専任すると、それが当たり前のこととなってしまい、専任していない方はいつの間にか感謝の気持ちが薄れてしまうこともあります。そういった感謝の気持ちを忘れないという面でも、夫婦ともにお弁当に携われる環境を大切にしています。&lt;/p&gt;
+        
+        &lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:300px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/425yCTnirX/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;お弁当の設計図と実装後&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;yuka shiratsuchiさん(@yuca_y)が投稿した写真 - &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-07-08T02:08:59+00:00"&gt;2015 7月 7 7:08午後 PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+        
+        &lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+        
+        &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+        
+        &lt;h5 id="tips.4-「おいしい」以外はラクしよう"&gt;Tips.4 「おいしい」以外はラクしよう&lt;/h5&gt;
+        
+        &lt;p&gt;Tips.3までで、明日はなんとかお弁当を持参することができそうです。しかし、その次の日はどうでしょうか。毎日お弁当を持参するためには、ストレスなくお弁当を作り続けることができる環境が必須です。私たちにとって、お弁当づくりの継続における最大のストレスは、帰宅後の疲れた状態でお弁当箱を洗うことでした。そんな時は、技術に頼ります。食洗機と食洗機対応の曲げわっぱは、強い味方です。&lt;/p&gt;
+        
+        &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+        
+        &lt;h4 id="お弁当の例"&gt;お弁当の例&lt;/h4&gt;
+        
+        &lt;p&gt;下図は、最近のお弁当の例です。
+        &lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:300px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/_LMkR5HirN/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;お弁当の例&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;yuka shiratsuchiさん(@yuca&lt;em&gt;y)が投稿した写真 - &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-12-12T02:26:18+00:00"&gt;2015 12月 11 6:26午後 PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+        &amp;lt;script async defer src=&amp;quot;//platform.instagram.com/en&lt;/em&gt;US/embeds.js&amp;quot;&amp;gt;&lt;/script&gt;&lt;/p&gt;
+        
+        &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+        
+        &lt;h4 id="まとめ"&gt;まとめ&lt;/h4&gt;
+        
+        &lt;p&gt;以上が、我が家で実践している、お弁当を持参する技術です。私は、研究と同じように、お弁当づくりも先行事例に多く触れることが重要だと感じています。普通のご家庭の、普通だけれどかけがえのない毎日のお弁当を覗き見できるインターネットに感謝して、お弁当の持参を継続したいと思います。&lt;/p&gt;
+        
+        &lt;p&gt;明日のご担当は&lt;a href="http://www.adventar.org/users/9799"&gt;int128さん&lt;/a&gt;です！&lt;/p&gt;
+        
+        &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+        </content>
+          </entry>
           <entry>
             <title>山口真一「実証分析による炎上の実態と炎上加担者属性の検証」</title>
             <link rel="alternate" href="http://shirayuca.github.io/blog/2015/10/20/flaming.html"/>
@@ -417,33 +543,6 @@
         &lt;/ul&gt;
         
         &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-        </content>
-          </entry>
-          <entry>
-            <title>2015 教育改革ICT戦略大会にて発表</title>
-            <link rel="alternate" href="http://shirayuca.github.io/blog/2015/09/04/juce.html"/>
-            <id>http://shirayuca.github.io/blog/2015/09/04/juce.html</id>
-            <published>2015-09-04T12:30:00Z</published>
-            <updated>2015-09-04T21:45:56+09:00</updated>
-            <author>
-              <name>Article Author</name>
-            </author>
-            <content type="html">&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-        
-        &lt;p&gt;私立大学情報教育協会の&lt;a href="http://www.juce.jp/LINK/taikai/taikai2015.htm"&gt;教育改革ICT戦略大会にて発表&lt;/a&gt;にて発表してきました。今回は、下記のテーマで口頭発表を行ってきました。&lt;/p&gt;
-        
-        &lt;ul&gt;
-        &lt;li&gt;白土由佳「ソーシャルメディアを活用した自由が丘�グルメ分析の実践」, 私立大学情報教育協会 教育改革ICT戦略大会, 東京, 2015.&lt;/li&gt;
-        &lt;/ul&gt;
-        
-        &lt;p&gt;報告内容は、2015年度前学期に担当した科目「ソーシャルメディアの活用」の取り組みについてです。自由が丘グルメ分析に取り組むために、食べログマップと簡易テキスト分析ツール(Googleスプレッドシート製)を作成しました。&lt;/p&gt;
-        
-        &lt;p&gt;大学院生のころ、マップとカルテという2つの視点で対象を捉え分析することを学びました。今回の取り組みは、マップは自明な基本情報として教員が作成し、それをベースに各グループはテーマ立案を行いテキスト分析ツールを用いてカルテ作成する、と説明できます。&lt;/p&gt;
-        
-        &lt;p&gt;&lt;img src="https://i.gyazo.com/e7d7822fbb548b30bf7b785d36210a5f.png" width=300px /&gt;
-        &lt;img src="https://i.gyazo.com/b74f1b2f7ec7a8e5e69f11ebbb642a9f.png" width=300px /&gt;&lt;/p&gt;
-        
-        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
         </content>
           </entry>
         </feed>
